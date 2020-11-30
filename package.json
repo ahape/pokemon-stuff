@@ -1,0 +1,14 @@
+{
+  "name": "pokemon_strategy",
+  "version": "1.0.0",
+  "description": "Application for determining battle strategies",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc"
+  },
+  "author": "Alan Hape",
+  "license": "ISC",
+  "dependencies": {
+    "@types/knockout": "^3.4.69"
+  }
+}

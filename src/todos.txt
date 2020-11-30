@@ -1,0 +1,25 @@
+[ ] Check that your damage calculation matches the result when run through
+    the logic from here:
+    https://github.com/smogon/damage-calc/blob/master/calc/src/mechanics/gen12.ts
+    https://calc.pokemonshowdown.com/?gen=1
+
+[ ] Add correct Nidoran names (-f, -m).
+
+[ ] Save inputs to localStorage to avoid page refreshing clearing all inputs.
+
+[ ] Add inputs for stat modifiers: (+1...6,-1...-6).
+
+    [ ] Add same for opponent.
+
+[ ] Add 5 more pokemon to "user" list (whole ensemble).
+
+[ ] Add list of learned moves that map to each Pokemon.
+
+    You could possible scrape it from here, except you'll need to run your
+    "scrape script" for every move...
+    https://bulbapedia.bulbagarden.net/wiki/Tackle_(move)#Generations_I_to_IV
+
+    [ ] Add moves list to opponents view, along with emboldening the ones the
+        Pokemon should know, based on its level.
+
+    [ ] Show "hits until KO" for each move.
