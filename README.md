@@ -2,4 +2,4 @@
 
 ## Description of Repo
 
-Link to [pokemon-faceoff](#pokemon-faceoff) there
+Link to [pokemon-faceoff](#description-of-repo) there
