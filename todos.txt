@@ -1,3 +1,13 @@
+[-] Change types a little bit:
+
+    [x] IPokemon -> IPokemonDetails.
+    [-] PokemonVm.toJSON() -> IPokemon.
+        [ ] Get rid of computed `pokemon` that is actually IPokemonDetails,
+            rename `pokemonJson` to `pokemon`.
+    [x] Get rid of types enum, just use string value.
+
+[ ] Add /scripts to .gitignore
+
 [ ] Check that your damage calculation matches the result when run through
     the logic from here:
     https://github.com/smogon/damage-calc/blob/master/calc/src/mechanics/gen12.ts

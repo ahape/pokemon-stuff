@@ -1,280 +1,123 @@
-export const typeEffectMap: Array<Array<{[key: number]: number }>> = [
-    [], // Null so we can start at index 1
-    [
-      {
-        "5": 0.5
-      },
-      {
-        "7": 0.5
-      },
-      {
-        "13": 2
-      },
-      {
-        "8": 0.5
-      },
-      {
-        "6": 0.5
-      },
-      {
-        "9": 2
-      },
-      {
-        "14": 2
-      }
-    ],
-    [
-      {
-        "2": 2
-      }
-    ],
-    [
-      {
-        "7": 2
-      },
-      {
-        "10": 0
-      },
-      {
-        "16": 2
-      },
-      {
-        "9": 0.5
-      },
-      {
-        "3": 0.5
-      },
-      {
-        "2": 0.5
-      }
-    ],
-    [],
-    [
-      {
-        "12": 2
-      },
-      {
-        "7": 0.5
-      },
-      {
-        "13": 0.5
-      },
-      {
-        "15": 2
-      },
-      {
-        "1": 0.5
-      },
-      {
-        "8": 0
-      },
-      {
-        "14": 0.5
-      },
-      {
-        "11": 2
-      }
-    ],
-    [
-      {
-        "15": 0.5
-      },
-      {
-        "1": 2
-      },
-      {
-        "6": 0.5
-      },
-      {
-        "16": 0.5
-      },
-      {
-        "9": 2
-      },
-      {
-        "11": 2
-      },
-      {
-        "2": 0.5
-      }
-    ],
-    [
-      {
-        "5": 2
-      },
-      {
-        "15": 0.5
-      },
-      {
-        "1": 2
-      },
-      {
-        "9": 2
-      },
-      {
-        "3": 0.5
-      }
-    ],
-    [
-      {
-        "12": 0
-      },
-      {
-        "8": 2
-      },
-      {
-        "14": 0
-      }
-    ],
-    [
-      {
-        "7": 0.5
-      },
-      {
-        "13": 0.5
-      },
-      {
-        "10": 2
-      },
-      {
-        "15": 2
-      },
-      {
-        "1": 0.5
-      },
-      {
-        "6": 0.5
-      },
-      {
-        "16": 2
-      },
-      {
-        "9": 0.5
-      },
-      {
-        "2": 0.5
-      }
-    ],
-    [
-      {
-        "7": 0
-      },
-      {
-        "13": 2
-      },
-      {
-        "15": 2
-      },
-      {
-        "1": 0.5
-      },
-      {
-        "6": 2
-      },
-      {
-        "9": 0.5
-      },
-      {
-        "3": 2
-      }
-    ],
-    [
-      {
-        "7": 2
-      },
-      {
-        "10": 2
-      },
-      {
-        "16": 0.5
-      },
-      {
-        "9": 2
-      },
-      {
-        "11": 0.5
-      },
-      {
-        "2": 2
-      }
-    ],
-    [
-      {
-        "15": 0.5
-      },
-      {
-        "8": 0
-      }
-    ],
-    [
-      {
-        "13": 0.5
-      },
-      {
-        "10": 0.5
-      },
-      {
-        "15": 0.5
-      },
-      {
-        "1": 2
-      },
-      {
-        "8": 0.5
-      },
-      {
-        "9": 2
-      }
-    ],
-    [
-      {
-        "5": 2
-      },
-      {
-        "13": 2
-      },
-      {
-        "14": 0.5
-      }
-    ],
-    [
-      {
-        "5": 0.5
-      },
-      {
-        "7": 2
-      },
-      {
-        "10": 0.5
-      },
-      {
-        "1": 2
-      },
-      {
-        "6": 2
-      },
-      {
-        "11": 2
-      }
-    ],
-    [
-      {
-        "10": 2
-      },
-      {
-        "15": 2
-      },
-      {
-        "6": 2
-      },
-      {
-        "16": 0.5
-      },
-      {
-        "9": 0.5
-      },
-      {
-        "2": 0.5
-      }
-    ]
-];
+import { TypeName } from "../types/typeName";
+
+const noEffect = 0;
+const notVeryEffective = 0.5;
+const effective = 2;
+
+type ObjectKeyedByTypeName<T> = { [k in TypeName]?: T };
+
+export const typeEffectMap: ObjectKeyedByTypeName<ObjectKeyedByTypeName<number>> = {
+    bug: {
+        fighting: notVeryEffective,
+        flying: notVeryEffective,
+        poison: effective,
+        ghost: notVeryEffective,
+        fire: notVeryEffective,
+        grass: effective,
+        psychic: effective,
+    },
+    dragon: {
+        dragon: effective
+    },
+    electric: {
+        flying: effective,
+        ground: noEffect,
+        water: effective,
+        grass: notVeryEffective,
+        electric: notVeryEffective,
+        dragon: notVeryEffective,
+    },
+    fairy: {},
+    fighting: {
+        normal: effective,
+        flying: notVeryEffective,
+        poison: notVeryEffective,
+        rock: effective,
+        bug: notVeryEffective,
+        ghost: noEffect,
+        psychic: notVeryEffective,
+        ice: effective,
+    },
+    fire: {
+        rock: notVeryEffective,
+        bug: effective,
+        fire: notVeryEffective,
+        water: notVeryEffective,
+        grass: effective,
+        ice: effective,
+        dragon: notVeryEffective,
+    },
+    flying: {
+        fighting: effective,
+        rock: notVeryEffective,
+        bug: effective,
+        grass: effective,
+        electric: notVeryEffective,
+    },
+    ghost: {
+        normal: noEffect,
+        ghost: effective,
+        psychic: noEffect,
+    },
+    grass: {
+        flying: notVeryEffective,
+        poison: notVeryEffective,
+        ground: effective,
+        rock: effective,
+        bug: notVeryEffective,
+        fire: notVeryEffective,
+        water: effective,
+        grass: notVeryEffective,
+        dragon: notVeryEffective,
+    },
+    ground: {
+        flying: noEffect,
+        poison: effective,
+        rock: effective,
+        bug: notVeryEffective,
+        fire: effective,
+        grass: notVeryEffective,
+        electric: effective,
+    },
+    ice: {
+        flying: effective,
+        ground: effective,
+        water: notVeryEffective,
+        grass: effective,
+        ice: notVeryEffective,
+        dragon: effective,
+    },
+    normal: {
+        rock: notVeryEffective,
+        ghost: noEffect,
+    },
+    poison: {
+        poison: notVeryEffective,
+        ground: notVeryEffective,
+        rock: notVeryEffective,
+        bug: effective,
+        ghost: notVeryEffective,
+        grass: effective,
+    },
+    psychic: {
+        fighting: effective,
+        poison: effective,
+        psychic: notVeryEffective,
+    },
+    rock: {
+        fighting: notVeryEffective,
+        flying: effective,
+        ground: notVeryEffective,
+        bug: effective,
+        fire: effective,
+        ice: effective,
+    },
+    water: {
+        ground: effective,
+        rock: effective,
+        fire: effective,
+        water: notVeryEffective,
+        grass: notVeryEffective,
+        dragon: notVeryEffective,
+    },
+};

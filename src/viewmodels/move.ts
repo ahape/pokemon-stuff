@@ -17,17 +17,17 @@ export class Move {
 
     public constructor(player: Pokemon, opponent: Pokemon) {
         this.effectiveness = ko.pureComputed(() =>
-            Functions.getEffectModifier(this.move().type, opponent.pokemon()));
+            Functions.getEffectModifier(this.move().type, opponent.pokemon().type));
         this.damageMin = ko.pureComputed(() =>
             Functions.getDamage(
-                player,
-                opponent,
+                player.pokemonJson(),
+                opponent.pokemonJson(),
                 this.move(),
                 Constants.damageRangeMin));
         this.damageMax = ko.pureComputed(() =>
             Functions.getDamage(
-                player,
-                opponent,
+                player.pokemonJson(),
+                opponent.pokemonJson(),
                 this.move(),
                 Constants.damageRangeMax));
         this.damageAvg = ko.pureComputed(() =>

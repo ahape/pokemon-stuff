@@ -1,8 +1,9 @@
-import { TypeName } from "./typeNames";
+import { TypeName } from "./typeName";
+import { CategoryName } from "./categoryName";
 
 export interface IMove {
     accuracy: number;
-    category: "special" | "status" | "physical";
+    category: CategoryName;
     name: string;
     power: number;
     pp: number;

@@ -1,14 +1,16 @@
-import { TypeName } from "./typeNames";
+import { TypeName } from "./typeName"
 
 export interface IPokemon {
-    attack: number; // Base stat
-    average: number;
-    defense: number; // Base stat
+    // statModifier: number
+    attack: number;
+    defense: number;
+    ev: number;
+    hp: number;
     id: number;
-    hp: number; // Base stat
+    iv: number;
+    level: number;
     name: string;
-    special: number; // Base stat (in gen 1 this accts for special def/atk)
-    speed: number; // Base stat
-    total: number;
+    special: number;
+    speed: number;
     type: TypeName[];
 }

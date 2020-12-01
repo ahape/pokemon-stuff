@@ -1,7 +1,6 @@
 import { moves } from "../data/moves";
 import { pokemon } from "../data/pokemon";
 import { typeEffectMap } from "../data/typeEffectMap";
-import { types } from "../data/types";
 import { Pokemon } from "./pokemon";
 
 ko.bindingHandlers.numberinput = {
@@ -19,7 +18,6 @@ class App {
     public pokemon = pokemon;
     public moves = moves;
     public typeEffectMap = typeEffectMap;
-    public types = types;
     public opponent = new Pokemon();
     public player = new Pokemon(this.opponent);
 }
