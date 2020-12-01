@@ -2,7 +2,7 @@ import * as Constants from "../constants";
 import { pokemon } from "../data/pokemon";
 import * as Functions from "../functions";
 import { IPokemon } from "../types/ipokemon";
-import { IPokemonDetails } from "../types/ipokemondetails";
+import { IPokemonDetails } from "../types/ipokemonDetails";
 import { Move } from "./move";
 
 export class Pokemon {

@@ -1,4 +1,4 @@
-import { IPokemonDetails } from "../types/ipokemondetails";
+import { IPokemonDetails } from "../types/ipokemonDetails";
 
 export const pokemon: IPokemonDetails[] = [
     {

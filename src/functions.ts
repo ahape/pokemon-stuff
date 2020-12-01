@@ -2,7 +2,7 @@ import * as Constants from "./constants";
 import { typeEffectMap } from "./data/typeEffectMap";
 import { IMove } from "./types/imove";
 import { IPokemon } from "./types/ipokemon";
-import { IPokemonDetails } from "./types/ipokemondetails";
+import { IPokemonDetails } from "types/ipokemonDetails";
 import { TypeName } from "./types/typeName";
 import { Pokemon } from "./viewmodels/pokemon";
 
