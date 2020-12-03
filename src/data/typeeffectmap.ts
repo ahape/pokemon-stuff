@@ -1,3 +1,4 @@
+/* tslint:disable:object-literal-sort-keys */
 import { TypeName } from "../types/typename";
 
 const noEffect = 0;
@@ -17,7 +18,7 @@ export const typeEffectMap: ObjectKeyedByTypeName<ObjectKeyedByTypeName<number>>
         psychic: effective,
     },
     dragon: {
-        dragon: effective
+        dragon: effective,
     },
     electric: {
         flying: effective,

@@ -1,5 +1,5 @@
-import { TypeName } from "./typename";
 import { CategoryName } from "./categoryname";
+import { TypeName } from "./typename";
 
 export interface IMove {
     accuracy: number;
@@ -9,3 +9,4 @@ export interface IMove {
     pp: number;
     type: TypeName;
 }
+
