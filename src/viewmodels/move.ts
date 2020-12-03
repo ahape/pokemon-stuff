@@ -12,7 +12,6 @@ export class Move {
     public damageMin: KnockoutComputed<number>;
     public damageMax: KnockoutComputed<number>;
     public damageAvg: KnockoutComputed<number>;
-    public opponentHp: KnockoutComputed<number>;
     public hitsUntilKo: KnockoutComputed<number>;
 
     public constructor(player: Pokemon, opponent: Pokemon) {
@@ -32,13 +31,7 @@ export class Move {
                 Constants.damageRangeMax));
         this.damageAvg = ko.pureComputed(() =>
             (this.damageMax() + this.damageMin()) / 2);
-        this.opponentHp = ko.pureComputed(() =>
-            Functions.getHpStat2(
-                opponent.details().hp,
-                opponent.level(),
-                8,
-                0));
         this.hitsUntilKo = ko.pureComputed(() =>
-            Math.ceil(this.opponentHp() / this.damageAvg()));
+            Math.ceil(opponent.state().hp / this.damageAvg()));
     }
 }

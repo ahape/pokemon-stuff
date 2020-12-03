@@ -7,7 +7,7 @@ export interface IPokemon {
     ev: number;
     hp: number;
     id: number;
-    iv: number;
+    dv: number;
     level: number;
     name: string;
     special: number;

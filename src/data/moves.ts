@@ -1006,7 +1006,7 @@ export const moves: IMove[] = [{
     name: "tackle",
     type: "normal",
     category: "physical",
-    power: 40,
+    power: 35,
     accuracy: 100,
     pp: 35,
 }, {

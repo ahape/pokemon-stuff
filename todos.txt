@@ -1,10 +1,10 @@
 [x] Add /scripts/* to .gitignore
 
-[-] Change types a little bit:
+[x] Change types a little bit:
 
     [x] IPokemon -> IPokemonDetails.
-    [-] PokemonVm.toJSON() -> IPokemon.
-        [ ] Get rid of computed `pokemon` that is actually IPokemonDetails,
+    [x] PokemonVm.toJSON() -> IPokemon.
+        [x] Get rid of computed `pokemon` that is actually IPokemonDetails,
             rename `pokemonJson` to `pokemon`.
     [x] Get rid of types enum, just use string value.
 
@@ -19,6 +19,10 @@
 
     NOTE: It turns out that every AI trainer's pokemon will have exactly 8 DVs
     in every stat, except 9 in attack.
+
+[ ] Fix incorrect move stats. See this article for the correct stats:
+    https://gamefaqs.gamespot.com/gameboy/907714-pokemon-blue-version/faqs/64175
+    Section [L04].
 
 [ ] Add correct Nidoran names (-f, -m).
 
