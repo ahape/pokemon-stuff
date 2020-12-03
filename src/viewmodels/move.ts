@@ -17,25 +17,27 @@ export class Move {
 
     public constructor(player: Pokemon, opponent: Pokemon) {
         this.effectiveness = ko.pureComputed(() =>
-            Functions.getEffectModifier(this.move().type, opponent.pokemon().type));
+            Functions.getEffectModifier(this.move().type, opponent.details().type));
         this.damageMin = ko.pureComputed(() =>
             Functions.getDamage(
-                player.pokemonJson(),
-                opponent.pokemonJson(),
+                player.state(),
+                opponent.state(),
                 this.move(),
                 Constants.damageRangeMin));
         this.damageMax = ko.pureComputed(() =>
             Functions.getDamage(
-                player.pokemonJson(),
-                opponent.pokemonJson(),
+                player.state(),
+                opponent.state(),
                 this.move(),
                 Constants.damageRangeMax));
         this.damageAvg = ko.pureComputed(() =>
             (this.damageMax() + this.damageMin()) / 2);
         this.opponentHp = ko.pureComputed(() =>
-        Functions.getHpFromOpponentPokemon(
-            opponent.pokemon(),
-            opponent.level()));
+            Functions.getHpStat2(
+                opponent.details().hp,
+                opponent.level(),
+                8,
+                0));
         this.hitsUntilKo = ko.pureComputed(() =>
             Math.ceil(this.opponentHp() / this.damageAvg()));
     }

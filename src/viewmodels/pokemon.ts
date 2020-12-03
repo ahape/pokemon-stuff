@@ -8,9 +8,9 @@ import { Move } from "./move";
 export class Pokemon {
     public id: KnockoutObservable<number> = ko.observable(1);
     public level: KnockoutObservable<number> = ko.observable(Constants.defaultLevel);
-    public pokemon: KnockoutComputed<IPokemonDetails>;
-    public pokemonJson: KnockoutComputed<IPokemon>;
-    public pokemonTypes: KnockoutComputed<string>;
+    public details: KnockoutComputed<IPokemonDetails>;
+    public state: KnockoutComputed<IPokemon>;
+    public type: KnockoutComputed<string>;
     public moves: Move[];
     public hp: KnockoutObservable<number>;
     public attack: KnockoutObservable<number>;
@@ -19,42 +19,37 @@ export class Pokemon {
     public special: KnockoutObservable<number>;
 
     public constructor(opponent?: Pokemon) {
-        const getPokemon = () =>
+        const getPokemonDetails = () =>
             Functions.find(pokemon, (x) => x.id === this.id())!;
-
-        this.moves = opponent ? [0, 0, 0, 0].map((i) => new Move(this, opponent)) : [];
-        this.pokemon = ko.pureComputed(getPokemon);
-
-        const pok = ko.ignoreDependencies(getPokemon);
+        const details = ko.ignoreDependencies(getPokemonDetails);
         const level = this.level.peek();
+        const stats = Functions.getStats(details, level);
 
-        this.hp = ko.observable(Functions.getHpFromOpponentPokemon(pok, level));
-        this.attack = ko.observable(Functions.getStatFromOpponentPokemon(
-            pok, level, "attack"));
-        this.defense = ko.observable(Functions.getStatFromOpponentPokemon(
-            pok, level, "defense"));
-        this.speed = ko.observable(Functions.getStatFromOpponentPokemon(
-            pok, level, "speed"));
-        this.special = ko.observable(Functions.getStatFromOpponentPokemon(
-            pok, level, "special"));
+        this.hp = ko.observable(stats.hp!);
+        this.attack = ko.observable(stats.attack!);
+        this.defense = ko.observable(stats.defense!);
+        this.speed = ko.observable(stats.speed!);
+        this.special = ko.observable(stats.special!);
 
-        this.pokemonJson = ko.pureComputed(() => {
+        this.details = ko.pureComputed(getPokemonDetails);
+        this.state = ko.pureComputed(() => {
             return {
+                ...this.details(),
                 attack: this.attack(),
                 defense: this.defense(),
                 ev: Constants.defaultEv,
                 hp: this.hp(),
-                id: pok.id,
                 iv: Constants.defaultIv,
                 level: this.level(),
-                name: pok.name,
                 special: this.special(),
                 speed: this.speed(),
-                type: pok.type,
             };
         });
 
-        this.pokemonTypes = ko.pureComputed(() =>
-            this.pokemon().type.join("/"));
+        this.type = ko.pureComputed(() =>
+            this.details().type.join("/"));
+        this.moves = opponent ? [0, 0, 0, 0].map((i) =>
+            new Move(this, opponent)) :
+            [];
     }
 }

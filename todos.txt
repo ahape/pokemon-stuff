@@ -8,10 +8,17 @@
             rename `pokemonJson` to `pokemon`.
     [x] Get rid of types enum, just use string value.
 
-[ ] Check that your damage calculation matches the result when run through
+[-] Check that your damage calculation matches the result when run through
     the logic from here:
     https://github.com/smogon/damage-calc/blob/master/calc/src/mechanics/gen12.ts
     https://calc.pokemonshowdown.com/?gen=1
+
+    [ ] Better yet, check against the formulas found here:
+        https://gamefaqs.gamespot.com/gameboy/907714-pokemon-blue-version/faqs/64175
+        Section [M00].
+
+    NOTE: It turns out that every AI trainer's pokemon will have exactly 8 DVs
+    in every stat, except 9 in attack.
 
 [ ] Add correct Nidoran names (-f, -m).
 

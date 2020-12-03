@@ -9,4 +9,3 @@ export interface IMove {
     pp: number;
     type: TypeName;
 }
-
