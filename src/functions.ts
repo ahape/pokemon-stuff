@@ -152,8 +152,8 @@ export function getDamage2(
     T: number,
     R: number = damageRng())
     : number {
-    return int(int(int((min(int(int((int((L * C % 256) * 0.4) + 2) *
-        min(int(A * B), 1) * P / min(int(D * E), 1)) / 50), 997) + 2) * S) * T) * R / 255);
+    return max(int(int(int((min(int(int((int((L * C % 256) * 0.4) + 2) *
+        min(int(A * B), 1) * P / min(int(D * E), 1)) / 50), 997) + 2) * S) * T) * R / 255), 1);
 }
 
 (window as any).getDamage = getDamage2;

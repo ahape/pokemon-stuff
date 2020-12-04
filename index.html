@@ -1,102 +1,178 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Pokemon</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
-        <script>requirejs(["scripts/viewmodels/app"]);</script>
-        <style>
-            .pokemon-type { font-family: monospace; }
-            .super-effective { color: green; }
-            .not-very-effective { color: red; }
-            .stats { margin: 10px 0 }
-            input[type="number"] { width: 35px; }
-        </style>
-    </head>
-    <body>
-        <div id="content">
-            <div class="pokemon-list">
-                <div class="pokemon" data-bind="with: opponent">
-                    <fieldset style="border: 1px dashed red;">
-                        <select data-bind="
-                            options: $root.pokemon,
-                            optionsText: 'name',
-                            optionsValue: 'id',
-                            value: id"></select>
-                            <span class="pokemon-type"
-                                data-bind="text: type"></span>
-                            <input type="number" 
-                                placeholder="Level"
-                                data-bind="numberinput: level">
-                        </legend>
-                        <div class="moves"></div>
-                    </fieldset>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pokemon</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    <script>requirejs(["scripts/viewmodels/app"]);</script>
+    <style>
+        #content {
+            font: 40px/50px monospace;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .player {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            margin: 15px;
+        }
+
+        .img {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        .stats {
+            flex-grow: 1;
+        }
+
+        .dd {
+            font: 40px/50px monospace;
+        }
+
+        .hp {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .hp-bar {
+            flex-grow: 1;
+            border: 1px solid black;
+        }
+
+        .health {
+            height: 100%;
+            width: 100%;
+            background-color: green;
+        }
+
+        .invisible {
+            opacity: 0;
+        }
+
+        .moves {
+            font: 20px/30px monospace;
+            border: 4px inset;
+        }
+
+        .dd-sml {
+            font: 20px/30px monospace;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td+td+td {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <h3>Pokemon Faceoff!</h3>
+        <div class="player">
+            <div class="stats">
+                <div>
+                    <select class="dd" data-bind="
+                  options: pokemon,
+                  optionsText: 'name',
+                  optionsValue: 'id',
+                  value: opponent.id">
+                    </select>
                 </div>
-                <hr>
-                <div class="pokemon" data-bind="with: player">
-                    <fieldset>
-                        <legend>
-                            <select data-bind="
-                            options: $root.pokemon,
-                            optionsText: 'name',
-                            optionsValue: 'id',
-                            value: id"></select>
-                            <span class="pokemon-type"
-                                data-bind="text: type"></span>
-                            <input type="number" 
-                                placeholder="Level"
-                                data-bind="numberinput: level">
-                        </legend>
-                        <div class="stats">
-                            <label>HP
-                                <input type="number"
-                                    data-bind="numberinput: hp">
-                                (<input type="number">)
-                            </label>
-                            <label>ATK
-                                <input type="number"
-                                    data-bind="numberinput: attack">
-                                (<input type="number">)
-                            </label>
-                            <label>DEF
-                                <input type="number"
-                                    data-bind="numberinput: defense">
-                                (<input type="number">)
-                            </label>
-                            <label>SPD
-                                <input type="number"
-                                    data-bind="numberinput: speed">
-                                (<input type="number">)
-                            </label>
-                            <label>SPEC
-                                <input type="number"
-                                    data-bind="numberinput: special">
-                                (<input type="number">)
-                            </label>
-                        </div>
-                        <div class="moves" data-bind="foreach: moves">
-                            <div class="move">
-                                <sup><em data-bind="text: move().cat"></em></sup>
-                                <select data-bind="
-                                options: $root.moves,
-                                optionsText: 'name',
-                                optionsValue: 'name',
-                                value: name"></select>
-                                <span class="pokemon-type"
-                                    data-bind="text: move().type"></span>
-                                <em data-bind="
-                                text: effectiveness() == 1 ? '' : 'x' + effectiveness(),
-                                css: { 
-                                    'super-effective': effectiveness() > 1,
-                                    'not-very-effective': effectiveness() < 1,
-                                }"></em>
-                                <strong data-bind="text: hitsUntilKo() + '-hit KO'"></strong>
-                            </div>
-                        </div>
-                    </fieldset>
+                <div class="level">
+                    <span>L:</span>
+                    <select class="dd" data-bind="
+                  options: possibleLevels,
+                  value: opponent.level">
+                    </select>
+                </div>
+                <div class="hp">
+                    <span>HP:</span>
+                    <div class="hp-bar">
+                        <div class="health" data-bind="style: { 
+                            width: 100 - player.move().damageAvgPct() + '%' 
+                        }"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="img"></div>
+        </div>
+        <div class="player">
+            <div class="img"></div>
+            <div class="stats">
+                <div>
+                    <select class="dd" data-bind="
+                  options: pokemon,
+                  optionsText: 'name',
+                  optionsValue: 'id',
+                  value: player.id">
+                    </select>
+                </div>
+                <div class="level">
+                    <span>L:</span>
+                    <select class="dd" data-bind="
+                  options: possibleLevels,
+                  value: player.level">
+                    </select>
+                </div>
+                <div class="hp">
+                    <span>HP:</span>
+                    <div class="hp-bar">
+                        <div class="health"></div>
+                    </div>
+                </div>
+                <div>
+                    <span class="invisible">XXX</span><span>67</span>/
+                    <span>100</span>
                 </div>
             </div>
         </div>
-    </body>
+        <div class="moves">
+            <table>
+                <thead>
+                    <tr>
+                        <td></td>
+                        <th>MOVE</th>
+                        <th>TYPE</th>
+                        <th>MULT</th>
+                        <th>MIN H-KO</th>
+                        <th>MAX H-KO</th>
+                        <th>ACCUR</th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach: player.moves">
+                    <tr>
+                        <td>
+                            <input type="radio"
+                            name="move"
+                            data-bind="
+                    checked: $root.player.moveIndex,
+                    checkedValue: $index()">
+                        </td>
+                        <td>
+                            <select class="dd-sml" data-bind="
+                  options: $root.moves,
+                  optionsText: 'name',
+                  optionsValue: 'name',
+                  value: name"></select>
+                        </td>
+                        <td data-bind="text: move().type"></td>
+                        <td data-bind="text: effectiveness() != 1 ? 'x' + effectiveness() : ''"></td>
+                        <td data-bind="text: minHitsUntilKo"></td>
+                        <td data-bind="text: maxHitsUntilKo"></td>
+                        <td data-bind="text: move().accuracy + '%'"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
 </html>

@@ -3,20 +3,14 @@ import { pokemon } from "../data/pokemon";
 import { typeEffectMap } from "../data/typeeffectmap";
 import { Pokemon } from "./pokemon";
 
-ko.bindingHandlers.numberinput = {
-    init(element: HTMLElement, valueAccessor: () => KnockoutObservable<number>, x: any, y: any, z: any) {
-        const observable = valueAccessor();
-        const proxy = ko.observable(observable.peek() + "");
-
-        ko.bindingHandlers.textInput.init?.(element, () => proxy, x, y, z);
-
-        proxy.subscribe((update) => observable(Number(update) || 0));
-    },
-};
-
 class App {
     public pokemon = pokemon;
     public moves = moves;
+    public possibleLevels = ((start, stop) => {
+        const range: number[] = [];
+        while (range.length < stop) { range.push(start++); }
+        return range;
+    })(1, 100);
     public typeEffectMap = typeEffectMap;
     public opponent = new Pokemon();
     public player = new Pokemon(this.opponent);

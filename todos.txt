@@ -1,3 +1,5 @@
+1. Groundwork/Basic Functionality
+=================================
 [x] Add /scripts/* to .gitignore
 
 [x] Change types a little bit:
@@ -8,25 +10,46 @@
             rename `pokemonJson` to `pokemon`.
     [x] Get rid of types enum, just use string value.
 
-[-] Check that your damage calculation matches the result when run through
+[x] Check that your damage calculation matches the result when run through
     the logic from here:
     https://github.com/smogon/damage-calc/blob/master/calc/src/mechanics/gen12.ts
     https://calc.pokemonshowdown.com/?gen=1
 
-    [ ] Better yet, check against the formulas found here:
+    [x] Better yet, check against the formulas found here:
         https://gamefaqs.gamespot.com/gameboy/907714-pokemon-blue-version/faqs/64175
         Section [M00].
 
-    NOTE: It turns out that every AI trainer's pokemon will have exactly 8 DVs
-    in every stat, except 9 in attack.
+[ ] Add correct Nidoran names (-f, -m).
+
+[ ] Fix bugs with calculation:
+
+    [ ] 1HKO moves don't show 0% on enemy HP bar.
 
 [ ] Fix incorrect move stats. See this article for the correct stats:
     https://gamefaqs.gamespot.com/gameboy/907714-pokemon-blue-version/faqs/64175
     Section [L04].
+    - Gust being "flying" type.
+    - Tacke being 35P.
 
-[ ] Add correct Nidoran names (-f, -m).
+[ ] Add basic unit tests for the functions.
+
+[ ] Add edge case moves and their damage.
+
+[ ] Streamline project.
+
+2. Prettify UI/UX
+=================
+
+[ ] Import photos to use for Pokemon
+
+[ ] Improve styling.
+
+[ ] Add color to HP bar.
 
 [ ] Save inputs to localStorage to avoid page refreshing clearing all inputs.
+
+3. Advanced Features
+====================
 
 [ ] Add inputs for stat modifiers: (+1...6,-1...-6).
 
@@ -42,5 +65,3 @@
 
     [ ] Add moves list to opponents view, along with emboldening the ones the
         Pokemon should know, based on its level.
-
-    [ ] Show "hits until KO" for each move.

@@ -12,44 +12,35 @@ export class Pokemon {
     public state: KnockoutComputed<IPokemon>;
     public type: KnockoutComputed<string>;
     public moves: Move[];
-    public hp: KnockoutObservable<number>;
-    public attack: KnockoutObservable<number>;
-    public defense: KnockoutObservable<number>;
-    public speed: KnockoutObservable<number>;
-    public special: KnockoutObservable<number>;
+    public moveIndex: KnockoutObservable<number> = ko.observable(0);
+    public move: KnockoutComputed<Move>;
+    // public hp: KnockoutObservable<number>;
+    // public attack: KnockoutObservable<number>;
+    // public defense: KnockoutObservable<number>;
+    // public speed: KnockoutObservable<number>;
+    // public special: KnockoutObservable<number>;
 
     public constructor(opponent?: Pokemon) {
-        const getPokemonDetails = () =>
-            Functions.find(pokemon, (x) => x.id === this.id())!;
-        const details = ko.ignoreDependencies(getPokemonDetails);
-        const level = this.level.peek();
-        const stats = Functions.getStats(details, level);
-
-        this.hp = ko.observable(stats.hp!);
-        this.attack = ko.observable(stats.attack!);
-        this.defense = ko.observable(stats.defense!);
-        this.speed = ko.observable(stats.speed!);
-        this.special = ko.observable(stats.special!);
-
-        this.details = ko.pureComputed(getPokemonDetails);
+        this.details = ko.pureComputed(() =>
+            Functions.find(pokemon, (x) => x.id === this.id())!);
         this.state = ko.pureComputed(() => {
+            const details = this.details();
+            const level = this.level();
+
             return {
-                ...this.details(),
-                attack: this.attack(),
-                defense: this.defense(),
+                ...details,
+                ...Functions.getStats(details, level),
                 dv: Constants.defaultDv,
                 ev: Constants.defaultEv,
-                hp: this.hp(),
-                level: this.level(),
-                special: this.special(),
-                speed: this.speed(),
+                level,
             };
         });
-
         this.type = ko.pureComputed(() =>
             this.details().type.join("/"));
         this.moves = opponent ? [0, 0, 0, 0].map((i) =>
             new Move(this, opponent)) :
             [];
+        this.move = ko.pureComputed(() =>
+            Functions.find(this.moves, (m, i) => i === this.moveIndex())!);
     }
 }
