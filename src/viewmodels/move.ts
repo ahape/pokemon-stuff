@@ -7,7 +7,7 @@ import { Pokemon } from "./pokemon";
 export class Move {
     public name: KnockoutObservable<string> = ko.observable(moves[0].name);
     public move: KnockoutComputed<IMove> = ko.pureComputed(() =>
-        Functions.find(moves, (m) => m.name === this.name())!);
+        moves.find((m) => m.name === this.name())!);
     public effectiveness: KnockoutComputed<number>;
     public damageMin: KnockoutComputed<number>;
     public damageMax: KnockoutComputed<number>;

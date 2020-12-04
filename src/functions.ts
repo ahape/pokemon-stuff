@@ -5,10 +5,6 @@ import { IPokemon } from "./types/ipokemon";
 import { IPokemonDetails } from "./types/ipokemondetails";
 import { TypeName } from "./types/typename";
 
-export function find<T>(arr: T[], cb: (e: T, i: number) => boolean): T | undefined {
-    return arr.filter(cb)[0];
-}
-
 export function getEffectModifier(
     moveType: TypeName,
     defendingPokemonType: TypeName[])

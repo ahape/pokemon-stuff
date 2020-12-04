@@ -22,7 +22,7 @@ export class Pokemon {
 
     public constructor(opponent?: Pokemon) {
         this.details = ko.pureComputed(() =>
-            Functions.find(pokemon, (x) => x.id === this.id())!);
+            pokemon.find((x) => x.id === this.id())!);
         this.state = ko.pureComputed(() => {
             const details = this.details();
             const level = this.level();
@@ -41,6 +41,6 @@ export class Pokemon {
             new Move(this, opponent)) :
             [];
         this.move = ko.pureComputed(() =>
-            Functions.find(this.moves, (m, i) => i === this.moveIndex())!);
+            this.moves.find((m, i) => i === this.moveIndex())!);
     }
 }

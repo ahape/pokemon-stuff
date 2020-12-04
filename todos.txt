@@ -35,6 +35,8 @@
 
 [ ] Add edge case moves and their damage.
 
+    [ ] Like Hyper Beam not affecting ghost types?
+
 [ ] Streamline project.
 
 2. Prettify UI/UX

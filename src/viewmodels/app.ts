@@ -6,11 +6,7 @@ import { Pokemon } from "./pokemon";
 class App {
     public pokemon = pokemon;
     public moves = moves;
-    public possibleLevels = ((start, stop) => {
-        const range: number[] = [];
-        while (range.length < stop) { range.push(start++); }
-        return range;
-    })(1, 100);
+    public possibleLevels = Array.from({ length: 100 }, (_, i) => i + 1);
     public typeEffectMap = typeEffectMap;
     public opponent = new Pokemon();
     public player = new Pokemon(this.opponent);
