@@ -409,7 +409,7 @@ export const pokemon: IPokemonDetails[] = [
     },
     {
         id: 29,
-        name: "nidoran♀",
+        name: "nidoran-f",
         hp: 55,
         attack: 47,
         defense: 52,
@@ -452,7 +452,7 @@ export const pokemon: IPokemonDetails[] = [
     },
     {
         id: 32,
-        name: "nidoran♂",
+        name: "nidoran-m",
         hp: 46,
         attack: 57,
         defense: 40,
@@ -504,7 +504,7 @@ export const pokemon: IPokemonDetails[] = [
         total: 258,
         average: 51.6,
         type: [
-            "fairy",
+            "normal",
         ],
     },
     {
@@ -518,7 +518,7 @@ export const pokemon: IPokemonDetails[] = [
         total: 383,
         average: 76.6,
         type: [
-            "fairy",
+            "normal",
         ],
     },
     {
@@ -561,7 +561,6 @@ export const pokemon: IPokemonDetails[] = [
         average: 45,
         type: [
             "normal",
-            "fairy",
         ],
     },
     {
@@ -576,7 +575,6 @@ export const pokemon: IPokemonDetails[] = [
         average: 70,
         type: [
             "normal",
-            "fairy",
         ],
     },
     {
@@ -1759,7 +1757,6 @@ export const pokemon: IPokemonDetails[] = [
         average: 68,
         type: [
             "psychic",
-            "fairy",
         ],
     },
     {
