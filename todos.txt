@@ -19,11 +19,11 @@
         https://gamefaqs.gamespot.com/gameboy/907714-pokemon-blue-version/faqs/64175
         Section [M00].
 
-[ ] Add correct Nidoran names (-f, -m).
+[x] Add correct Nidoran names (-f, -m).
 
-[ ] Fix bugs with calculation:
+[x] Fix bugs with calculation:
 
-    [ ] 1HKO moves don't show 0% on enemy HP bar.
+    [x] 1HKO moves don't show 0% on enemy HP bar.
 
 [ ] Fix incorrect move stats. See this article for the correct stats:
     https://gamefaqs.gamespot.com/gameboy/907714-pokemon-blue-version/faqs/64175
@@ -59,7 +59,7 @@
 
 [ ] Add 5 more pokemon to "user" list (whole ensemble).
 
-[ ] Add list of learned moves that map to each Pokemon.
+[-] Add list of learned moves that map to each Pokemon.
 
     You could possible scrape it from here, except you'll need to run your
     "scrape script" for every move...

@@ -251,7 +251,7 @@ export const learnsets = {
         ["swift", 36],
         ["fury-swipes", 47],
     ],
-    "nidoran f": [
+    "nidoran-f": [
         ["growl", 1],
         ["tackle", 1],
         ["scratch", 8],
@@ -281,7 +281,7 @@ export const learnsets = {
         ["poison-sting", 14],
         ["body-slam", 23],
     ],
-    "nidoran m": [
+    "nidoran-m": [
         ["leer", 1],
         ["tackle", 1],
         ["horn-attack", 8],

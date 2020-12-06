@@ -2,7 +2,6 @@ export type TypeName =
     "bug" |
     "dragon" |
     "electric" |
-    "fairy" |
     "fighting" |
     "fire" |
     "flying" |

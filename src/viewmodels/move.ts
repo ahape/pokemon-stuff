@@ -34,7 +34,7 @@ export class Move {
         this.damageAvg = ko.pureComputed(() =>
             (this.damageMax() + this.damageMin()) / 2);
         this.damageAvgPct = ko.pureComputed(() =>
-            this.damageAvg() / opponent.state().hp * 100);
+            Math.min(this.damageAvg() / opponent.state().hp * 100, 100));
         this.minHitsUntilKo = ko.pureComputed(() =>
             Math.ceil(opponent.state().hp / this.damageMax()));
         this.maxHitsUntilKo = ko.pureComputed(() =>

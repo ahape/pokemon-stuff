@@ -28,7 +28,6 @@ export const typeEffectMap: ObjectKeyedByTypeName<ObjectKeyedByTypeName<number>>
         electric: notVeryEffective,
         dragon: notVeryEffective,
     },
-    fairy: {},
     fighting: {
         normal: effective,
         flying: notVeryEffective,
