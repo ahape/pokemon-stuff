@@ -25,7 +25,7 @@
 
     [x] 1HKO moves don't show 0% on enemy HP bar.
 
-[ ] Fix incorrect move stats. See this article for the correct stats:
+[x] Fix incorrect move stats. See this article for the correct stats:
     https://gamefaqs.gamespot.com/gameboy/907714-pokemon-blue-version/faqs/64175
     Section [L04].
     - Gust being "flying" type.
