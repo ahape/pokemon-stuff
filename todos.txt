@@ -37,7 +37,9 @@
 
     [ ] Like Hyper Beam not affecting ghost types?
 
-[ ] Streamline project.
+[-] Streamline project.
+
+    [x] In tsconfig, move KO to devDependencies.
 
 2. Prettify UI/UX
 =================
@@ -67,3 +69,8 @@
 
     [ ] Add moves list to opponents view, along with emboldening the ones the
         Pokemon should know, based on its level.
+
+Later on
+[ ] Message KidZero about following issues:
+    - Battle formula is wrong: min -> max
+    - Bubble is wrong: should be type water

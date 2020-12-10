@@ -32,7 +32,7 @@ export function getDamage(
     const defenseOrSpec = m.category === "special" ? d.special : d.defense;
     const stab = a.type.indexOf(m.type) !== -1 ? 1.5 : 1;
     const modifier = getEffectModifier(m.type, d.type);
-    return getDamage2(
+    return calcDamage(
         a.level,
         undefined,
         attackOrSpec,
@@ -82,10 +82,6 @@ export function getHpStat(
     return int((2 * B + 2 * D + min(int((int(sqrt(max(S - 1, 0))) + 1) / 4), 63)) * L / 100) + L + 10;
 }
 
-(window as any).getHpStat = getHpStat;
-
-// Lifted logic from https://www.serebii.net/rb/evtraining.shtml
-
 /**
  * Stolen formula from:
  * https://gamefaqs.gamespot.com/gameboy/907714-pokemon-blue-version/faqs/64175
@@ -103,8 +99,6 @@ export function getNonHpStat(
     : number {
     return int((2 * B + 2 * D + min(int((int(sqrt(max(S - 1, 0))) + 1) / 4), 63)) * L / 100) + 5;
 }
-
-(window as any).getNonHpStat = getNonHpStat;
 
 export function getStats(pokemon: IPokemonDetails, level: number): Partial<IPokemonDetails> {
     const defense = getNonHpStat(level, pokemon.defense, Constants.defaultDv, Constants.defaultEv);
@@ -136,7 +130,7 @@ export function getStats(pokemon: IPokemonDetails, level: number): Partial<IPoke
  * @param R A randomly determined number between 217 and 255. R is always 255 if the
  *  formula up to this point is strictly greater than 767.
  */
-export function getDamage2(
+export function calcDamage(
     L: number,
     C: number = 1,
     A: number,
@@ -149,7 +143,5 @@ export function getDamage2(
     R: number = damageRng())
     : number {
     return max(int(int(int((min(int(int((int((L * C % 256) * 0.4) + 2) *
-        min(int(A * B), 1) * P / min(int(D * E), 1)) / 50), 997) + 2) * S) * T) * R / 255), 1);
+        max(int(A * B), 1) * P / max(int(D * E), 1)) / 50), 997) + 2) * S) * T) * R / 255), 1);
 }
-
-(window as any).getDamage = getDamage2;
