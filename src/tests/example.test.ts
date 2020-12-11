@@ -38,11 +38,11 @@ function calcDamage_AzureHeights(
     let y = x * 217;
     y = Math.floor(y / 255);
 
-    const result = {} as IDamageResult;
+    const res = {} as IDamageResult;
 
-    result.max = x;
-    result.min = y;
-    result.avg = Math.round((x + y) / 2);
+    res.max = x;
+    res.min = y;
+    res.avg = Math.round((x + y) / 2);
 
     x = Math.floor((4 * a) / 5) + 2;
     x = x * b * c;
@@ -54,11 +54,11 @@ function calcDamage_AzureHeights(
     y = x * 217;
     y = Math.floor(y / 255);
 
-    result.cmax = x;
-    result.cmin = y;
-    result.cavg = Math.round((x + y) / 2);
+    res.cmax = x;
+    res.cmin = y;
+    res.cavg = Math.round((x + y) / 2);
 
-    return result;
+    return res;
 }
 
 function* stats() {
