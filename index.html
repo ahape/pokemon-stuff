@@ -149,13 +149,13 @@
                         <th>MOVE</th>
                         <th>TYPE</th>
                         <th>MULT</th>
-                        <th>MIN H-KO</th>
-                        <th>MAX H-KO</th>
+                        <th>MIN/MAX H-KO</th>
+                        <th>MAX CRIT</th>
                         <th>ACCUR</th>
                     </tr>
                 </thead>
                 <tbody data-bind="foreach: player.moves">
-                    <tr>
+                    <tr data-bind="let: { fmt:function(n){return isFinite(n)&&!isNaN(n)?n:'-'}}">
                         <td>
                             <input type="radio"
                             name="move"
@@ -173,8 +173,8 @@
                         </td>
                         <td data-bind="text: move().type"></td>
                         <td data-bind="text: effectiveness() != 1 ? 'x' + effectiveness() : ''"></td>
-                        <td data-bind="text: minHitsUntilKo"></td>
-                        <td data-bind="text: maxHitsUntilKo"></td>
+                        <td data-bind="text: fmt(minHitsUntilKo()) + '/' + fmt(maxHitsUntilKo())"></td>
+                        <td data-bind="text: fmt(critMaxPct()) + '%'"></td>
                         <td data-bind="text: move().accuracy + '%'"></td>
                     </tr>
                 </tbody>

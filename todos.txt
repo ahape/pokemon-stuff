@@ -40,9 +40,13 @@
     - This needs to be in some sort of loop that increases index of move slot
       every added move.
 
-[ ] Combine column MIN/MAX H-KO and output e.g. 2/3.
+[x] Combine column MIN/MAX H-KO and output e.g. 2/3.
 
-[ ] Add column CRIT MIN H-KO.
+[x] Add column CRIT MIN H-KO.
+
+[ ] Remove duplicate learnset move entries for evolved types.
+
+    [ ] Make sure that all moves in `learnset` match `moves`.
 
 [ ] Add edge case moves and their damage.
 

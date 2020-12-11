@@ -20,6 +20,7 @@ function getDefaultMoves(pkmn: IPokemon): IMove[] {
             const [, learnedAt] = x;
             return learnedAt <= pkmn.level;
         })
+        .slice(0, 4)
         .map((x) => {
             const [moveName] = x;
             const move = moves.find((m) => m.name === moveName);
@@ -79,8 +80,9 @@ export class Pokemon {
         const stateId = ko.pureComputed(() => this.state().id);
 
         this.moves = ko.pureComputed(() => {
-            // Subscribe to Pokemon change only:
+            // Subscribe to Pokemon or level change only:
             stateId();
+            this.level();
             return createMoves(this, opponent);
         });
 

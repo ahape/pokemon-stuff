@@ -20,19 +20,38 @@ export function damageRng(): number {
         Constants.damageRangeMin;
 }
 
+interface IDamageResult {
+    defMin: number;
+    defMax: number;
+    defAvg: number;
+    critMin: number;
+    critMax: number;
+    critAvg: number;
+}
+
 export function getDamage(
     a: IPokemon,
     d: IPokemon,
-    m: IMove,
-    random = damageRng())
-    : number {
-    if (m.category === "status") { return 0; }
+    m: IMove)
+    : IDamageResult {
+    if (m.category === "status") {
+        return {
+            critAvg: 0,
+            critMax: 0,
+            critMin: 0,
+            defAvg: 0,
+            defMax: 0,
+            defMin: 0,
+        };
+    }
 
     const attackOrSpec = m.category === "special" ? a.special : a.attack;
     const defenseOrSpec = m.category === "special" ? d.special : d.defense;
     const stab = a.type.indexOf(m.type) !== -1 ? 1.5 : 1;
     const modifier = getEffectModifier(m.type, d.type);
-    return calcDamage(
+    const damageResult: Partial<IDamageResult> = {};
+    // Defaults.
+    damageResult.defMin = calcDamage(
         a.level,
         undefined,
         attackOrSpec,
@@ -42,11 +61,45 @@ export function getDamage(
         undefined,
         stab,
         modifier,
-        random);
-    /*
-    return Math.floor((((((((((2 * a.level) / 5 + 2) * attackOrSpec * m.power) / defenseOrSpec) /
-        50) + 2) * stab) * modifier / 10) * random) / 255);
-    */
+        Constants.damageRangeMin);
+    damageResult.defMax = calcDamage(
+        a.level,
+        undefined,
+        attackOrSpec,
+        undefined,
+        m.power,
+        defenseOrSpec,
+        undefined,
+        stab,
+        modifier,
+        Constants.damageRangeMax);
+    damageResult.defAvg = (damageResult.defMax + damageResult.defMin) / 2;
+    // Crits.
+    damageResult.critMin = calcDamage(
+        a.level,
+        2,
+        attackOrSpec,
+        undefined,
+        m.power,
+        defenseOrSpec,
+        undefined,
+        stab,
+        modifier,
+        Constants.damageRangeMin);
+    damageResult.critMax = calcDamage(
+        a.level,
+        2,
+        attackOrSpec,
+        undefined,
+        m.power,
+        defenseOrSpec,
+        undefined,
+        stab,
+        modifier,
+        Constants.damageRangeMax);
+    damageResult.critAvg = (damageResult.critMax + damageResult.critMin) / 2;
+
+    return damageResult as IDamageResult;
 }
 
 const { min, max, sqrt } = Math;
