@@ -1,5 +1,5 @@
 /* tslint:disable:object-literal-sort-keys */
-export const learnsets = {
+export const learnsets: { [name: string]: Array<[string, number]> } = {
     "bulbasaur": [
         ["tackle", 1],
         ["growl", 1],

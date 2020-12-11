@@ -29,13 +29,30 @@
     https://gamefaqs.gamespot.com/gameboy/907714-pokemon-blue-version/faqs/64175
     Section [L04].
     - Gust being "flying" type.
-    - Tacke being 35P.
+    - Tackle being 35P.
 
-[ ] Add basic unit tests for the functions.
+[x] Add <empty> move option (deals no damage).
+
+[x] Have first four moves be prepopulated by deducing learnset moves and level.
+
+    - Walk through learnset for pokemon, collecting all moves under level,
+      capping at 4.
+    - This needs to be in some sort of loop that increases index of move slot
+      every added move.
+
+[ ] Combine column MIN/MAX H-KO and output e.g. 2/3.
+
+[ ] Add column CRIT MIN H-KO.
 
 [ ] Add edge case moves and their damage.
 
     [ ] Like Hyper Beam not affecting ghost types?
+
+    [ ] Look through moves list and determine oddballs.
+
+[ ] Add basic unit tests for the functions.
+
+    [ ] Add tests that compare correct outputs.
 
 [-] Streamline project.
 
