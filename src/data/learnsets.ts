@@ -14,7 +14,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "ivysaur": [
         ["tackle", 1],
         ["growl", 1],
-        ["leech-seed", 1],
         ["leech-seed", 7],
         ["vine-whip", 13],
         ["poisonpowder", 22],
@@ -26,8 +25,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "venusaur": [
         ["tackle", 1],
         ["growl", 1],
-        ["leech-seed", 1],
-        ["vine-whip", 1],
         ["leech-seed", 7],
         ["vine-whip", 13],
         ["poisonpowder", 22],
@@ -49,7 +46,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "charmeleon": [
         ["scratch", 1],
         ["growl", 1],
-        ["ember", 1],
         ["ember", 9],
         ["leer", 15],
         ["rage", 24],
@@ -60,8 +56,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "charizard": [
         ["scratch", 1],
         ["growl", 1],
-        ["ember", 1],
-        ["leer", 1],
         ["ember", 9],
         ["leer", 15],
         ["rage", 24],
@@ -82,7 +76,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "wartortle": [
         ["tackle", 1],
         ["tail-whip", 1],
-        ["bubble", 1],
         ["bubble", 8],
         ["water-gun", 15],
         ["bite", 24],
@@ -93,8 +86,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "blastoise": [
         ["tackle", 1],
         ["tail-whip", 1],
-        ["bubble", 1],
-        ["water-gun", 1],
         ["bubble", 8],
         ["water-gun", 15],
         ["bite", 24],
@@ -110,7 +101,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
         ["harden", 1],
     ],
     "butterfree": [
-        ["confusion", 1],
         ["confusion", 12],
         ["poisonpowder", 15],
         ["stun-spore", 16],
@@ -127,7 +117,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
         ["harden", 1],
     ],
     "beedrill": [
-        ["fury-attack", 1],
         ["fury-attack", 12],
         ["focus-energy", 16],
         ["twineedle", 20],
@@ -146,7 +135,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "pidgeotto": [
         ["gust", 1],
-        ["sand-attack", 1],
         ["sand-attack", 5],
         ["quick-attack", 12],
         ["whirlwind", 21],
@@ -156,8 +144,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "pidgeot": [
         ["gust", 1],
-        ["sand-attack", 1],
-        ["quick-attack", 1],
         ["sand-attack", 5],
         ["quick-attack", 12],
         ["whirlwind", 21],
@@ -176,7 +162,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "raticate": [
         ["tackle", 1],
         ["tail-whip", 1],
-        ["quick-attack", 1],
         ["quick-attack", 7],
         ["hyper-fang", 14],
         ["focus-energy", 27],
@@ -194,7 +179,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "fearow": [
         ["peck", 1],
         ["growl", 1],
-        ["leer", 1],
         ["leer", 9],
         ["fury-attack", 15],
         ["mirror-move", 25],
@@ -213,7 +197,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "arbok": [
         ["wrap", 1],
         ["leer", 1],
-        ["poison-sting", 1],
         ["poison-sting", 10],
         ["bite", 17],
         ["glare", 27],
@@ -244,7 +227,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "sandslash": [
         ["scratch", 1],
-        ["sand-attack", 1],
         ["sand-attack", 10],
         ["slash", 17],
         ["poison-sting", 27],
@@ -264,7 +246,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "nidorina": [
         ["growl", 1],
         ["tackle", 1],
-        ["scratch", 1],
         ["scratch", 8],
         ["poison-sting", 14],
         ["tail-whip", 23],
@@ -274,8 +255,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "nidoqueen": [
         ["tackle", 1],
-        ["body-slam", 1],
-        ["scratch", 1],
         ["tail-whip", 1],
         ["scratch", 8],
         ["poison-sting", 14],
@@ -294,7 +273,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "nidorino": [
         ["leer", 1],
         ["tackle", 1],
-        ["horn-attack", 1],
         ["horn-attack", 8],
         ["poison-sting", 14],
         ["focus-energy", 23],
@@ -304,9 +282,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "nidoking": [
         ["tackle", 1],
-        ["horn-attack", 1],
-        ["poison-sting", 1],
-        ["thrash", 1],
         ["horn-attack", 8],
         ["poison-sting", 14],
         ["thrash", 23],
@@ -369,7 +344,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "golbat": [
         ["leech-life", 1],
         ["screech", 1],
-        ["bite", 1],
         ["supersonic", 10],
         ["bite", 15],
         ["confuse-ray", 21],
@@ -387,8 +361,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "gloom": [
         ["absorb", 1],
-        ["poisonpowder", 1],
-        ["stun-spore", 1],
         ["poisonpowder", 15],
         ["stun-spore", 17],
         ["sleep-powder", 19],
@@ -397,8 +369,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
         ["solarbeam", 52],
     ],
     "vileplume": [
-        ["stun-spore", 1],
-        ["sleep-powder", 1],
         ["acid", 1],
         ["petal-dance", 1],
         ["poisonpowder", 15],
@@ -415,8 +385,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "parasect": [
         ["scratch", 1],
-        ["stun-spore", 1],
-        ["leech-life", 1],
         ["stun-spore", 13],
         ["leech-life", 20],
         ["spore", 30],
@@ -436,8 +404,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "venomoth": [
         ["tackle", 1],
         ["disable", 1],
-        ["poisonpowder", 1],
-        ["leech-life", 1],
         ["poisonpowder", 24],
         ["leech-life", 27],
         ["stun-spore", 30],
@@ -455,8 +421,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "dugtrio": [
         ["scratch", 1],
-        ["growl", 1],
-        ["dig", 1],
         ["growl", 15],
         ["dig", 19],
         ["sand-attack", 24],
@@ -475,8 +439,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "persian": [
         ["scratch", 1],
         ["growl", 1],
-        ["bite", 1],
-        ["screech", 1],
         ["bite", 12],
         ["pay-day", 17],
         ["screech", 24],
@@ -493,8 +455,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "golduck": [
         ["scratch", 1],
-        ["tail-whip", 1],
-        ["disable", 1],
         ["tail-whip", 28],
         ["disable", 31],
         ["confusion", 39],
@@ -513,8 +473,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "primeape": [
         ["scratch", 1],
         ["leer", 1],
-        ["karate-chop", 1],
-        ["fury-swipes", 1],
         ["karate-chop", 15],
         ["fury-swipes", 21],
         ["focus-energy", 27],
@@ -547,8 +505,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "poliwhirl": [
         ["bubble", 1],
-        ["hypnosis", 1],
-        ["water-gun", 1],
         ["hypnosis", 16],
         ["water-gun", 19],
         ["doubleslap", 26],
@@ -557,10 +513,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
         ["hydro-pump", 49],
     ],
     "poliwrath": [
-        ["hypnosis", 1],
-        ["water-gun", 1],
-        ["doubleslap", 1],
-        ["body-slam", 1],
         ["hypnosis", 16],
         ["water-gun", 19],
     ],
@@ -569,8 +521,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "kadabra": [
         ["teleport", 1],
-        ["confusion", 1],
-        ["disable", 1],
         ["confusion", 16],
         ["disable", 20],
         ["psybeam", 27],
@@ -580,8 +530,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "alakazam": [
         ["teleport", 1],
-        ["confusion", 1],
-        ["disable", 1],
         ["confusion", 16],
         ["disable", 20],
         ["psybeam", 27],
@@ -599,8 +547,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "machoke": [
         ["karate-chop", 1],
-        ["low-kick", 1],
-        ["leer", 1],
         ["low-kick", 20],
         ["leer", 25],
         ["focus-energy", 36],
@@ -609,8 +555,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "machamp": [
         ["karate-chop", 1],
-        ["low-kick", 1],
-        ["leer", 1],
         ["low-kick", 20],
         ["leer", 25],
         ["focus-energy", 36],
@@ -631,7 +575,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "weepinbell": [
         ["vine-whip", 1],
         ["growth", 1],
-        ["wrap", 1],
         ["wrap", 13],
         ["poisonpowder", 15],
         ["sleep-powder", 18],
@@ -641,7 +584,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
         ["slam", 49],
     ],
     "victreebel": [
-        ["sleep-powder", 1],
         ["stun-spore", 1],
         ["acid", 1],
         ["razor-leaf", 1],
@@ -662,8 +604,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "tentacruel": [
         ["acid", 1],
-        ["supersonic", 1],
-        ["wrap", 1],
         ["supersonic", 7],
         ["wrap", 13],
         ["poison-sting", 18],
@@ -684,7 +624,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "graveler": [
         ["tackle", 1],
-        ["defense-curl", 1],
         ["defense-curl", 11],
         ["rock-throw", 16],
         ["selfdestruct", 21],
@@ -694,7 +633,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "golem": [
         ["tackle", 1],
-        ["defense-curl", 1],
         ["defense-curl", 11],
         ["rock-throw", 16],
         ["selfdestruct", 21],
@@ -713,9 +651,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "rapidash": [
         ["ember", 1],
-        ["tail-whip", 1],
-        ["stomp", 1],
-        ["growl", 1],
         ["tail-whip", 30],
         ["stomp", 32],
         ["growl", 35],
@@ -734,8 +669,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "slowbro": [
         ["confusion", 1],
-        ["disable", 1],
-        ["headbutt", 1],
         ["disable", 18],
         ["headbutt", 22],
         ["growl", 27],
@@ -755,8 +688,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "magneton": [
         ["tackle", 1],
-        ["sonicboom", 1],
-        ["thundershock", 1],
         ["sonicboom", 21],
         ["thundershock", 25],
         ["supersonic", 29],
@@ -784,8 +715,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "dodrio": [
         ["peck", 1],
-        ["growl", 1],
-        ["fury-attack", 1],
         ["growl", 20],
         ["fury-attack", 24],
         ["drill-peck", 30],
@@ -803,8 +732,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "dewgong": [
         ["headbutt", 1],
-        ["growl", 1],
-        ["aurora-beam", 1],
         ["growl", 30],
         ["aurora-beam", 35],
         ["rest", 44],
@@ -824,7 +751,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "muk": [
         ["pound", 1],
         ["disable", 1],
-        ["poison-gas", 1],
         ["poison-gas", 30],
         ["minimize", 33],
         ["sludge", 37],
@@ -891,8 +817,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "hypno": [
         ["pound", 1],
         ["hypnosis", 1],
-        ["disable", 1],
-        ["confusion", 1],
         ["disable", 12],
         ["confusion", 17],
         ["headbutt", 24],
@@ -912,7 +836,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "kingler": [
         ["bubble", 1],
         ["leer", 1],
-        ["vicegrip", 1],
         ["vicegrip", 20],
         ["guillotine", 25],
         ["stomp", 34],
@@ -931,7 +854,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "electrode": [
         ["tackle", 1],
         ["screech", 1],
-        ["sonicboom", 1],
         ["sonicboom", 17],
         ["selfdestruct", 22],
         ["light-screen", 29],
@@ -965,8 +887,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "marowak": [
         ["bone-club", 1],
         ["growl", 1],
-        ["leer", 1],
-        ["focus-energy", 1],
         ["leer", 25],
         ["focus-energy", 33],
         ["thrash", 41],
@@ -1012,7 +932,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "weezing": [
         ["tackle", 1],
         ["smog", 1],
-        ["sludge", 1],
         ["sludge", 32],
         ["smokescreen", 39],
         ["selfdestruct", 43],
@@ -1030,9 +949,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "rhydon": [
         ["horn-attack", 1],
-        ["stomp", 1],
-        ["tail-whip", 1],
-        ["fury-attack", 1],
         ["stomp", 30],
         ["tail-whip", 35],
         ["fury-attack", 40],
@@ -1079,7 +995,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "seadra": [
         ["bubble", 1],
-        ["smokescreen", 1],
         ["smokescreen", 19],
         ["leer", 24],
         ["water-gun", 30],
@@ -1099,7 +1014,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "seaking": [
         ["peck", 1],
         ["tail-whip", 1],
-        ["supersonic", 1],
         ["supersonic", 19],
         ["horn-attack", 24],
         ["fury-attack", 30],
@@ -1191,10 +1105,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "gyarados": [
         ["bite", 1],
-        ["dragon-rage", 1],
-        ["leer", 1],
-        ["hydro-pump", 1],
-        ["bite", 20],
         ["dragon-rage", 25],
         ["leer", 32],
         ["hydro-pump", 41],
@@ -1283,7 +1193,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "omastar": [
         ["water-gun", 1],
         ["withdraw", 1],
-        ["horn-attack", 1],
         ["horn-attack", 34],
         ["leer", 39],
         ["spike-cannon", 44],
@@ -1300,7 +1209,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "kabutops": [
         ["scratch", 1],
         ["harden", 1],
-        ["absorb", 1],
         ["absorb", 34],
         ["slash", 39],
         ["leer", 46],
@@ -1356,7 +1264,6 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     "dragonair": [
         ["wrap", 1],
         ["leer", 1],
-        ["thunder-wave", 1],
         ["thunder-wave", 10],
         ["agility", 20],
         ["slam", 35],
@@ -1365,9 +1272,7 @@ export const learnsets: { [name: string]: Array<[string, number]> } = {
     ],
     "dragonite": [
         ["wrap", 1],
-        ["thunder-wave", 1],
         ["leer", 1],
-        ["agility", 1],
         ["thunder-wave", 10],
         ["agility", 20],
         ["slam", 35],

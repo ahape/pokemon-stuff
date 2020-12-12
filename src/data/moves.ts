@@ -114,7 +114,7 @@ export const moves: IMove[] = [{
     accuracy: 100,
     pp: 30,
 }, {
-    name: "bubble-beam",
+    name: "bubblebeam",
     type: "water",
     category: "special",
     power: 65,
@@ -226,7 +226,7 @@ export const moves: IMove[] = [{
     accuracy: 100,
     pp: 15,
 }, {
-    name: "double-slap",
+    name: "doubleslap",
     type: "normal",
     category: "physical",
     power: 15,
@@ -415,7 +415,7 @@ export const moves: IMove[] = [{
     accuracy: 100,
     pp: 15,
 }, {
-    name: "high-jump-kick",
+    name: "hi-jump-kick",
     type: "fighting",
     category: "physical",
     power: 85,
@@ -653,7 +653,7 @@ export const moves: IMove[] = [{
     accuracy: 90,
     pp: 40,
 }, {
-    name: "poison-powder",
+    name: "poisonpowder",
     type: "poison",
     category: "status",
     power: 0,
@@ -800,7 +800,7 @@ export const moves: IMove[] = [{
     accuracy: 100,
     pp: 20,
 }, {
-    name: "self-destruct",
+    name: "selfdestruct",
     type: "normal",
     category: "physical",
     power: 200,
@@ -877,21 +877,21 @@ export const moves: IMove[] = [{
     accuracy: 100,
     pp: 20,
 }, {
-    name: "soft-boiled",
+    name: "softboiled",
     type: "normal",
     category: "status",
     power: 0,
     accuracy: 0,
     pp: 10,
 }, {
-    name: "solar-beam",
+    name: "solarbeam",
     type: "grass",
     category: "special",
     power: 120,
     accuracy: 100,
     pp: 10,
 }, {
-    name: "sonic-boom",
+    name: "sonicboom",
     type: "normal",
     category: "physical",
     power: 0,
@@ -1045,14 +1045,14 @@ export const moves: IMove[] = [{
     accuracy: 70,
     pp: 10,
 }, {
-    name: "thunder-punch",
+    name: "thunderpunch",
     type: "electric",
     category: "special",
     power: 75,
     accuracy: 100,
     pp: 15,
 }, {
-    name: "thunder-shock",
+    name: "thundershock",
     type: "electric",
     category: "special",
     power: 40,
@@ -1108,7 +1108,7 @@ export const moves: IMove[] = [{
     accuracy: 100,
     pp: 25,
 }, {
-    name: "vise-grip",
+    name: "vicegrip",
     type: "normal",
     category: "physical",
     power: 55,
