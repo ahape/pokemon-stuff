@@ -195,6 +195,8 @@ export function calcDamage(
     T: number,
     R: number = damageRng())
     : number {
+    // Simplified version:
+    // ((L * 0.4 + 2) * A * P / D / 50 + 2) * S * T * R / 255
     return max(int(int(int((min(int(int((int((L * C % 256) * 0.4) + 2) *
         max(int(A * B), 1) * P / max(int(D * E), 1)) / 50), 997) + 2) * S) * T) * R / 255), 1);
 }

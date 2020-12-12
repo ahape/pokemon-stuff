@@ -1,4 +1,4 @@
-1. Groundwork/Basic Functionality
+Groundwork/Basic Functionality
 =================================
 [x] Add /scripts/* to .gitignore
 
@@ -62,7 +62,7 @@
 
     [x] In tsconfig, move KO to devDependencies.
 
-2. Prettify UI/UX
+Prettify UI/UX
 =================
 
 [ ] Import photos to use for Pokemon
@@ -73,25 +73,81 @@
 
 [ ] Save inputs to localStorage to avoid page refreshing clearing all inputs.
 
-3. Advanced Features
+Advanced Features
 ====================
 
 [ ] Add inputs for stat modifiers: (+1...6,-1...-6).
 
     [ ] Add same for opponent.
 
-[ ] Add 5 more pokemon to "user" list (whole ensemble).
+[ ] Don't have *changed* moves reset upon level change.
 
-[-] Add list of learned moves that map to each Pokemon.
+[ ] Remember the moves you had set last time you selected a specific Pokemon?
 
-    You could possible scrape it from here, except you'll need to run your
-    "scrape script" for every move...
-    https://bulbapedia.bulbagarden.net/wiki/Tackle_(move)#Generations_I_to_IV
+Documentation/Walkthrough
+=========================
 
-    [ ] Add moves list to opponents view, along with emboldening the ones the
-        Pokemon should know, based on its level.
+[ ] Goals (v1)
 
-Later on
+    - Have every section be for a location (e.g. Route 1, Pallet Town).
+    - Have it be in the order that the game suggests it be played.
+    - Each location should have all of the following that apply:
+        - Map (image. E.g. Route 1, Lavender Town, Silph Co., Gym)
+          * Need caption (BF1, FL2, etc.)
+          * Need arrow for quickest/safest passage (where not obvious)
+          * Need numbered tags (trainers, [hidden] items, labels (for like
+            ladders and such))
+            - Trainers (table)
+              * Ref (tag number)
+              * Name (Jr. Trainer, Brock, Blue)
+              * Pokemon + level (comma separated)
+              * Prize money
+            - Available Items (table)
+              * Ref (tag number)
+              * Name (TM01 - Mega Punch, Moon Stone, etc.)
+              * Games (R/B)
+            - Available Pokemon (table)
+              * Pokemon
+              * Levels (4-5, 4-5/5-6)
+              * Rate (10%, 20%/45%)
+              * Games (R/B)
+        - PokeMart Items (table)
+          * Item
+          * Price
+
+[ ] Tasks
+
+    [ ] Create /images directory.
+
+    [ ] An easy way to capture all of the routes/towns is go to
+        https://www.serebii.net/pokearth/maps/kanto-rb/1.png and
+        keep incrementing the numbers, downloading each image.
+
+    [ ] Get every image needed.
+        - Split up "floors", gyms, etc. *NOTE*: Some  don't need to be
+          split. E.g. Celadon store, S.S.Anne, etc.
+        - Make sure all images contain characters and items
+
+    [ ] Tag all trainers, items (including hidden).
+
+    [ ] Draw arrow for quickest route.
+
+    [ ] Label all connecting portals.
+
+    [ ] Start writing guide by adding all sections and images.
+
+    [ ] Narrow down our data to scrape/process
+        - Collect all "wanted" HTML stuff.
+        - Throw all HTML into standalone files (scraping/part1.html, ...)
+
+    [ ] Create processing functions (converting HTML to AsciiDoc)
+        - Account for all types of tables
+        - Include placeholder columns (ref)
+
+
+
+Lastly
+=========
 [ ] Message KidZero about following issues:
     - Battle formula is wrong: min -> max
     - Bubble is wrong: should be type water
