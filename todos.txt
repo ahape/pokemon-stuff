@@ -44,9 +44,9 @@ Groundwork/Basic Functionality
 
 [x] Add column CRIT MIN H-KO.
 
-[ ] Remove duplicate learnset move entries for evolved types.
+[x] Remove duplicate learnset move entries for evolved types.
 
-    [ ] Make sure that all moves in `learnset` match `moves`.
+    [x] Make sure that all moves in `learnset` match `moves`.
 
 [ ] Add edge case moves and their damage.
 
@@ -139,6 +139,15 @@ Documentation/Walkthrough
     [ ] Narrow down our data to scrape/process
         - Collect all "wanted" HTML stuff.
         - Throw all HTML into standalone files (scraping/part1.html, ...)
+        - Different types of tables:
+        * Wild pokemon
+          - Headers: Pokemon, Games, Location, Levels, Rate
+        * Items
+          - Headers: Item, Location, Games
+        * Trainers
+          - Table has <big> element w/in
+        * Purchaseables
+          - Table has <td rowspan="2">, <td>, <td><big>
 
     [ ] Create processing functions (converting HTML to AsciiDoc)
         - Account for all types of tables
