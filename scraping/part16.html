@@ -1,0 +1,2455 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scraped Contents</title>
+    <meta charset="utf-8" />
+    <noscript>
+        // Script used to scrape:
+        // 1. Section titles
+        // 2. Tables w/ a class attribute, w/in aligned tables
+        // 3. Tables w/ a style attribute, w/in aligned tables
+        // 4. Tables w/in dynamic tabbed tables.
+        console.log($(`
+        .mw-headline,
+        .mw-parser-output>table[align]>tbody>tr>td>table[class],
+        .mw-parser-output>table[align]>tbody>tr>td>table[style],
+        .tabbertab>table`)
+        // Get all child elements, flattened.
+        .find("*")
+        // Add back elements from orig selection, flatted.
+        .addBack("*")
+        // Remove noise.
+        .removeAttr("id style class src alt")
+        // Remove images.
+        .remove("img")
+        .end()
+        // Back to original selection.
+        .end()
+        // Get all child tables.
+        .find("table")
+        // Add back tables from selection.
+        .addBack("table")
+        // Apply simple styling.
+        .attr("border", "1")
+        .end()
+        // Back to original selection.
+        .end()
+        // Get all spans from orig selection.
+        .filter("span")
+        // Give basic styling.
+        .css({ display: "block", backgroundColor: "yellow" })
+        // Back to original selection.
+        .end()
+        .toArray()
+        .map((e) => e.outerHTML)
+        // Turn into one log HTML string.
+        .join(""));
+    </noscript>
+</head>
+
+<body>
+    <span style="display: block; background-color: yellow;">Route 24</span>
+    <table cellspacing="2" cellpadding="4" border="1" align="center">
+
+        <tbody>
+            <tr>
+                <th colspan="2">
+                </th>
+            </tr>
+            <tr>
+                <td width="auto" align="center">
+                    <div><a href="/wiki/File:Bag_HM_Water_Sprite.png" title="HM Water"></a></div>
+                </td>
+                <td width="auto" align="center"><a href="http://bulbapedia.bulbagarden.net/wiki/Surf_(move)"
+                        title="bulbapedia:Surf (move)">Surf</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table><span style="display: block; background-color: yellow;">Route 4</span>
+    <table data-expandtext="show" data-collapsetext="hide" cellspacing="1" cellpadding="2" border="1">
+
+        <tbody>
+            <tr>
+                <td>
+                    <table cellspacing="1" cellpadding="2" border="1">
+                        <tbody>
+                            <tr>
+                                <th width="80px" height="80px">
+                                    <div><a href="/wiki/File:Spr_RB_Lass.png" title="File:Spr RB Lass.png"></a></div>
+                                </th>
+                                <td>
+                                    <table width="225px" border="1">
+
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><big><span><b><a href="http://bulbapedia.bulbagarden.net/wiki/Lass_(Trainer_class)"
+                                                                    title="bulbapedia:Lass (Trainer class)"><span>Lass</span></a></b></span></big>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="/wiki/Kanto_Route_4" title="Kanto Route 4"><span><b>Kanto
+                                                                Route 4</b></span></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><small><a
+                                                            href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                                            title="Appendix:Pokémon Red and Blue Walkthrough"><span>Red
+                                                                and Blue</span></a></small>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="auto">
+                                    <div><small><span>Prize:</span></small></div><big><span><b><a
+                                                    href="/wiki/File:Pok%C3%A9monDollar.png"
+                                                    title="File:PokémonDollar.png"></a>465</b></span></big>
+                                </td>
+                                <td>
+                                    <table border="1">
+
+                                        <tbody>
+                                            <tr>
+                                                <td width="96px" align="center"><a href="/wiki/File:Ballfull.png"
+                                                        title="File:Ballfull.png"></a><a href="/wiki/File:Ballfull.png"
+                                                        title="File:Ballfull.png"></a><a href="/wiki/File:Ballfull.png"
+                                                        title="File:Ballfull.png"></a><a href="/wiki/File:Ballempty.png"
+                                                        title="File:Ballempty.png"></a><a
+                                                        href="/wiki/File:Ballempty.png"
+                                                        title="File:Ballempty.png"></a><a
+                                                        href="/wiki/File:Ballempty.png" title="File:Ballempty.png"></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table border="1">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table border="1">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td><span role="button" tabindex="0"><a>hide</a></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="160px">
+                                    <div>
+                                        <div></div>
+                                    </div><a href="/wiki/File:HOME046Paras.png"
+                                        title="File:HOME046Paras.png"></a><br><br><a
+                                        href="http://bulbapedia.bulbagarden.net/wiki/Paras_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Paras (Pokémon)"><b><span>Paras</span></b></a><br><small><a
+                                            href="/wiki/Level" title="Level"><span>Lv.</span></a>
+                                        <span>31</span></small><br><small><small><span>No
+                                                item</span></small></small><br>
+                                    <table border="1">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div><a href="/wiki/Bug_(type)" title="Bug"></a></div>
+                                                </td>
+                                                <td>
+                                                    <div><a href="/wiki/Grass_(type)" title="Grass"></a></div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td width="160px">
+                                    <div>
+                                        <div></div>
+                                    </div><a href="/wiki/File:HOME046Paras.png"
+                                        title="File:HOME046Paras.png"></a><br><br><a
+                                        href="http://bulbapedia.bulbagarden.net/wiki/Paras_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Paras (Pokémon)"><b><span>Paras</span></b></a><br><small><a
+                                            href="/wiki/Level" title="Level"><span>Lv.</span></a>
+                                        <span>31</span></small><br><small><small><span>No
+                                                item</span></small></small><br>
+                                    <table border="1">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div><a href="/wiki/Bug_(type)" title="Bug"></a></div>
+                                                </td>
+                                                <td>
+                                                    <div><a href="/wiki/Grass_(type)" title="Grass"></a></div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td width="160px">
+                                    <div>
+                                        <div></div>
+                                    </div><a href="/wiki/File:HOME047Parasect.png"
+                                        title="File:HOME047Parasect.png"></a><br><br><a
+                                        href="http://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Parasect (Pokémon)"><b><span>Parasect</span></b></a><br><small><a
+                                            href="/wiki/Level" title="Level"><span>Lv.</span></a>
+                                        <span>31</span></small><br><small><small><span>No
+                                                item</span></small></small><br>
+                                    <table border="1">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div><a href="/wiki/Bug_(type)" title="Bug"></a></div>
+                                                </td>
+                                                <td>
+                                                    <div><a href="/wiki/Grass_(type)" title="Grass"></a></div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table><span style="display: block; background-color: yellow;">Cerulean Cave</span>
+    <table width="550px" border="1">
+        <tbody>
+            <tr>
+                <th rowspan="1" width="40%">&nbsp;&nbsp;Pokémon&nbsp;&nbsp;
+                </th>
+                <th rowspan="1" colspan="6" width="18%">&nbsp;&nbsp;Games&nbsp;&nbsp;
+                </th>
+                <th rowspan="1" width="18%">&nbsp;&nbsp;Location&nbsp;&nbsp;
+                </th>
+                <th rowspan="1" width="18%">&nbsp;&nbsp;Levels&nbsp;&nbsp;
+                </th>
+                <th colspan="3" width="29%">&nbsp;&nbsp;Rate&nbsp;&nbsp;
+                </th>
+            </tr>
+
+
+            <tr>
+                <th colspan="14">1F
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:024.png" title="024"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Arbok_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Arbok (Pokémon)"><span>Arbok</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="6"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>52
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:026.png" title="026"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Raichu (Pokémon)"><span>Raichu</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>53
+                </td>
+                <td colspan="3">4%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:028.png" title="028"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Sandslash (Pokémon)"><span>Sandslash</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="6"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>52
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:042.png" title="042"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Golbat (Pokémon)"><span>Golbat</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>46
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:047.png" title="047"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Parasect (Pokémon)"><span>Parasect</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>52
+                </td>
+                <td colspan="3">5%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:049.png" title="049"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Venomoth (Pokémon)"><span>Venomoth</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>49
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:064.png" title="064"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Kadabra_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Kadabra (Pokémon)"><span><b>Kadabra</b></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>49
+                </td>
+                <td colspan="3">5%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:082.png" title="082"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Magneton_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Magneton (Pokémon)"><span>Magneton</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>46
+                </td>
+                <td colspan="3">15%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:085.png" title="085"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Dodrio_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Dodrio (Pokémon)"><span><b>Dodrio</b></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>49
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:097.png" title="097"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Hypno_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Hypno (Pokémon)"><span><b>Hypno</b></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>46
+                </td>
+                <td colspan="3">15%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:132.png" title="132"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Ditto (Pokémon)"><span>Ditto</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>53
+                </td>
+                <td colspan="3">1%
+                </td>
+            </tr>
+            <tr>
+                <th colspan="14">1F - Fishing
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:129.png" title="129"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Magikarp (Pokémon)"><span>Magikarp</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/b/b2/Bag_Old_Rod_Sprite.png/revision/latest?cb=20160812055952"
+                                        title="Old Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Old&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>5
+                </td>
+                <td colspan="3">100%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:060.png" title="060"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Poliwag_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Poliwag (Pokémon)"><span>Poliwag</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/4/44/Bag_Good_Rod_Sprite.png/revision/latest?cb=20160812055923"
+                                        title="Good Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Good&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>10
+                </td>
+                <td colspan="3">50%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:118.png" title="118"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Goldeen_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Goldeen (Pokémon)"><span>Goldeen</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/4/44/Bag_Good_Rod_Sprite.png/revision/latest?cb=20160812055923"
+                                        title="Good Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Good&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>10
+                </td>
+                <td colspan="3">50%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:080.png" title="080"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Slowbro (Pokémon)"><span>Slowbro</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/f/ff/Bag_Super_Rod_Sprite.png/revision/latest?cb=20160812060032"
+                                        title="Super Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Super&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>23
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:099.png" title="099"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Kingler_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Kingler (Pokémon)"><span>Kingler</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/f/ff/Bag_Super_Rod_Sprite.png/revision/latest?cb=20160812060032"
+                                        title="Super Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Super&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>23
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:117.png" title="117"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Seadra_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Seadra (Pokémon)"><span>Seadra</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/f/ff/Bag_Super_Rod_Sprite.png/revision/latest?cb=20160812060032"
+                                        title="Super Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Super&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>23
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:119.png" title="119"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Seaking_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Seaking (Pokémon)"><span>Seaking</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/f/ff/Bag_Super_Rod_Sprite.png/revision/latest?cb=20160812060032"
+                                        title="Super Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Super&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>23
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <th colspan="14">2F
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:040.png" title="040"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Wigglytuff_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Wigglytuff (Pokémon)"><span><b>Wigglytuff</b></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>54
+                </td>
+                <td colspan="3">5%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:049.png" title="049"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Venomoth_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Venomoth (Pokémon)"><span>Venomoth</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>51
+                </td>
+                <td colspan="3">15%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:064.png" title="064"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Kadabra_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Kadabra (Pokémon)"><span><b>Kadabra</b></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>51
+                </td>
+                <td colspan="3">15%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:085.png" title="085"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Dodrio_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Dodrio (Pokémon)"><span><b>Dodrio</b></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>51
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:101.png" title="101"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Electrode (Pokémon)"><span>Electrode</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>52
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:105.png" title="105"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Marowak (Pokémon)"><span>Marowak</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>52
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:112.png" title="112"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Rhydon_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Rhydon (Pokémon)"><span><b>Rhydon</b></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>52
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:113.png" title="113"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Chansey_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Chansey (Pokémon)"><span>Chansey</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>56
+                </td>
+                <td colspan="3">5%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:132.png" title="132"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Ditto (Pokémon)"><span>Ditto</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>55, 60
+                </td>
+                <td colspan="3">5%
+                </td>
+            </tr>
+            <tr>
+                <th colspan="14">B1F
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:024.png" title="024"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Arbok_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Arbok (Pokémon)"><span>Arbok</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="6"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>57
+                </td>
+                <td colspan="3">5%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:026.png" title="026"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Raichu_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Raichu (Pokémon)"><span>Raichu</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>64
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:028.png" title="028"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Sandslash (Pokémon)"><span>Sandslash</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="6"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>57
+                </td>
+                <td colspan="3">5%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:047.png" title="047"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Parasect_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Parasect (Pokémon)"><span>Parasect</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>64
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:101.png" title="101"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Electrode (Pokémon)"><span>Electrode</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>55
+                </td>
+                <td colspan="3">15%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:105.png" title="105"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Marowak_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Marowak (Pokémon)"><span><b>Marowak</b></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>55
+                </td>
+                <td colspan="3">15%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:112.png" title="112"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Rhydon_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Rhydon (Pokémon)"><span><b>Rhydon</b></span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>55
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:113.png" title="113"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Chansey_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Chansey (Pokémon)"><span>Chansey</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>64
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:132.png" title="132"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Ditto (Pokémon)"><span>Ditto</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/e/ef/RBY_Cave.png/revision/latest?cb=20170729003420"
+                                        title="Cave"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Cave"
+                                        title="bulbapedia:Cave"><span>Cave</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>63, 65, 67
+                </td>
+                <td colspan="3">10%
+                </td>
+            </tr>
+            <tr>
+                <th colspan="14">B1F - Fishing
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:129.png" title="129"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Magikarp (Pokémon)"><span>Magikarp</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/b/b2/Bag_Old_Rod_Sprite.png/revision/latest?cb=20160812055952"
+                                        title="Old Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Old&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>5
+                </td>
+                <td colspan="3">100%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:060.png" title="060"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Poliwag_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Poliwag (Pokémon)"><span>Poliwag</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/4/44/Bag_Good_Rod_Sprite.png/revision/latest?cb=20160812055923"
+                                        title="Good Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Good&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>10
+                </td>
+                <td colspan="3">50%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:118.png" title="118"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Goldeen_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Goldeen (Pokémon)"><span>Goldeen</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/4/44/Bag_Good_Rod_Sprite.png/revision/latest?cb=20160812055923"
+                                        title="Good Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Good&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>10
+                </td>
+                <td colspan="3">50%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:080.png" title="080"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Slowbro (Pokémon)"><span>Slowbro</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/f/ff/Bag_Super_Rod_Sprite.png/revision/latest?cb=20160812060032"
+                                        title="Super Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Super&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>23
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:099.png" title="099"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Kingler_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Kingler (Pokémon)"><span>Kingler</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/f/ff/Bag_Super_Rod_Sprite.png/revision/latest?cb=20160812060032"
+                                        title="Super Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Super&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>23
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:117.png" title="117"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Seadra_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Seadra (Pokémon)"><span>Seadra</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/f/ff/Bag_Super_Rod_Sprite.png/revision/latest?cb=20160812060032"
+                                        title="Super Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Super&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>23
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <th width="32px"><span>
+                                        <div><a href="/wiki/File:119.png" title="119"></a></div>
+                                    </span>
+                                </th>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Seaking_(Pok%C3%A9mon)"
+                                        title="bulbapedia:Seaking (Pokémon)"><span>Seaking</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>R</span></a>
+                </th>
+                <th colspan="3"><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                        title="Appendix:Pokémon Red and Blue Walkthrough"><span>B</span></a>
+                </th>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td width="30px"><a
+                                        href="https://static.wikia.nocookie.net/pokemonlp-utomaikeru/images/f/ff/Bag_Super_Rod_Sprite.png/revision/latest?cb=20160812060032"
+                                        title="Super Rod"></a>
+                                </td>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Fishing"
+                                        title="bulbapedia:Fishing"><span>Fishing</span></a><br><span><small>Super&nbsp;Rod</small></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>23
+                </td>
+                <td colspan="3">25%
+                </td>
+            </tr>
+            <tr>
+                <td colspan="14">&nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellspacing="2" cellpadding="4" border="1">
+
+        <tbody>
+            <tr>
+                <th colspan="2">Item
+                </th>
+                <th>Location
+                </th>
+                <th>Games
+                </th>
+            </tr>
+            <tr>
+                <th colspan="14">1F
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div><a href="/wiki/File:Bag_Max_Elixir_Sprite.png" title="Max Elixir"></a></div>
+                </td>
+                <td><a href="/wiki/Max_Elixir" title="Max Elixir">Max Elixir</a>
+                </td>
+                <td>On the north-central riverbank
+                </td>
+                <td align="center"><b><span><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;R&nbsp;</span></a></span><span><a
+                                href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;B&nbsp;</span></a></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div><a href="/wiki/File:Bag_Nugget_Sprite.png" title="Nugget"></a></div>
+                </td>
+                <td><a href="/wiki/Nugget" title="Nugget">Nugget</a>
+                </td>
+                <td>On the northwest rock platform
+                </td>
+                <td align="center"><b><span><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;R&nbsp;</span></a></span><span><a
+                                href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;B&nbsp;</span></a></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div><a href="/wiki/File:Bag_Rare_Candy_Sprite.png" title="Rare Candy"></a></div>
+                </td>
+                <td><a href="/wiki/Rare_Candy" title="Rare Candy">Rare Candy</a>
+                </td>
+                <td>On the crumbling boulder on the central platform <i>(hidden)</i>
+                </td>
+                <td align="center"><b><span><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;R&nbsp;</span></a></span><span><a
+                                href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;B&nbsp;</span></a></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div><a href="/wiki/File:Bag_Full_Restore_Sprite.png" title="Full Restore"></a></div>
+                </td>
+                <td><a href="/wiki/Full_Restore" title="Full Restore">Full Restore</a>
+                </td>
+                <td>On the southwest riverbank
+                </td>
+                <td align="center"><b><span><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;R&nbsp;</span></a></span><span><a
+                                href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;B&nbsp;</span></a></span></b>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="14">2F
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div><a href="/wiki/File:Bag_PP_Up_Sprite.png" title="PP Up"></a></div>
+                </td>
+                <td><a href="/wiki/PP_Up" title="PP Up">PP Up</a>
+                </td>
+                <td>East side of the floor
+                </td>
+                <td align="center"><b><span><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;R&nbsp;</span></a></span><span><a
+                                href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;B&nbsp;</span></a></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div><a href="/wiki/File:Bag_Full_Restore_Sprite.png" title="Full Restore"></a></div>
+                </td>
+                <td><a href="/wiki/Full_Restore" title="Full Restore">Full Restore</a>
+                </td>
+                <td>Center of the floor
+                </td>
+                <td align="center"><b><span><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;R&nbsp;</span></a></span><span><a
+                                href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;B&nbsp;</span></a></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div><a href="/wiki/File:Bag_Ultra_Ball_Sprite.png" title="Ultra Ball"></a></div>
+                </td>
+                <td><a href="/wiki/Ultra_Ball" title="Ultra Ball">Ultra Ball</a>
+                </td>
+                <td>In the southwest corner
+                </td>
+                <td align="center"><b><span><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;R&nbsp;</span></a></span><span><a
+                                href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;B&nbsp;</span></a></span></b>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="14">B1F
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div><a href="/wiki/File:Bag_Max_Revive_Sprite.png" title="Max Revive"></a></div>
+                </td>
+                <td><a href="/wiki/Max_Revive" title="Max Revive">Max Revive</a>
+                </td>
+                <td>On the north-central rock platform
+                </td>
+                <td align="center"><b><span><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;R&nbsp;</span></a></span><span><a
+                                href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;B&nbsp;</span></a></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div><a href="/wiki/File:Bag_Ultra_Ball_Sprite.png" title="Ultra Ball"></a></div>
+                </td>
+                <td><a href="/wiki/Ultra_Ball" title="Ultra Ball">Ultra Ball</a> ×2
+                </td>
+                <td>
+                    <ul>
+                        <li>On the central rock platform</li>
+                        <li>On the crumbling boulder on the northeast platform <i>(hidden)</i></li>
+                    </ul>
+                </td>
+                <td align="center"><b><span><a href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;R&nbsp;</span></a></span><span><a
+                                href="/wiki/Appendix:Pok%C3%A9mon_Red_and_Blue_Walkthrough"
+                                title="Appendix:Pokémon Red and Blue Walkthrough"><span>&nbsp;B&nbsp;</span></a></span></b>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">&nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellspacing="2" cellpadding="4" border="1" align="center">
+
+        <tbody>
+            <tr>
+                <th colspan="2">
+                </th>
+            </tr>
+            <tr>
+                <td width="auto" align="center">
+                    <div><a href="/wiki/File:Bag_HM_Water_Sprite.png" title="HM Water"></a></div>
+                </td>
+                <td width="auto" align="center"><a href="http://bulbapedia.bulbagarden.net/wiki/Surf_(move)"
+                        title="bulbapedia:Surf (move)">Surf</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>
+                    <div><a href="/wiki/Psychic_(type)" title="Psychic"></a></div>
+                </td>
+                <td>
+                    <div><a href="/wiki/Normal_(type)" title="Normal"></a></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table width="100%" border="1">
+
+        <tbody>
+            <tr>
+                <td width="50%">
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Swift_(move)"
+                                        title="bulbapedia:Swift (move)"><span>Swift</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <div>
+                            <table width="100%" cellspacing="1" cellpadding="2" border="1">
+
+                                <tbody>
+                                    <tr>
+                                        <td>&nbsp;
+                                        </td>
+                                        <td rowspan="2"><span>—</span>
+                                        </td>
+                                        <td>&nbsp;
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div data-orientation="horizontal">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td width="50%">
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Barrier_(move)"
+                                        title="bulbapedia:Barrier (move)"><span>Barrier</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <div>
+                            <table width="100%" cellspacing="1" cellpadding="2" border="1">
+
+                                <tbody>
+                                    <tr>
+                                        <td>&nbsp;
+                                        </td>
+                                        <td rowspan="2"><span>—</span>
+                                        </td>
+                                        <td>&nbsp;
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div data-orientation="horizontal">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Psychic_(move)"
+                                        title="bulbapedia:Psychic (move)"><span>Psychic</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <div>
+                            <table width="100%" cellspacing="1" cellpadding="2" border="1">
+
+                                <tbody>
+                                    <tr>
+                                        <td>&nbsp;
+                                        </td>
+                                        <td rowspan="2"><span>—</span>
+                                        </td>
+                                        <td>&nbsp;
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div data-orientation="horizontal">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <table width="100%" border="1">
+
+                        <tbody>
+                            <tr>
+                                <td><a href="http://bulbapedia.bulbagarden.net/wiki/Recover_(move)"
+                                        title="bulbapedia:Recover (move)"><span>Recover</span></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <div>
+                            <table width="100%" cellspacing="1" cellpadding="2" border="1">
+
+                                <tbody>
+                                    <tr>
+                                        <td>&nbsp;
+                                        </td>
+                                        <td rowspan="2"><span>—</span>
+                                        </td>
+                                        <td>&nbsp;
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div data-orientation="horizontal">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    debugger eval code:1:9
+
+</body>
+
+</html>
