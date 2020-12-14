@@ -117,9 +117,9 @@ Documentation/Walkthrough
 
 [ ] Tasks
 
-    [ ] Create /images directory.
+    [x] Create /images directory.
 
-    [ ] An easy way to capture all of the routes/towns is go to
+    [x] An easy way to capture all of the routes/towns is go to
         https://www.serebii.net/pokearth/maps/kanto-rb/1.png and
         keep incrementing the numbers, downloading each image.
 
@@ -136,16 +136,16 @@ Documentation/Walkthrough
 
     [ ] Start writing guide by adding all sections and images.
         For each "part":
-        - Copy over the sections, trainers, items, wilds, etc.
+        x Copy over the sections, trainers, items, wilds, etc.
           - Color each "thing" so they can be organized correctly
-        - BREAK each section with:
+        x BREAK each section with:
         ****
         PART N START
         ****
-        - NOTE: Order should be Blue, Green, Red, Orange
-        - NOTE: Not all Blue trainers copied over (ex in part11)
-        - Go through each tab and organize the sections
-          - Remove redundant headers as needed
+        x NOTE: Order should be Blue, Green, Red, Orange
+        x NOTE: Not all Blue trainers copied over (ex in part11)
+        x Go through each tab and organize the sections
+          x Remove redundant headers as needed
         - Header for trainers table
           [options="header"]
           |====
@@ -153,9 +153,10 @@ Documentation/Walkthrough
           (...)
           |====
 
-    [ ] Add all gyms
-    [ ] Add SS Anne
-    [ ] Double check you added everything
+    [x] Add all gyms
+    [x] Add SS Anne
+    [x] Rocket hideout (include items)
+    [x] Double check you added everything
 
     [x] Narrow down our data to scrape/process
         - Collect all "wanted" HTML stuff.

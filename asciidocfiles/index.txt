@@ -5,12 +5,14 @@ Pokemon Walkthrough
 
 == Pallet Town ==
 
+image::images/pallettown.png["Pallet Town",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Potion |R  B
-|N |Pokédex |R  B
-|N |Town Map |R  B
+|ID |Item |Games| Description
+|N |Potion |R  B |PC in Player's room
+|N |Pokédex |R  B |Professor Oak after delivering his parcel
+|N |Town Map |R  B |Blue's sister, after getting Pokedex
 |====
 
 |====
@@ -1923,7 +1925,7 @@ Seaking (LV 31)
 Seaking (LV 31)
 |====
 
-== Route 10 (North) ==
+== Route 10 ==
 
 |====
 |N |PokéManiac |1,500 |Rhyhorn (LV 29), +
