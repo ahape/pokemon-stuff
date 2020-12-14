@@ -1,0 +1,2674 @@
+Pokemon Walkthrough
+===================
+:toc2:
+:numbered:
+
+== Pallet Town ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Potion |R  B
+|N |Pokédex |R  B
+|N |Town Map |R  B
+|====
+
+|====
+|N |Blue |175 |Charmander (LV 5)
+|N |Blue |175 |Squirtle (LV 5)
+|N |Blue |175 |Bulbasaur (LV 5)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Poliwag |R |B |Fishing,Super Rod |15 |50%
+|Tentacool |R |B |Fishing,Super Rod |15 |50%
+|====
+
+== Route 1 ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Potion |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |2-5 |55%
+|Rattata |R |B |Grass |2-4 |45%
+|====
+
+== Viridian City ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Oak's Parcel |R  B
+|N |Potion |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Poliwag |R |B |Fishing,Super Rod |15 |50%
+|Tentacool |R |B |Fishing,Super Rod |15 |50%
+|====
+
+[options="header"]
+|====
+|Item |Price
+|Poké Ball |200
+|Antidote |100
+|Parlyz Heal |200
+|Burn Heal |250
+|====
+
+== Route 22 ==
+
+|====
+|N |Blue |280 |Pidgey (LV 9), +
+Charmander (LV 8)
+|N |Blue |280 |Pidgey (LV 9), +
+Squirtle (LV 8)
+|N |Blue |280 |Pidgey (LV 9), +
+Bulbasaur (LV 8)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Rattata |R |B |Grass |2-4 |50%
+|Spearow |R |B |Grass |3-5 |10%
+|Nidoran♀ |R |B |Grass |3-4,2-4 |5%,35%
+|Nidoran♂ |R |B |Grass |2-4,3-4 |35%,5%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Poliwag |R |B |Fishing,Super Rod |15 |50%
+|Goldeen |R |B |Fishing,Super Rod |15 |50%
+|====
+
+== Route 2 ==
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Caterpie  2+|B |Grass |3-5 |15%
+|Weedle  2+|R |Grass |3-5 |15%
+|Pidgey |R |B |Grass |3-5 |40%
+|Rattata |R |B |Grass |2-5 |45%
+|====
+
+== Viridian Forest ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Antidote |R  B
+|N |Antidote |R  B
+|N |Potion |R  B
+|N |Potion |R  B
+|N |Poké Ball |R  B
+|====
+
+|====
+|N |Bug Catcher |260 |Weedle (LV 6), +
+Caterpie (LV 6)
+|N |Bug Catcher |70 |Weedle (LV 7), +
+Kakuna (LV 7), +
+Weedle (LV 7)
+|N |Bug Catcher |90 |Weedle (LV 9)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Caterpie |R |B |Grass |3,3-5 |5%,45%
+|Metapod |R |B |Grass |4,4-6 |5%,40%
+|Weedle |R |B |Grass |3-5,3 |45%,5%
+|Kakuna |R |B |Grass |4-6,4 |40%,5%
+|Pikachu |R |B |Grass |3-5 |5%
+|====
+
+****
+PART 1 END
+****
+
+== Pewter City ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |TM34 (Bide) |R  B
+|====
+
+[options="header"]
+|====
+|Item |Price
+|Poké Ball |200
+|Potion |300
+|Escape Rope |550
+|Antidote |100
+|Burn Heal |250
+|Awakening |200
+|Parlyz Heal |200
+|====
+
+== Pewter Gym ==
+
+|====
+|N |Jr. Trainer♂ |220 |Diglett (LV 11), +
+Sandshrew (LV 11)
+|N |Brock |1,386 |Geodude (LV 12), +
+Onix (LV 14)
+|====
+
+== Route 3 ==
+
+|====
+|N |Lass |135 |Pidgey (LV 9), +
+Pidgey (LV 9)
+|N |Bug Catcher |100 |Caterpie (LV 10), +
+Weedle (LV 10), +
+Caterpie (LV 10)
+|N |Youngster |165 |Rattata (LV 11), +
+Ekans (LV 11)
+|N |Bug Catcher |90 |Weedle (LV 9), +
+Kakuna (LV 9), +
+Caterpie (LV 9), +
+Metapod (LV 9)
+|N |Lass |150 |Rattata (LV 10), +
+Nidoran♂ (LV 10)
+|N |Youngster |210 |Spearow (LV 14)
+|N |Bug Catcher |110 |Caterpie (LV 11), +
+Metapod (LV 11)
+|N |Lass |210 |Jigglypuff (LV 14)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |6-8 |50%
+|Spearow |R |B |Grass |5-8 |40%
+|Jigglypuff |R |B |Grass |3, 5, 7 |10%
+|====
+
+== Route 4 (West) ==
+
+A Magikarp if you want it ($500).
+
+== Mt. Moon ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |TM12 (Water Gun) |R  B
+|N |Potion ×2 |R  B
+|N |Rare Candy |R  B
+|N |Escape Rope |R  B
+|N |Moon Stone |R  B
+|N |HP Up |R  B
+|N |TM01 (Mega Punch) |R  B
+|N |Ether |R  B
+|N |Moon Stone |R  B
+|N |Helix Fossil
+or
+Dome Fossil |R  B
+|====
+
+|====
+|N |Bug Catcher |110 |Weedle (LV 11), +
+Kakuna (LV 11)
+|N |Lass |210 |Clefairy (LV 14)
+|N |Rocket |330 |Sandshrew (LV 11), +
+Rattata (LV 11), +
+Zubat (LV 11)
+|N |Super Nerd |275 |Magnemite (LV 11), +
+Voltorb (LV 11)
+|N |Bug Catcher |100 |Caterpie (LV 10), +
+Metapod (LV 10), +
+Caterpie (LV 10)
+|N |Lass |165 |Oddish (LV 11), +
+Bellsprout (LV 11)
+|N |Rocket |360 |Zubat (LV 11), +
+Ekans (LV 11)
+|N |Youngster |150 |Rattata (LV 10), +
+Rattata (LV 10), +
+Zubat (LV 10)
+|N |Hiker |350 |Geodude (LV 10), +
+Geodude (LV 10), +
+Onix (LV 10)
+|N |Rocket |480 |Raticate (LV 16)
+|N |Rocket |390 |Rattata (LV 13), +
+Zubat (LV 13)
+|N |Super Nerd |300 |Grimer (LV 12), +
+Voltorb (LV 12), +
+Koffing (LV 12)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|1F
+|Clefairy |R |B |Cave |8 |1%
+|Zubat |R |B |Cave |6-11 |79%
+|Paras |R |B |Cave |8 |5%
+|Geodude |R |B |Cave |8, 10 |15%
+6+|B1F
+|Clefairy |R |B |Cave |9 |4%
+|Zubat |R |B |Cave |7-11 |60%
+|Paras |R |B |Cave |10 |10%
+|Geodude |R |B |Cave |7-9 |26%
+6+|B2F
+|Clefairy |R |B |Cave |10, 12 |6%
+|Zubat |R |B |Cave |9-12 |54%
+|Paras |R |B |Cave |10, 12 |15%
+|Geodude |R |B |Cave |9-10 |25%
+|====
+
+== Route 4 (East) ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Great Ball |R  B
+|N |TM04 (Whirlwind) |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Rattata |R |B |Grass |8, 10, 12 |45%
+|Spearow |R |B |Grass |8, 10, 12 |30%
+|Ekans  2+|R |Grass |6, 8, 10, 12 |25%
+|Sandshrew  2+|B |Grass |6, 8, 10, 12 |25%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Psyduck |R |B |Fishing,Super Rod |15 |33%
+|Krabby |R |B |Fishing,Super Rod |15 |33%
+|Goldeen |R |B |Fishing,Super Rod |15 |33%
+|====
+
+****
+PART 2 END
+****
+
+== Cerulean City ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Rare Candy |R  B
+|N |TM11 (BubbleBeam) |R  B
+|N |TM28 (Dig) |R  B
+|N |Bicycle |R  B
+|====
+
+|====
+|N |Rocket |510 |Machop (LV 17), +
+Drowzee (LV 17)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Trade
+|Jynx |R |B |Trade,Poliwhirl |The same as the Traded Pokémon |One
+|====
+
+[options="header"]
+|====
+|Item |Price
+|Poké Ball |200
+|Potion |300
+|Repel |350
+|Antidote |100
+|Burn Heal |250
+|Awakening |200
+|Parlyz Heal |200
+|====
+
+== Cerulean Gym ==
+
+|====
+|N |Swimmer |80 |Horsea (LV 16), +
+Shellder (LV 16)
+|N |Jr. Trainer♀ |380 |Goldeen (LV 19)
+|N |Misty |2,079 |Staryu (LV 18), +
+Starmie (LV 21)
+|====
+
+== Route 24 ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Nugget |R  B
+|N |TM45 (Thunder Wave) |R  B
+|====
+
+|====
+|N |Blue |595 |Pidgeotto (LV 18), +
+Abra (LV 15), +
+Rattata (LV 15), +
+Charmander (LV 17)
+|N |Blue |595 |Pidgeotto (LV 18), +
+Abra (LV 15), +
+Rattata (LV 15), +
+Squirtle (LV 17)
+|N |Blue |595 |Pidgeotto (LV 18), +
+Abra (LV 15), +
+Rattata (LV 15), +
+Bulbasaur (LV 17)
+|N |Bug Catcher |140 |Caterpie (LV 14), +
+Weedle (LV 14)
+|N |Lass |210 |Pidgey (LV 14), +
+Nidoran♀ (LV 14)
+|N |Youngster |210 |Rattata (LV 14), +
+Ekans (LV 14), +
+Zubat (LV 14)
+|N |Lass |240 |Pidgey (LV 16), +
+Nidoran♀ (LV 16)
+|N |Jr. Trainer♂ |360 |Mankey (LV 18)
+|N |Rocket |450 |Ekans (LV 15), +
+Zubat (LV 15)
+|N |Jr. Trainer♂ |280 |Rattata (LV 14), +
+Ekans (LV 14)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Caterpie  2+|B |Grass |7 |25%
+|Metapod  2+|B |Grass |8 |15%
+|Weedle  2+|R |Grass |7 |25%
+|Kakuna  2+|R |Grass |8 |15%
+|Pidgey |R |B |Grass |12-13 |20%
+|Oddish  2+|R |Grass |12-14 |25%
+|Abra |R |B |Grass |8, 10, 12 |15%
+|Bellsprout  2+|B |Grass |12-14 |25%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Psyduck |R |B |Fishing,Super Rod |15 |33%
+|Krabby |R |B |Fishing,Super Rod |15 |33%
+|Goldeen |R |B |Fishing,Super Rod |15 |33%
+|====
+
+== Route 25 ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Elixir |R  B
+|N |TM19 (Seismic Toss) |R  B
+|N |Ether |R  B
+|N |S.S. Ticket |R  B
+|====
+
+|====
+|N |Hiker |525 |Machop (LV 15), +
+Geodude (LV 15)
+|N |Hiker |595 |Onix (LV 17)
+|N |Youngster |225 |Rattata (LV 15), +
+Spearow (LV 15)
+|N |Youngster |255 |Slowpoke (LV 17)
+|N |Lass |225 |Nidoran♂ (LV 15), +
+Nidoran♀ (LV 15)
+|N |Hiker |455 |Geodude (LV 13), +
+Geodude (LV 13), +
+Machop (LV 13), +
+Geodude (LV 13)
+|N |Jr. Trainer♂ |280 |Rattata (LV 14), +
+Ekans (LV 14)
+|N |Youngster |210 |Ekans (LV 14), +
+Sandshrew (LV 14)
+|N |Lass |195 |Oddish (LV 13), +
+Pidgey (LV 13), +
+Oddish (LV 13)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Caterpie |R |B |Grass |8 |1%,25%
+|Metapod |R |B |Grass |7,9 |4%,15%
+|Weedle |R |B |Grass |8 |25%,1%
+|Kakuna |R |B |Grass |9,7 |15%,4%
+|Pidgey |R |B |Grass |13 |15%
+|Oddish  2+|R |Grass |12-14 |25%
+|Abra |R |B |Grass |10, 12 |15%
+|Bellsprout  2+|B |Grass |12-14 |25%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Psyduck |R |B |Fishing,Super Rod |15 |33%
+|Krabby |R |B |Fishing,Super Rod |15 |33%
+|Goldeen |R |B |Fishing,Super Rod |15 |33%
+|====
+
+== Route 5 ==
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |13, 15-16 |35%
+|Oddish  2+|R |Grass |13, 15-16 |40%
+|Meowth  2+|B |Grass |10, 12, 14, 16 |25%
+|Mankey  2+|R |Grass |10, 12, 14, 16 |25%
+|Bellsprout  2+|B |Grass |13, 15-16 |40%
+|====
+
+== Underground Path ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Full Restore |R  B
+|N |X Special |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Trade
+|Nidoran♀ |R |B |Trade,Nidoran♂ |The same as the traded Pokémon |One
+|====
+
+== Route 6 ==
+
+|====
+|N |Bug Catcher |160 |Weedle (LV 16), +
+Caterpie (LV 16), +
+Weedle (LV 16)
+|N |Jr. Trainer♂ |400 |Squirtle (LV 20)
+|N |Jr. Trainer♀ |320 |Rattata (LV 16), +
+Pikachu (LV 16)
+|N |Bug Catcher |200 |Butterfree (LV 20)
+|N |Jr. Trainer♀ |320 |Pidgey (LV 16), +
+Pidgey (LV 16), +
+Pidgey (LV 16)
+|N |Jr. Trainer♂ |320 |Spearow (LV 16), +
+Raticate (LV 16)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |13, 15-16 |35%
+|Oddish  2+|R |Grass |13, 15-16 |40%
+|Meowth  2+|B |Grass |10, 12, 14, 16 |25%
+|Mankey  2+|R |Grass |10, 12, 14, 16 |25%
+|Bellsprout  2+|B |Grass |13, 15-16 |40%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Shellder |R |B |Fishing,Super Rod |15 |50%
+|Krabby |R |B |Fishing,Super Rod |15 |50%
+|====
+
+****
+PART 3 END
+****
+
+== Vermilion City ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Old Rod |R  B
+|N |Bike Voucher |R  B
+|N |Max Ether |R  B
+|N |TM24 (Thunderbolt) |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Shellder |R |B |Fishing,Super Rod |15 |50%
+|Krabby |R |B |Fishing,Super Rod |15 |50%
+6+|Trade
+|Farfetch'd |R |B |Trade,Spearow |The same as the Traded Pokémon |One
+|====
+
+[options="header"]
+|====
+|Item |Price
+|Poké Ball |200
+|Super Potion |700
+|Ice Heal |250
+|Awakening |200
+|Parlyz Heal |200
+|Repel |350
+|====
+
+== S.S. Anne ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Max Potion |R  B
+|N |Ether |R  B
+|N |TM44 (Rest) |R  B
+|N |Hyper Potion |R  B
+|N |TM08 (Body Slam) |R  B
+|N |Great Ball |R  B
+|N |Max Ether |R  B
+|N |Rare Candy |R  B
+|N |HM01 (Cut) |R  B
+|====
+
+|====
+|N |Gentleman |1,260 |Growlithe (LV 18), +
+Growlithe (LV 18)
+|N |Gentleman |1,330 |Nidoran♂ (LV 19), +
+Nidoran♀ (LV 19)
+|N |Lass |270 |Pidgey (LV 18), +
+Nidoran♀ (LV 18)
+|N |Youngster |315 |Nidoran♂ (LV 21)
+|N |Sailor |510 |Horsea (LV 17), +
+Shellder (LV 17), +
+Tentacool (LV 17)
+|N |Sailor |630 |Shellder (LV 21)
+|N |Sailor |510 |Horsea (LV 17), +
+Horsea (LV 17), +
+Horsea (LV 17)
+|N |Sailor |540 |Tentacool (LV 18), +
+Staryu (LV 18)
+|N |Fisherman |595 |Tentacool (LV 17), +
+Staryu (LV 17), +
+Shellder (LV 17)
+|N |Sailor |600 |Machop (LV 20)
+|N |Sailor |510 |Machop (LV 17), +
+Tentacool (LV 17)
+|N |Sailor |540 |Machop (LV 18), +
+Shellder (LV 18)
+|N |Fisherman |595 |Goldeen (LV 17), +
+Goldeen (LV 17), +
+Tentacool (LV 17)
+|N |Gentleman |1,610 |Pikachu (LV 23)
+|N |Gentleman |1,190 |Growlithe (LV 17), +
+Ponyta (LV 17)
+|N |Lass |270 |Rattata (LV 18), +
+Pikachu (LV 18)
+|N |Blue |1,330 |Pidgeotto (LV 19), +
+Raticate (LV 16), +
+Kadabra (LV 18), +
+Charmeleon (LV 20)
+|N |Blue |1,330 |Pidgeotto (LV 19), +
+Raticate (LV 16), +
+Kadabra (LV 18), +
+Wartortle (LV 20)
+|N |Blue |1,330 |Pidgeotto (LV 19), +
+Raticate (LV 16), +
+Kadabra (LV 18), +
+Ivysaur (LV 20)
+|====
+
+== Vermilion Gym ==
+
+|====
+|N |Sailor |630 |Pikachu (LV 21), +
+Pikachu (LV 21)
+|N |Rocker |500 |Voltorb (LV 20), +
+Magnemite (LV 20), +
+Voltorb (LV 20)
+|N |Gentleman |1,610 |Pikachu (LV 23)
+|N |Lt. Surge |2,376 |Voltorb (LV 21), +
+Pikachu (LV 18), +
+Raichu (LV 24)
+|====
+
+****
+PART 4 END
+****
+
+== Route 11 ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Itemfinder |R  B
+|N |Escape Rope |R  B
+|====
+
+|====
+|N |Youngster |315 |Ekans (LV 21)
+|N |Gambler |1,260 |Poliwag (LV 18), +
+Horsea (LV 18)
+|N |Youngster |270 |Nidoran♂ (LV 18), +
+Nidorino (LV 18)
+|N |Gambler |1,260 |Bellsprout (LV 18), +
+Oddish (LV 18)
+|N |Youngster |285 |Sandshrew (LV 19), +
+Zubat (LV 19)
+|N |Engineer |1,050 |Magnemite (LV 21)
+|N |Engineer |900 |Magnemite (LV 18), +
+Magnemite (LV 18), +
+Magneton (LV 18)
+|N |Gambler |1,260 |Growlithe (LV 18), +
+Vulpix (LV 18)
+|N |Youngster |255 |Rattata (LV 17), +
+Rattata (LV 17), +
+Raticate (LV 17)
+|N |Gambler |1,260 |Voltorb (LV 18), +
+Magnemite (LV 18)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Spearow |R |B |Grass |13, 15, 17 |30%
+|Ekans  2+|R |Grass |12, 14-15 |45%
+|Sandshrew  2+|B |Grass |12, 14-15 |45%
+|Drowzee |R |B |Grass |9, 11, 13, 15 |25%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Shellder |R |B |Fishing,Super Rod |15 |50%
+|Krabby |R |B |Fishing,Super Rod |15 |50%
+6+|Trade
+|Nidorino |R |B |Trade,Nidorina |The same as the traded Pokémon |One
+|====
+
+== Diglett's Cave ==
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Diglett |R |B |Cave |15-22 |95%
+|Dugtrio |R |B |Cave |29, 31 |5%
+|====
+
+== Route 2 ==
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Trade
+|Mr. Mime |R |B |Trade,Abra |The same as the traded Pokémon |One
+|====
+
+== Route 9 ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |TM30 (Teleport) |R  B
+|N |Ether |R  B
+|====
+
+|====
+|N |Jr. Trainer♀ |360 |Oddish (LV 18), +
+Bellsprout (LV 18), +
+Oddish (LV 18), +
+Bellsprout (LV 18)
+|N |Hiker |700 |Machop (LV 20), +
+Onix (LV 20)
+|N |Jr. Trainer♂ |420 |Growlithe (LV 21), +
+Charmander (LV 21)
+|N |Bug Catcher |190 |Beedrill (LV 19), +
+Beedrill (LV 19)
+|N |Hiker |735 |Geodude (LV 21), +
+Onix (LV 21)
+|N |Bug Catcher |200 |Caterpie (LV 20), +
+Weedle (LV 20), +
+Venonat (LV 20)
+|N |Jr. Trainer♂ |380 |Rattata (LV 19), +
+Diglett (LV 19), +
+Ekans (LV 19), +
+Sandshrew (LV 19)
+|N |Hiker |700 |Geodude (LV 20), +
+Geodude (LV 20), +
+Machop (LV 20)
+|N |Jr. Trainer♀ |460 |Meowth (LV 23)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Rattata |R |B |Grass |14, 16-17 |45%
+|Spearow |R |B |Grass |13, 16-17 |30%
+|Ekans  2+|R |Grass |11, 13, 15, 17 |25%
+|Sandshrew  2+|B |Grass |11, 13, 15, 17 |25%
+|====
+
+== Route 10 (North) ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Super Potion |R  B
+|====
+
+|====
+|N |Jr. Trainer♀ |400 |Pikachu (LV 20), +
+Clefairy (LV 20)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Spearow |R |B |Grass |13, 16-17 |30%
+|Ekans  2+|R |Grass |11, 13, 15, 17 |25%
+|Sandshrew  2+|B |Grass |11, 13, 15, 17 |25%
+|Voltorb |R |B |Grass |14, 16-17 |45%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Poliwhirl |R |B |Fishing,Super Rod |23 |50%
+|Slowpoke |R |B |Fishing,Super Rod |15 |50%
+|====
+
+****
+PART 5 END
+****
+
+== Rock Tunnel ==
+
+|====
+|N |PokéManiac |1,150 |Cubone (LV 23), +
+Slowpoke (LV 23)
+|N |PokéManiac |1,250 |Slowpoke (LV 25)
+|N |Jr. Trainer♀ |440 |Oddish (LV 22), +
+Bulbasaur (LV 22)
+|N |PokéManiac |1,100 |Charmander (LV 22), +
+Cubone (LV 22)
+|N |Hiker |875 |Geodude (LV 25)
+|N |Hiker |700 |Machop (LV 20), +
+Onix (LV 20)
+|N |Hiker |665 |Geodude (LV 19), +
+Machop (LV 19), +
+Geodude (LV 19), +
+Geodude (LV 19)
+|N |Hiker |700 |Onix (LV 20), +
+Onix (LV 20), +
+Geodude (LV 20)
+|N |Hiker |735 |Geodude (LV 21), +
+Graveler (LV 21)
+|N |Jr. Trainer♀ |420 |Jigglypuff (LV 21), +
+Pidgey (LV 21), +
+Meowth (LV 21)
+|N |Hiker |735 |Geodude (LV 21), +
+Geodude (LV 21), +
+Graveler (LV 21)
+|N |PokéManiac |1,000 |Slowpoke (LV 20), +
+Slowpoke (LV 20), +
+Slowpoke (LV 20)
+|N |Jr. Trainer♀ |440 |Bellsprout (LV 22), +
+Clefairy (LV 22)
+|N |Jr. Trainer♀ |380 |Pidgey (LV 19), +
+Rattata (LV 19), +
+Rattata (LV 19), +
+Bellsprout (LV 19)
+|N |Jr. Trainer♀ |400 |Meowth (LV 20), +
+Oddish (LV 20), +
+Pidgey (LV 20)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|1F
+|Zubat |R |B |Cave |15-18 |55%
+|Machop |R |B |Cave |15-17 |15%
+|Geodude |R |B |Cave |16-17 |25%
+|Onix |R |B |Cave |13-15 |5%
+6+|B1F
+|Zubat |R |B |Cave |16-18 |50%
+|Machop |R |B |Cave |15-17 |15%
+|Geodude |R |B |Cave |16-18 |26%
+|Onix |R |B |Cave |13-17 |9%
+|====
+
+== Route 10 (South) ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Max Ether |R  B
+|====
+
+|====
+|N |Jr. Trainer♀ |420 |Pidgey (LV 21), +
+Pidgeotto (LV 21)
+|N |Hiker |735 |Geodude (LV 21), +
+Onix (LV 21)
+|N |Hiker |684 |Onix (LV 19), +
+Graveler (LV 19)
+|N |PokéManiac |960 |Cubone (LV 20), +
+Slowpoke (LV 20)
+|====
+
+== Lavender Town ==
+
+[options="header"]
+|====
+|Item |Price
+|Great Ball |600
+|Super Potion |700
+|Revive |1500
+|Escape Rope |550
+|Super Repel |500
+|Antidote |100
+|Burn Heal |250
+|Ice Heal |250
+|Parlyz Heal |200
+|====
+
+== Route 8 ==
+
+|====
+|N |Lass |330 |Clefairy (LV 22), +
+Clefairy (LV 22)
+|N |Gambler |1,680 |Growlithe (LV 24), +
+Vulpix (LV 24)
+|N |Super Nerd |550 |Grimer (LV 22), +
+Muk (LV 22), +
+Grimer (LV 22)
+|N |Lass |345 |Nidoran♀ (LV 23), +
+Nidorina (LV 23)
+|N |Super Nerd |650 |Koffing (LV 26)
+|N |Lass |360 |Meowth (LV 24), +
+Meowth (LV 24), +
+Meowth (LV 24)
+|N |Lass |285 |Pidgey (LV 19), +
+Rattata (LV 19), +
+Nidoran♂ (LV 19), +
+Meowth (LV 19), +
+Pikachu (LV 19)
+|N |Gambler |1,540 |Poliwag (LV 22), +
+Poliwag (LV 22), +
+Poliwhirl (LV 22)
+|N |Super Nerd |500 |Voltorb (LV 20), +
+Koffing (LV 20), +
+Voltorb (LV 20), +
+Magnemite (LV 20)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |18, 20 |35%
+|Ekans  2+|R |Grass |17, 19 |20%
+|Sandshrew  2+|B |Grass |17, 19 |20%
+|Vulpix  2+|B |Grass |15-18 |20%
+|Meowth  2+|B |Grass |18, 20 |25%
+|Mankey  2+|R |Grass |18, 20 |25%
+|Growlithe  2+|R |Grass |15-18 |20%
+|====
+
+== Route 7 ==
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |19, 22 |35%
+|Vulpix  2+|B |Grass |18, 20 |10%
+|Oddish  2+|R |Grass |19, 22 |25%
+|Meowth  2+|B |Grass |17-20 |30%
+|Mankey  2+|R |Grass |17-20 |30%
+|Growlithe  2+|R |Grass |18, 20 |10%
+|Bellsprout  2+|B |Grass |19, 22 |25%
+|====
+
+****
+PART 6 END
+****
+
+== Celadon City ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |PP Up |R  B
+|N |TM18 (Counter) |R  B
+|N |TM13 (Ice Beam) |R  B
+|N |TM48 (Rock Slide) |R  B
+|N |TM49 (Tri Attack) |R  B
+|N |TM41 (Softboiled) |R  B
+|N |Coin Case |R  B
+|N |TM21 (Mega Drain) |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Poliwhirl |R |B |Fishing,Super Rod |23 |50%
+|Slowpoke |R |B |Fishing,Super Rod |15 |50%
+|====
+
+== Celadon Department Store ==
+
+[options="header"]
+|====
+|Item |Price
+2+|2F (left)
+|Great Ball |600
+|Super Potion |700
+|Revive |1500
+|Antidote |100
+|Burn Heal |250
+|Ice Heal |250
+|Awakening |200
+|Parlyz Heal |200
+|Super Repel |500
+2+|2F (right)
+|TM32 (Double Team) |1000
+|TM33 (Reflect) |1000
+|TM02 (Razor Wind) |2000
+|TM07 (Horn Drill) |2000
+|TM37 (Egg Bomb) |2000
+|TM01 (Mega Punch) |3000
+|TM05 (Mega Kick) |3000
+|TM09 (Take Down) |3000
+|TM17 (Submission) |3000
+2+|4F
+|Poké Doll |1000
+|Fire Stone |2100
+|ThunderStone |2100
+|Water Stone |2100
+|Leaf Stone |2100
+2+|5F (left)
+|HP Up |9800
+|Protein |9800
+|Iron |9800
+|Calcium |9800
+|Carbos |9800
+2+|5F (right)
+|X Attack |500
+|X Defend |550
+|X Speed |350
+|X Special |350
+|X Accuracy |950
+|Guard Spec. |700
+|Dire Hit |650
+2+|6F (vending machine)
+|Fresh Water |200
+|Soda Pop |300
+|Lemonade |350
+|====
+
+== Celadon Gym ==
+
+|====
+|N |Lass |345 |Bellsprout (LV 23), +
+Weepinbell (LV 23)
+|N |Beauty |1,470 |Oddish (LV 21), +
+Bellsprout (LV 21), +
+Oddish (LV 21), +
+Bellsprout (LV 21)
+|N |Jr. Trainer♀ |480 |Bulbasaur (LV 24), +
+Ivysaur (LV 24)
+|N |Beauty |1,820 |Exeggcute (LV 26)
+|N |Cooltrainer♀ |840 |Weepinbell (LV 24), +
+Gloom (LV 24), +
+Ivysaur (LV 24)
+|N |Lass |345 |Oddish (LV 23), +
+Gloom (LV 23)
+|N |Beauty |1,820 |Bellsprout (LV 24), +
+Bellsprout (LV 24)
+|N |Erika |2,871 |Victreebel (LV 29), +
+Tangela (LV 24), +
+Vileplume (LV 29)
+|====
+
+== Game Corner ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |10 Coins |R  B
+|N |20 Coins |R  B
+|N |20 Coins |R  B
+|N |100 Coins |R  B
+|N |10 Coins |R  B
+|N |20 Coins |R  B
+|N |10 Coins |R  B
+|N |10 Coins |R  B
+|N |10 Coins |R  B
+|N |20 Coins |R  B
+|N |10 Coins |R  B
+|N |20 Coins |R  B
+|N |10 Coins |R  B
+|N |10 Coins |R  B
+|====
+
+|====
+|N |Rocket |600 |Raticate (LV 20), +
+Zubat (LV 20)
+|====
+
+[options="header"]
+|====
+|Item |Price
+|50 Coins |1000
+2+|Left window - R
+|Abra (Lv.9) |180C
+|Clefairy (Lv.8) |500C
+|Nidorina (Lv.17) |1200C
+2+|Left window - B
+|Abra (Lv.6) |120C
+|Clefairy (Lv.12) |750C
+|Nidorino (Lv.17) |1200C
+2+|Middle window - R
+|Dratini (Lv.18) |2800C
+|Scyther (Lv.25) |5500C
+|Porygon (Lv.26) |9999C
+2+|Middle window - B
+|Pinsir (Lv.20) |2500C
+|Dratini (Lv.24) |4600C
+|Porygon (Lv.18) |6500C
+2+|Right window
+|TM23 (Dragon Rage) |3300C
+|TM15 (Hyper Beam) |5500C
+|TM50 (Substitute) |7700C
+|====
+
+== Rocket Hideout ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |PP Up |R  B
+|N |Escape Rope |R  B
+|N |Hyper Potion |R  B
+|N |Moon Stone |R  B
+|N |Nugget |R  B
+|N |TM07 (Horn Drill) |R  B
+|N |Super Potion |R  B
+|N |Nugget |R  B
+|N |TM10 (Double-Edge) |R  B
+|N |Rare Candy |R  B
+|N |HP Up |R  B
+|N |TM02 (Razor Wind) |R  B
+|N |Lift Key |R  B
+|N |Iron |R  B
+|N |Silph Scope |R  B
+|N |Super Potion |R  B
+|====
+
+|====
+|N |Rocket |630 |Drowzee (LV 21), +
+Machop (LV 21)
+|N |Rocket |630 |Raticate (LV 21), +
+Raticate (LV 21)
+|N |Rocket |510 |Zubat (LV 17), +
+Koffing (LV 17), +
+Grimer (LV 17), +
+Zubat (LV 17), +
+Raticate (LV 17)
+|N |Rocket |570 |Rattata (LV 19), +
+Raticate (LV 19), +
+Raticate (LV 19), +
+Rattata (LV 19)
+|N |Rocket |600 |Grimer (LV 20), +
+Koffing (LV 20), +
+Koffing (LV 20)
+|N |Rocket |630 |Machop (LV 21), +
+Machop (LV 21)
+|N |Rocket |600 |Rattata (LV 20), +
+Raticate (LV 20), +
+Drowzee (LV 20)
+|N |Rocket |630 |Koffing (LV 21), +
+Zubat (LV 21)
+|N |Rocket |660 |Grimer (LV 22), +
+Koffing (LV 22)
+|N |Rocket |690 |Sandshrew (LV 23), +
+Ekans (LV 23), +
+Sandslash (LV 23)
+|N |Rocket |690 |Ekans (LV 23), +
+Sandshrew (LV 23), +
+Arbok (LV 23)
+|N |Giovanni |2,871 |Onix (LV 25), +
+Rhyhorn (LV 24), +
+Kangaskhan (LV 29)
+|====
+
+== Pokémon Tower ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Escape Rope |R  B
+|N |Elixir |R  B
+|N |Awakening |R  B
+|N |HP Up |R  B
+|N |Elixir |R  B
+|N |Nugget |R  B
+|N |X Accuracy |R  B
+|N |Rare Candy |R  B
+|====
+
+|====
+|N |Blue |1,625 |Pidgeotto (LV 25), +
+Exeggcute (LV 23), +
+Gyarados (LV 22), +
+Kadabra (LV 20), +
+Charmeleon (LV 25)
+|N |Blue |1,625 |Pidgeotto (LV 25), +
+Growlithe (LV 23), +
+Exeggcute (LV 22), +
+Kadabra (LV 20), +
+Wartortle (LV 25)
+|N |Blue |1,625 |Pidgeotto (LV 25), +
+Gyarados (LV 23), +
+Growlithe (LV 22), +
+Kadabra (LV 20), +
+Ivysaur (LV 25)
+|N |Channeler |720 |Gastly (LV 24)
+|N |Channeler |660 |Gastly (LV 22)
+|N |Channeler |690 |Gastly (LV 23)
+|N |Channeler |690 |Gastly (LV 23), +
+Gastly (LV 23)
+|N |Channeler |660 |Gastly (LV 22)
+|N |Channeler |720 |Gastly (LV 24)
+|N |Channeler |660 |Gastly (LV 22)
+|N |Channeler |690 |Haunter (LV 23)
+|N |Channeler |720 |Gastly (LV 24)
+|N |Channeler |660 |Haunter (LV 22)
+|N |Channeler |660 |Gastly (LV 22), +
+Gastly (LV 22), +
+Gastly (LV 22)
+|N |Channeler |720 |Gastly (LV 24)
+|N |Channeler |720 |Gastly (LV 24)
+|N |Rocket |750 |Zubat (LV 25), +
+Zubat (LV 25), +
+Golbat (LV 25)
+|N |Rocket |780 |Koffing (LV 26), +
+Drowzee (LV 26)
+|N |Rocket |690 |Zubat (LV 23), +
+Rattata (LV 23), +
+Raticate (LV 23), +
+Zubat (LV 23)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|3F
+|Gastly |R |B |3F |18-24 |90%
+|Haunter |R |B |3F |25 |1%
+|Cubone |R |B |3F |20-22 |9%
+6+|4F-5F
+|Gastly |R |B |4F-5F |18-24 |86%
+|Haunter |R |B |4F-5F |25 |5%
+|Cubone |R |B |4F-5F |20-22 |9%
+6+|6F
+|Gastly |R |B |6F |19-24 |85%
+|Haunter |R |B |6F |26-28 |6%
+|Cubone |R |B |6F |22-24 |9%
+6+|7F
+|Gastly |R |B |7F |20-24 |75%
+|Haunter |R |B |7F |28-30 |15%
+|Cubone |R |B |7F |22-24 |10%
+|====
+
+****
+PART 7 END
+****
+
+== Route 16 ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |HM02 (Fly) |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Rattata |R |B |Grass |18, 20, 22 |30%
+|Raticate |R |B |Grass |23, 25 |5%
+|Spearow |R |B |Grass |20, 22 |40%
+|Doduo |R |B |Grass |18, 20, 22 |25%
+|====
+
+|====
+|N |Biker |580 |Grimer (LV 29), +
+Koffing (LV 29)
+|N |Cue Ball |700 |Machop (LV 28), +
+Mankey (LV 28), +
+Machop (LV 28)
+|N |Cue Ball |725 |Mankey (LV 29), +
+Machop (LV 29)
+|N |Biker |660 |Weezing (LV 33)
+|N |Cue Ball |825 |Machop (LV 33)
+|N |Biker |520 |Grimer (LV 26), +
+Grimer (LV 26), +
+Grimer (LV 26), +
+Grimer (LV 26)
+|====
+
+== Route 17 ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Rare Candy |R  B
+|N |Full Restore |R  B
+|N |Max Revive |R  B
+|N |PP Up |R  B
+|N |Max Elixir |R  B
+|====
+
+|====
+|N |Cue Ball |725 |Machop (LV 29), +
+Machoke (LV 29)
+|N |Cue Ball |725 |Mankey (LV 29), +
+Primeape (LV 29)
+|N |Biker |560 |Weezing (LV 28), +
+Koffing (LV 28), +
+Weezing (LV 28)
+|N |Biker |660 |Muk (LV 33)
+|N |Cue Ball |650 |Mankey (LV 26), +
+Mankey (LV 26), +
+Machoke (LV 26), +
+Machop (LV 26)
+|N |Biker |580 |Voltorb (LV 29), +
+Voltorb (LV 29)
+|N |Cue Ball |825 |Machoke (LV 33)
+|N |Cue Ball |725 |Primeape (LV 29), +
+Machoke (LV 29)
+|N |Biker |580 |Weezing (LV 29), +
+Muk (LV 29)
+|N |Biker |500 |Koffing (LV 25), +
+Weezing (LV 25), +
+Koffing (LV 25), +
+Koffing (LV 25), +
+Weezing (LV 25)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Raticate |R |B |Grass |25, 27, 29 |30%
+|Spearow |R |B |Grass |20, 22 |40%
+|Fearow |R |B |Grass |25, 27 |5%
+|Doduo |R |B |Grass |24, 26, 28 |25%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Tentacool |R |B |Fishing,Super Rod |5 |25%
+|Krabby |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Magikarp |R |B |Fishing,Super Rod |15 |25%
+|====
+
+== Route 18 ==
+
+|====
+|N |Bird Keeper |650 |Spearow (LV 26), +
+Spearow (LV 26), +
+Fearow (LV 26), +
+Spearow (LV 26)
+|N |Bird Keeper |725 |Spearow (LV 29), +
+Fearow (LV 29)
+|N |Bird Keeper |850 |Dodrio (LV 34)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Raticate |R |B |Grass |25, 29 |20%
+|Spearow |R |B |Grass |20, 22 |40%
+|Fearow |R |B |Grass |25, 27, 29 |15%
+|Doduo |R |B |Grass |24, 26, 28 |25%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Tentacool |R |B |Fishing,Super Rod |5 |25%
+|Krabby |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Magikarp |R |B |Fishing,Super Rod |15 |25%
+6+|Trade
+|Lickitung |R |B |Trade,Slowbro |The same as the traded Pokémon |One
+|====
+
+== Fuchsia City ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Good Rod |R  B
+|N |HM04 (Strength) |R  B
+|N |Rare Candy |R  B
+|N |TM06 (Toxic) |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Krabby |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Seaking |R |B |Fishing,Super Rod |23 |25%
+|Magikarp |R |B |Fishing,Super Rod |15 |25%
+|====
+
+[options="header"]
+|====
+|Item |Price
+|Ultra Ball |1200
+|Great Ball |600
+|Super Potion |700
+|Revive |1500
+|Full Heal |600
+|Super Repel |500
+|====
+
+== Fuchsia Gym ==
+
+|====
+|N |Juggler |1,190 |Drowzee (LV 34), +
+Kadabra (LV 34)
+|N |Juggler |1,330 |Hypno (LV 38)
+|N |Juggler |1,085 |Drowzee (LV 31), +
+Drowzee (LV 31), +
+Kadabra (LV 31), +
+Drowzee (LV 31)
+|N |Tamer |1,320 |Arbok (LV 33), +
+Sandslash (LV 33), +
+Arbok (LV 33)
+|N |Tamer |1,360 |Sandslash (LV 34), +
+Arbok (LV 34)
+|N |Juggler |1,190 |Drowzee (LV 34), +
+Hypno (LV 34)
+|N |Koga |4,300 |Koffing (LV 37), +
+Muk (LV 39), +
+Koffing (LV 37), +
+Weezing (LV 43)
+|====
+
+== Safari Zone ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Nugget |R  B
+|N |Carbos |R  B
+|N |TM37 (Egg Bomb) |R  B
+|N |Max Potion |R  B
+|N |Full Restore |R  B
+|N |TM40 (Skull Bash) |R  B
+|N |Protein |R  B
+|N |Max Revive |R  B
+|N |Max Potion |R  B
+|N |Gold Teeth |R  B
+|N |TM32 (Double Team) |R  B
+|N |Revive |R  B
+|N |HM03 (Surf) |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Entrance
+|Nidoran♀  2+|B |Grass |22 |25%
+|Nidorina |R |B |Grass |31 |5%,10%
+|Nidoran♂  2+|R |Grass |22 |25%
+|Nidorino |R |B |Grass |31 |10%,5%
+|Parasect |R |B |Grass |30 |5%
+|Venonat |R |B |Grass |22 |15%
+|Exeggcute |R |B |Grass |24-25 |20%
+|Rhyhorn |R |B |Grass |25 |15%
+|Chansey |R |B |Grass |23 |1%
+|Scyther  2+|R |Grass |23 |4%
+|Pinsir  2+|B |Grass |23 |4%
+6+|Entrance - Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Psyduck |R |B |Fishing,Super Rod |15 |25%
+|Slowpoke |R |B |Fishing,Super Rod |15 |25%
+|Krabby |R |B |Fishing,Super Rod |15 |25%
+|Dratini |R |B |Fishing,Super Rod |15 |25%
+6+|Area 1
+|Nidoran♀ |R |B |Grass |24 |5%,25%
+|Nidorina  2+|B |Grass |33 |10%
+|Nidoran♂ |R |B |Grass |24 |25%,5%
+|Nidorino  2+|R |Grass |33 |10%
+|Paras |R |B |Grass |22 |15%
+|Parasect |R |B |Grass |25 |5%
+|Doduo |R |B |Grass |26 |15%
+|Exeggcute |R |B |Grass |23, 25 |20%
+|Kangaskhan |R |B |Grass |25 |4%
+|Scyther  2+|R |Grass |28 |1%
+|Pinsir  2+|B |Grass |28 |1%
+6+|Area 1 - Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Psyduck |R |B |Fishing,Super Rod |15 |25%
+|Slowpoke |R |B |Fishing,Super Rod |15 |25%
+|Krabby |R |B |Fishing,Super Rod |15 |25%
+|Dratini |R |B |Fishing,Super Rod |15 |25%
+6+|Area 2
+|Nidoran♀  2+|B |Grass |22 |25%
+|Nidorina |R |B |Grass |30 |5%,10%
+|Nidoran♂  2+|R |Grass |22 |25%
+|Nidorino |R |B |Grass |30 |10%,5%
+|Paras |R |B |Grass |23 |15%
+|Venomoth |R |B |Grass |32 |5%
+|Exeggcute |R |B |Grass |25, 27 |20%
+|Rhyhorn |R |B |Grass |26 |15%
+|Chansey |R |B |Grass |26 |4%
+|Tauros |R |B |Grass |28 |1%
+6+|Area 2 - Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Psyduck |R |B |Fishing,Super Rod |15 |25%
+|Slowpoke |R |B |Fishing,Super Rod |15 |25%
+|Krabby |R |B |Fishing,Super Rod |15 |25%
+|Dratini |R |B |Fishing,Super Rod |15 |25%
+6+|Area 3
+|Nidoran♀ |R |B |Grass |25 |5%,25%
+|Nidorina  2+|B |Grass |33 |10%
+|Nidoran♂ |R |B |Grass |25 |25%,5%
+|Nidorino  2+|R |Grass |33 |10%
+|Venonat |R |B |Grass |23 |15%
+|Venomoth |R |B |Grass |31 |5%
+|Doduo |R |B |Grass |26 |15%
+|Exeggcute |R |B |Grass |24, 26 |20%
+|Kangaskhan |R |B |Grass |28 |1%
+|Tauros |R |B |Grass |26 |4%
+6+|Area 3 - Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Psyduck |R |B |Fishing,Super Rod |15 |25%
+|Slowpoke |R |B |Fishing,Super Rod |15 |25%
+|Krabby |R |B |Fishing,Super Rod |15 |25%
+|Dratini |R |B |Fishing,Super Rod |15 |25%
+|====
+
+****
+PART 8 END
+****
+
+== Route 12 ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |TM39 (Swift) |R  B
+|N |TM16 (Pay Day) |R  B
+|N |Super Rod |R  B
+|N |Hyper Potion |R  B
+|N |Iron |R  B
+|====
+
+|====
+|N |Fisherman |770 |Goldeen (LV 22), +
+Poliwag (LV 22), +
+Goldeen (LV 22)
+|N |Fisherman |840 |Tentacool (LV 24), +
+Goldeen (LV 24)
+|N |Fisherman |945 |Goldeen (LV 27)
+|N |Fisherman |735 |Poliwag (LV 21), +
+Shellder (LV 21), +
+Goldeen (LV 21), +
+Horsea (LV 21)
+|N |Rocker |725 |Voltorb (LV 29), +
+Electrode (LV 29)
+|N |Fisherman |840 |Magikarp (LV 24), +
+Magikarp (LV 24)
+|N |Jr. Trainer♂ |840 |Nidoran♂ (LV 29), +
+Nidorino (LV 29)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |23, 25, 27 |35%
+|Oddish  2+|R |Grass |22, 24, 26 |40%
+|Gloom  2+|R |Grass |28, 30 |5%
+|Venonat |R |B |Grass |24, 26 |20%
+|Bellsprout  2+|B |Grass |22, 24, 26 |40%
+|Weepinbell  2+|B |Grass |28, 30 |5%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Tentacool |R |B |Fishing,Super Rod |5 |25%
+|Krabby |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Magikarp |R |B |Fishing,Super Rod |15 |25%
+|====
+
+== Route 13 ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Calcium |R  B
+|N |PP Up |R  B
+|====
+
+|====
+|N |Jr. Trainer♀ |560 |Goldeen (LV 28), +
+Poliwag (LV 28), +
+Horsea (LV 28)
+|N |Bird Keeper |725 |Pidgey (LV 29), +
+Pidgeotto (LV 29)
+|N |Jr. Trainer♀ |480 |Pidgey (LV 24), +
+Meowth (LV 24), +
+Rattata (LV 24), +
+Pikachu (LV 24), +
+Meowth (LV 24)
+|N |Beauty |1,890 |Rattata (LV 27), +
+Pikachu (LV 27), +
+Rattata (LV 27)
+|N |Beauty |2,030 |Clefairy (LV 29), +
+Meowth (LV 29)
+|N |Jr. Trainer♀ |600 |Poliwag (LV 30), +
+Poliwag (LV 30)
+|N |Jr. Trainer♀ |540 |Pidgey (LV 27), +
+Meowth (LV 27), +
+Pidgey (LV 27), +
+Pidgeotto (LV 27)
+|N |Bird Keeper |650 |Pidgey (LV 26), +
+Pidgeotto (LV 26), +
+Spearow (LV 26), +
+Fearow (LV 26)
+|N |Bird Keeper |625 |Spearow (LV 25), +
+Pidgey (LV 25), +
+Pidgey (LV 25), +
+Spearow (LV 25), +
+Spearow (LV 25)
+|N |Biker |560 |Koffing (LV 28), +
+Koffing (LV 28), +
+Koffing (LV 28)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |25, 27 |30%
+|Oddish  2+|R |Grass |22, 24, 26 |40%
+|Gloom  2+|R |Grass |28, 30 |5%
+|Venonat |R |B |Grass |24, 26 |20%
+|Bellsprout  2+|B |Grass |22, 24, 26 |40%
+|Weepinbell  2+|B |Grass |28, 30 |5%
+|Ditto |R |B |Grass |25 |5%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Tentacool |R |B |Fishing,Super Rod |5 |25%
+|Krabby |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Magikarp |R |B |Fishing,Super Rod |15 |25%
+|====
+
+== Route 14 ==
+
+|====
+|N |Bird Keeper |650 |Pidgey (LV 26), +
+Spearow (LV 26), +
+Pidgey (LV 26), +
+Fearow (LV 26)
+|N |Bird Keeper |700 |Pidgey (LV 28), +
+Doduo (LV 28), +
+Pidgeotto (LV 28)
+|N |Bird Keeper |700 |Spearow (LV 28), +
+Doduo (LV 28), +
+Fearow (LV 28)
+|N |Bird Keeper |725 |Pidgeotto (LV 29), +
+Fearow (LV 29)
+|N |Biker |580 |Koffing (LV 29), +
+Muk (LV 29)
+|N |Bird Keeper |825 |Farfetch'd (LV 33)
+|N |Biker |580 |Koffing (LV 29), +
+Grimer (LV 29)
+|N |Biker |560 |Grimer (LV 28), +
+Grimer (LV 28), +
+Koffing (LV 28)
+|N |Biker |520 |Koffing (LV 26), +
+Koffing (LV 26), +
+Grimer (LV 26), +
+Koffing (LV 26)
+|N |Bird Keeper |725 |Spearow (LV 29), +
+Fearow (LV 29)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |26 |15%
+|Pidgeotto |R |B |Grass |28, 30 |5%
+|Oddish  2+|R |Grass |22, 24, 26 |40%
+|Gloom  2+|R |Grass |30 |5%
+|Venonat |R |B |Grass |24, 26 |20%
+|Bellsprout  2+|B |Grass |22, 24, 26 |40%
+|Weepinbell  2+|B |Grass |30 |5%
+|Ditto |R |B |Grass |23 |15%
+|====
+
+== Route 15 ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |TM20 (Rage) |R  B
+|N |Exp. All |R  B
+|====
+
+|====
+|N |Jr. Trainer♀ |660 |Clefairy (LV 33)
+|N |Beauty |2,030 |Pidgeotto (LV 29), +
+Wigglytuff (LV 29)
+|N |Jr. Trainer♀ |580 |Pikachu (LV 29), +
+Raichu (LV 29)
+|N |Biker |500 |Koffing (LV 25), +
+Koffing (LV 25), +
+Weezing (LV 25), +
+Koffing (LV 25), +
+Grimer (LV 25)
+|N |Biker |560 |Koffing (LV 28), +
+Grimer (LV 28), +
+Weezing (LV 28)
+|N |Beauty |2,030 |Bulbasaur (LV 29), +
+Ivysaur (LV 29)
+|N |Jr. Trainer♀ |560 |Gloom (LV 28), +
+Oddish (LV 28), +
+Oddish (LV 28)
+|N |Bird Keeper |700 |Dodrio (LV 28), +
+Doduo (LV 28), +
+Doduo (LV 28)
+|N |Bird Keeper |650 |Pidgeotto (LV 26), +
+Farfetch'd (LV 26), +
+Doduo (LV 26), +
+Pidgey (LV 26)
+|N |Jr. Trainer♀ |580 |Bellsprout (LV 29), +
+Oddish (LV 29), +
+Tangela (LV 29)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |25, 27 |20%
+|Pidgeotto |R |B |Grass |29 |5%
+|Oddish  2+|R |Grass |22, 24, 26 |35%
+|Gloom  2+|R |Grass |28, 30 |5%
+|Venonat |R |B |Grass |24, 26 |30%
+|Bellsprout  2+|B |Grass |22, 24, 26 |35%
+|Weepinbell  2+|B |Grass |28, 30 |5%
+|Ditto |R |B |Grass |25 |5%
+|====
+
+****
+PART 9 END
+****
+
+== Route 19 ==
+
+|====
+|N |Swimmer |150 |Tentacool (LV 30), +
+Shellder (LV 30)
+|N |Swimmer |145 |Goldeen (LV 29), +
+Horsea (LV 29), +
+Staryu (LV 29)
+|N |Swimmer |150 |Horsea (LV 30), +
+Horsea (LV 30)
+|N |Swimmer |150 |Poliwag (LV 30), +
+Poliwhirl (LV 30)
+|N |Swimmer |135 |Horsea (LV 27), +
+Tentacool (LV 27), +
+Tentacool (LV 27), +
+Goldeen (LV 27)
+|N |Swimmer |150 |Goldeen (LV 29), +
+Shellder (LV 29), +
+Seaking (LV 29)
+|N |Swimmer |135 |Tentacool (LV 27), +
+Tentacool (LV 27), +
+Staryu (LV 27), +
+Horsea (LV 27), +
+Tentacruel (LV 27)
+|N |Beauty |2,100 |Goldeen (LV 30), +
+Seaking (LV 30)
+|N |Beauty |1,890 |Poliwag (LV 27), +
+Goldeen (LV 27), +
+Seaking (LV 27), +
+Goldeen (LV 27), +
+Poliwag (LV 27)
+|N |Beauty |2,030 |Staryu (LV 29), +
+Staryu (LV 29), +
+Staryu (LV 29)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Surfing
+|Tentacool |R |B |Surfing |5-40 |100%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Shellder |R |B |Fishing,Super Rod |15 |25%
+|Horsea |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Staryu |R |B |Fishing,Super Rod |15 |25%
+|====
+
+== Route 20 ==
+
+|====
+|N |Swimmer |155 |Shellder (LV 31), +
+Cloyster (LV 31)
+|N |Swimmer |140 |Horsea (LV 28), +
+Horsea (LV 28), +
+Seadra (LV 28), +
+Horsea (LV 28)
+|N |Beauty |2,100 |Seadra (LV 30), +
+Horsea (LV 30), +
+Seadra (LV 30)
+|N |Beauty |2,450 |Seaking (LV 35)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Surfing
+|Tentacool |R |B |Surfing |5-40 |100%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Shellder |R |B |Fishing,Super Rod |15 |25%
+|Horsea |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Staryu |R |B |Fishing,Super Rod |15 |25%
+|====
+
+== Seafoam Islands ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Nugget |R  B
+|N |Max Elixir |R  B
+|N |Ultra Ball |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|1F
+|Zubat |R |B |Cave |21 |10%
+|Golbat |R |B |Cave |29 |5%
+|Psyduck |R |B |Cave |28,30 |5%,15%
+|Golduck  2+|R |Cave |38 |1%
+|Slowpoke |R |B |Cave |30,28 |15%,5%
+|Slowbro  2+|B |Cave |38 |1%
+|Seel |R |B |Cave |30 |25%
+|Shellder  2+|R |Cave |28, 30 |19%
+|Krabby  2+|B |Cave |28, 30 |20%
+|Horsea  2+|R |Cave |28, 30 |20%
+|Staryu  2+|B |Cave |28, 30 |19%
+6+|B1F
+|Psyduck  2+|B |Cave |28, 30 |15%
+|Slowpoke  2+|R |Cave |28, 30 |15%
+|Seel |R |B |Cave |28, 30 |15%
+|Dewgong |R |B |Cave |38 |4%
+|Shellder |R |B |Cave |32,30 |15%,25%
+|Krabby  2+|B |Cave |30, 32 |25%
+|Kingler  2+|B |Cave |37 |1%
+|Horsea  2+|R |Cave |30, 32 |25%
+|Seadra  2+|R |Cave |37 |1%
+|Staryu |R |B |Cave |30,32 |25%,15%
+6+|B2F
+|Golbat |R |B |Cave |30 |4%
+|Psyduck  2+|B |Cave |30, 32 |25%
+|Golduck  2+|B |Cave |37 |1%
+|Slowpoke  2+|R |Cave |30, 32 |25%
+|Slowbro  2+|R |Cave |37 |1%
+|Seel |R |B |Cave |30, 32 |40%
+|Shellder |R |B |Cave |28,30 |5%,10%
+|Krabby  2+|B |Cave |28, 30 |15%
+|Horsea  2+|R |Cave |28, 30 |15%
+|Staryu |R |B |Cave |30,28 |10%,5%
+6+|B3F
+|Psyduck  2+|B |Cave |31, 33 |40%
+|Slowpoke  2+|R |Cave |31, 33 |40%
+|Seel |R |B |Cave |31, 33 |25%
+|Dewgong |R |B |Cave |37 |1%
+|Shellder  2+|R |Cave |29, 31 |15%
+|Krabby  2+|B |Cave |29, 31 |15%
+|Kingler  2+|B |Cave |39 |4%
+|Horsea  2+|R |Cave |29, 31 |15%
+|Seadra  2+|R |Cave |39 |4%
+|Staryu  2+|B |Cave |29, 31 |15%
+6+|B3F - Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Shellder |R |B |Fishing,Super Rod |15 |25%
+|Horsea |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Staryu |R |B |Fishing,Super Rod |15 |25%
+6+|B4F
+|Golbat |R |B |Cave |32 |1%
+|Psyduck  2+|B |Cave |29, 31 |15%
+|Golduck  2+|B |Cave |39 |4%
+|Slowpoke  2+|R |Cave |29, 31 |15%
+|Slowbro  2+|R |Cave |39 |4%
+|Seel |R |B |Cave |29, 31 |15%
+|Shellder  2+|R |Cave |31, 33 |25%
+|Krabby  2+|B |Cave |31, 33 |40%
+|Horsea  2+|R |Cave |31, 33 |40%
+|Staryu  2+|B |Cave |31, 33 |25%
+6+|B4F - Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Shellder |R |B |Fishing,Super Rod |15 |25%
+|Horsea |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Staryu |R |B |Fishing,Super Rod |15 |25%
+|====
+
+== Route 20 ==
+
+|====
+|N |Jr. Trainer♀ |600 |Tentacool (LV 30), +
+Horsea (LV 30), +
+Seel (LV 30)
+|N |Swimmer |175 |Staryu (LV 35)
+|N |Bird Keeper |750 |Fearow (LV 30), +
+Fearow (LV 30), +
+Pidgeotto (LV 30)
+|N |Beauty |2,100 |Shellder (LV 30), +
+Shellder (LV 30), +
+Cloyster (LV 30)
+|N |Jr. Trainer♀ |620 |Goldeen (LV 31), +
+Seaking (LV 31)
+|N |Beauty |2,170 |Poliwag (LV 31), +
+Seaking (LV 31)
+|====
+
+== Route 10 (North) ==
+
+|====
+|N |PokéManiac |1,500 |Rhyhorn (LV 29), +
+Lickitung (LV 29)
+|====
+
+== Power Plant ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Carbos |R  B
+|N |TM33 (Reflect) |R  B
+|N |Max Elixir |R  B
+|N |TM25 (Thunder) |R  B
+|N |Rare Candy |R  B
+|N |HP Up |R  B
+|N |PP Up |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pikachu |R |B |Walking |20, 24 |25%
+|Raichu  2+|B |Walking |33, 36 |5%
+|Magnemite |R |B |Walking |21, 23 |25%
+|Magneton |R |B |Walking |32, 35 |10%
+|Voltorb |R |B |Walking |21, 23 |35%
+|Electabuzz  2+|R |Walking |33, 36 |5%
+6+|Special Pokémon
+|Voltorb |R |B |Fake item |40 |Six
+|Electrode |R |B |Fake item |43 |Two
+|====
+
+****
+PART 10 END
+****
+
+== Saffron City ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |TM29 (Psychic) |R  B
+|N |TM31 (Mimic) |R  B
+|N |Nugget |R  B
+|N |TM46 (Psywave) |R  B
+|====
+
+[options="header"]
+|====
+|Item |Price
+|Great Ball |600
+|Hyper Potion |1500
+|Max Repel |700
+|Escape Rope |550
+|Full Heal |600
+|Revive |1500
+|====
+
+== Fighting Dojo ==
+
+|====
+|N |Blackbelt |775 |Machop (LV 31), +
+Mankey (LV 31), +
+Primeape (LV 31)
+|N |Blackbelt |800 |Machop (LV 32), +
+Machoke (LV 32)
+|N |Blackbelt |900 |Primeape (LV 36)
+|N |Blackbelt |775 |Mankey (LV 31), +
+Mankey (LV 31), +
+Primeape (LV 31)
+|N |Blackbelt |925 |Hitmonlee (LV 37), +
+Hitmonchan (LV 37)
+|====
+
+== Silph Co. ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |TM36 (Selfdestruct) |R  B
+|N |Hyper Potion |R  B
+|N |Full Heal |R  B
+|N |Max Revive |R  B
+|N |Escape Rope |R  B
+|N |Card Key |R  B
+|N |Protein |R  B
+|N |TM09 (Take Down) |R  B
+|N |Elixir |R  B
+|N |HP Up |R  B
+|N |X Accuracy |R  B
+|N |TM03 (Swords Dance) |R  B
+|N |Calcium |R  B
+|N |Max Potion |R  B
+|N |Carbos |R  B
+|N |Rare Candy |R  B
+|N |TM26 (Earthquake) |R  B
+|N |Master Ball |R  B
+|====
+
+|====
+|N |Rocket |750 |Golbat (LV 25), +
+Zubat (LV 25), +
+Zubat (LV 25), +
+Raticate (LV 25), +
+Zubat (LV 25)
+|N |Rocket |870 |Cubone (LV 29), +
+Zubat (LV 29)
+|N |Scientist |1,400 |Magnemite (LV 28), +
+Voltorb (LV 28), +
+Magneton (LV 28)
+|N |Rocket |780 |Raticate (LV 26), +
+Golbat (LV 26), +
+Arbok (LV 26), +
+Koffing (LV 26)
+|N |Rocket |840 |Weezing (LV 28), +
+Golbat (LV 28), +
+Koffing (LV 28)
+|N |Scientist |1,450 |Grimer (LV 29), +
+Electrode (LV 29)
+|N |Rocket |1,015 |Hypno (LV 33)
+|N |Scientist |1,300 |Magneton (LV 26), +
+Magnemite (LV 26), +
+Koffing (LV 26), +
+Weezing (LV 26)
+|N |Juggler |1,160 |Kadabra (LV 29), +
+Mr. Mime (LV 29)
+|N |Rocket |990 |Arbok (LV 33)
+|N |Scientist |1,300 |Grimer (LV 26), +
+Weezing (LV 26), +
+Koffing (LV 26), +
+Weezing (LV 26)
+|N |Rocket |840 |Raticate (LV 28), +
+Hypno (LV 28), +
+Raticate (LV 28)
+|N |Scientist |1,450 |Electrode (LV 29), +
+Weezing (LV 29)
+|N |Rocket |840 |Ekans (LV 28), +
+Zubat (LV 28), +
+Cubone (LV 28)
+|N |Rocket |870 |Machop (LV 29), +
+Drowzee (LV 29)
+|N |Scientist |1,650 |Electrode (LV 33)
+|N |Rocket |870 |Machop (LV 29), +
+Machoke (LV 29)
+|N |Scientist |1,250 |Voltorb (LV 25), +
+Koffing (LV 25), +
+Magneton (LV 25), +
+Magnemite (LV 25), +
+Koffing (LV 25)
+|N |Rocket |840 |Zubat (LV 28), +
+Zubat (LV 28), +
+Golbat (LV 28)
+|N |Rocket |870 |Cubone (LV 29), +
+Cubone (LV 29)
+|N |Rocket |840 |Sandshrew (LV 29), +
+Sandslash (LV 29)
+|N |Rocket |780 |Raticate (LV 26), +
+Arbok (LV 26), +
+Koffing (LV 26), +
+Golbat (LV 26)
+|N |Scientist |1,450 |Electrode (LV 29), +
+Muk (LV 29)
+|N |Rocket |840 |Golbat (LV 28), +
+Drowzee (LV 28), +
+Hypno (LV 28)
+|N |Scientist |1,400 |Voltorb (LV 28), +
+Magneton (LV 28), +
+Koffing (LV 28)
+|N |Rocket |840 |Drowzee (LV 28), +
+Grimer (LV 28), +
+Machop (LV 28)
+|N |Scientist |1,450 |Magnemite (LV 29), +
+Koffing (LV 29)
+|N |Rocket |840 |Machoke (LV 33)
+|N |Rocket |750 |Rattata (LV 25), +
+Zubat (LV 25), +
+Ekans (LV 25), +
+Rattata (LV 25), +
+Rattata (LV 25)
+|N |Blue |2,600 |Pidgeot (LV 37), +
+Exeggcute (LV 38), +
+Gyarados (LV 35), +
+Alakazam (LV 35), +
+Charizard (LV 40)
+|N |Blue |2,600 |Pidgeot (LV 37), +
+Growlithe (LV 38), +
+Exeggcute (LV 35), +
+Alakazam (LV 35), +
+Blastoise (LV 40)
+|N |Blue |2,600 |Pidgeot (LV 37), +
+Growlithe (LV 38), +
+Exeggcute (LV 35), +
+Alakazam (LV 35), +
+Venusaur (LV 40)
+|N |Rocket |960 |Cubone (LV 32), +
+Drowzee (LV 32), +
+Marowak (LV 32)
+|N |Giovanni |4,059 |Nidorino (LV 37), +
+Kangaskhan (LV 35), +
+Rhyhorn (LV 37), +
+Nidoqueen (LV 41)
+|====
+
+== Saffron Gym ==
+
+|====
+|N |Psychic |330 |Slowpoke (LV 33), +
+Slowpoke (LV 33), +
+Slowbro (LV 33)
+|N |Psychic |340 |Mr. Mime (LV 34), +
+Kadabra (LV 34)
+|N |Channeler |1,140 |Haunter (LV 38)
+|N |Psychic |380 |Slowbro (LV 38)
+|N |Channeler |1,020 |Gastly (LV 34), +
+Haunter (LV 34)
+|N |Channeler |990 |Gastly (LV 33), +
+Gastly (LV 33), +
+Haunter (LV 33)
+|N |Psychic |310 |Kadabra (LV 31), +
+Slowpoke (LV 31), +
+Mr. Mime (LV 31), +
+Kadabra (LV 31)
+|N |Sabrina |4,257 |Kadabra (LV 38), +
+Mr. Mime (LV 37), +
+Venomoth (LV 38), +
+Alakazam (LV 43)
+|====
+
+****
+PART 11 END
+****
+
+== Route 21 ==
+
+|====
+|N |Fisherman |945 |Magikarp (LV 27), +
+Magikarp (LV 27), +
+Magikarp (LV 27), +
+Magikarp (LV 27), +
+Magikarp (LV 27), +
+Magikarp (LV 27)
+|N |Fisherman |980 |Seaking (LV 28), +
+Goldeen (LV 28), +
+Seaking (LV 28), +
+Seaking (LV 28)
+|N |Swimmer |165 |Seadra (LV 33), +
+Tentacruel (LV 33)
+|N |Cue Ball |775 |Tentacool (LV 31), +
+Tentacool (LV 31), +
+Tentacruel (LV 31)
+|N |Fisherman |1,085 |Shellder (LV 31), +
+Cloyster (LV 31)
+|N |Fisherman |1,155 |Goldeen (LV 33), +
+Seaking (LV 33)
+|N |Swimmer |185 |Starmie (LV 37)
+|N |Swimmer |160 |Poliwhirl (LV 32), +
+Tentacool (LV 32), +
+Seadra (LV 32)
+|N |Swimmer |165 |Staryu (LV 33), +
+Wartortle (LV 33)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Pidgey |R |B |Grass |21, 23 |25%
+|Pidgeotto |R |B |Grass |30, 32 |15%
+|Rattata |R |B |Grass |21, 23 |35%
+|Raticate |R |B |Grass |30 |15%
+|Tangela |R |B |Grass |28, 30, 32 |10%
+6+|Surfing
+|Tentacool |R |B |Surfing |5-40 |100%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Shellder |R |B |Fishing,Super Rod |15 |25%
+|Horsea |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Staryu |R |B |Fishing,Super Rod |15 |25%
+|====
+
+== Cinnabar Island ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |TM35 (Metronome) |R  B
+|N |TM38 (Fire Blast) |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Shellder |R |B |Fishing,Super Rod |15 |25%
+|Horsea |R |B |Fishing,Super Rod |15 |25%
+|Goldeen |R |B |Fishing,Super Rod |15 |25%
+|Staryu |R |B |Fishing,Super Rod |15 |25%
+6+|Fossil Pokémon
+|Omanyte |R |B |Revive,Helix Fossil |30 |100%
+|Kabuto |R |B |Revive,Dome Fossil |30 |100%
+|Aerodactyl |R |B |Revive,Old Amber |30 |100%
+6+|Trade
+|Electrode |R |B |Trade,Raichu |The same as the traded Pokémon |One
+|Tangela |R |B |Trade,Venonat |The same as the traded Pokémon |One
+|Seel |R |B |Trade,Ponyta |The same as the traded Pokémon |One
+|====
+
+[options="header"]
+|====
+|Item |Price
+|Ultra Ball |1200
+|Great Ball |600
+|Hyper Potion |1500
+|Max Repel |700
+|Escape Rope |550
+|Full Heal |600
+|Revive |1500
+|====
+
+== Pokémon Mansion ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Moon Stone |R  B
+|N |Escape Rope |R  B
+|N |Carbos |R  B
+|N |Calcium |R  B
+|N |Max Potion |R  B
+|N |Max Revive |R  B
+|N |Iron |R  B
+|N |Rare Candy ×2 |R  B
+|N |TM22 (SolarBeam) |R  B
+|N |Full Restore |R  B
+|N |Secret Key |R  B
+|N |TM14 (Blizzard) |R  B
+|====
+
+|====
+|N |Burglar |3,420 |Ninetales (LV 38)
+|N |Burglar |3,060 |Charmander (LV 34), +
+Charmeleon (LV 34)
+|N |Scientist |1,650 |Magnemite (LV 33), +
+Magneton (LV 33), +
+Voltorb (LV 33)
+|N |Scientist |1,450 |Electrode (LV 29), +
+Weezing (LV 29)
+|N |Burglar |3,060 |Growlithe (LV 34), +
+Ponyta (LV 34)
+|N |Scientist |1,700 |Magnemite (LV 34), +
+Electrode (LV 34)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|1F
+|Vulpix  2+|B |1F |34 |10%
+|Growlithe  2+|R |1F |34 |10%
+|Ponyta |R |B |1F |28, 30, 32, 34 |40%
+|Grimer |R |B |1F |30,30, 32 |5%,40%
+|Muk |R |B |1F |39,37 |1%,4%
+|Koffing |R |B |1F |30, 32,30 |40%,5%
+|Weezing |R |B |1F |37,39 |4%,1%
+6+|2F
+|Vulpix  2+|B |2F |32 |25%
+|Growlithe  2+|R |2F |32 |25%
+|Ponyta |R |B |2F |28, 30, 32 |25%
+|Grimer |R |B |2F |30,30, 34 |5%,40%
+|Muk |R |B |2F |37,39 |1%,4%
+|Koffing |R |B |2F |30, 34,30 |40%,5%
+|Weezing |R |B |2F |39,37 |4%,1%
+6+|3F
+|Vulpix  2+|B |3F |33 |15%
+|Growlithe  2+|R |3F |33 |15%
+|Ponyta |R |B |3F |32, 34, 36,32, 36 |24%,14%
+|Grimer |R |B |3F |34,31, 35 |5%,40%
+|Muk |R |B |3F |42,38, 40 |1%,15%
+|Koffing |R |B |3F |31, 35,34 |40%,5%
+|Weezing |R |B |3F |38, 40,42 |15%,1%
+|Magmar  2+|B |3F |34 |10%
+6+|B1F
+|Vulpix  2+|B |B1F |35 |15%
+|Growlithe  2+|R |B1F |35 |15%
+|Ponyta |R |B |B1F |32, 34 |15%
+|Grimer |R |B |B1F |35,31, 33 |5%,50%
+|Muk |R |B |B1F |42,40 |1%,10%
+|Koffing |R |B |B1F |31, 33,35 |50%,5%
+|Weezing |R |B |B1F |40,42 |10%,1%
+|Magmar  2+|B |B1F |38 |4%
+|====
+
+== Cinnabar Gym ==
+
+|====
+|N |Burglar |3,240 |Growlithe (LV 36), +
+Vulpix (LV 36), +
+Ninetales (LV 36)
+|N |Super Nerd |900 |Vulpix (LV 36), +
+Vulpix (LV 36), +
+Ninetales (LV 36)
+|N |Super Nerd |850 |Ponyta (LV 34), +
+Charmander (LV 34), +
+Vulpix (LV 34), +
+Growlithe (LV 34)
+|N |Burglar |3,690 |Ponyta (LV 41)
+|N |Super Nerd |1,025 |Rapidash (LV 41)
+|N |Burglar |3,330 |Vulpix (LV 37), +
+Growlithe (LV 37)
+|N |Super Nerd |925 |Growlithe (LV 37), +
+Vulpix (LV 37)
+|N |Blaine |4,653 |Growlithe (LV 42), +
+Ponyta (LV 40), +
+Rapidash (LV 42), +
+Arcanine (LV 47)
+|====
+
+****
+PART 12 END
+****
+
+== Viridian Gym ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |TM27 (Fissure) |R  B
+|N |Revive |R  B
+|====
+
+|====
+|N |Tamer |1,560 |Arbok (LV 39), +
+Tauros (LV 39)
+|N |Blackbelt |1,075 |Machoke (LV 43)
+|N |Cooltrainer♂ |1,365 |Nidorino (LV 39), +
+Nidoking (LV 39)
+|N |Tamer |1,720 |Rhyhorn (LV 43)
+|N |Cooltrainer♂ |1,365 |Sandslash (LV 39), +
+Dugtrio (LV 39)
+|N |Blackbelt |1,000 |Machop (LV 40), +
+Machoke (LV 40)
+|N |Cooltrainer♂ |1,505 |Rhyhorn (LV 43)
+|N |Blackbelt |912 |Machoke (LV 38), +
+Machop (LV 38), +
+Machoke (LV 38)
+|N |Giovanni |4,950 |Rhyhorn (LV 45), +
+Dugtrio (LV 42), +
+Nidoqueen (LV 44), +
+Nidoking (LV 45), +
+Rhydon (LV 50)
+|====
+
+****
+PART 13 END
+****
+
+== Route 22 ==
+
+|====
+|N |Blue |3,445 |Pidgeot (LV 47), +
+Rhyhorn (LV 45), +
+Gyarados (LV 45), +
+Exeggcute (LV 45), +
+Alakazam (LV 47), +
+Charizard (LV 53)
+|N |Blue |3,445 |Pidgeot (LV 47), +
+Rhyhorn (LV 45), +
+Exeggcute (LV 45), +
+Growlithe (LV 45), +
+Alakazam (LV 47), +
+Blastoise (LV 53)
+|N |Blue |3,445 |Pidgeot (LV 47), +
+Rhyhorn (LV 45), +
+Growlithe (LV 45), +
+Gyarados (LV 45), +
+Alakazam (LV 47), +
+Venusaur (LV 53)
+|====
+
+== Route 23 (South) ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Max Ether |R  B
+|N |Ultra Ball |R  B
+|N |Full Restore |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+|Spearow |R |B |Grass |26 |15%
+|Fearow |R |B |Grass |38, 41, 43 |25%
+|Ekans  2+|R |Grass |26 |25%
+|Arbok  2+|R |Grass |41 |5%
+|Sandshrew  2+|B |Grass |26 |25%
+|Sandslash  2+|B |Grass |41 |5%
+|Ditto |R |B |Grass |33, 38, 43 |30%
+6+|Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Slowbro |R |B |Fishing,Super Rod |23 |25%
+|Kingler |R |B |Fishing,Super Rod |23 |25%
+|Seadra |R |B |Fishing,Super Rod |23 |25%
+|Seaking |R |B |Fishing,Super Rod |23 |25%
+|====
+
+== Victory Road ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |TM43 (Sky Attack) |R  B
+|N |Rare Candy |R  B
+|N |TM05 (Mega Kick) |R  B
+|N |Full Heal |R  B
+|N |TM17 (Submission) |R  B
+|N |Ultra Ball |R  B
+|N |Guard Spec. |R  B
+|N |Full Restore |R  B
+|N |Max Revive |R  B
+|N |TM47 (Explosion) |R  B
+|====
+
+|====
+|N |Cooltrainer♀ |1,540 |Persian (LV 44), +
+Ninetales (LV 44)
+|N |Cooltrainer♂ |1,470 |Ivysaur (LV 42), +
+Wartortle (LV 42), +
+Charmeleon (LV 42), +
+Charizard (LV 42)
+|N |Blackbelt |1,075 |Machoke (LV 43), +
+Machop (LV 43), +
+Machoke (LV 43)
+|N |Juggler |1,435 |Drowzee (LV 41), +
+Hypno (LV 41), +
+Kadabra (LV 41), +
+Kadabra (LV 41)
+|N |Tamer |1,760 |Persian (LV 44), +
+Golduck (LV 44)
+|N |Juggler |1,680 |Mr. Mime (LV 48)
+|N |Cooltrainer♂ |1,505 |Exeggutor (LV 43), +
+Cloyster (LV 43), +
+Arcanine (LV 43)
+|N |PokéManiac |2,000 |Charmeleon (LV 40), +
+Lapras (LV 40), +
+Lickitung (LV 40)
+|N |Cooltrainer♀ |1,505 |Parasect (LV 43), +
+Dewgong (LV 43), +
+Chansey (LV 43)
+|N |Cooltrainer♂ |1,505 |Kingler (LV 43), +
+Tentacruel (LV 43), +
+Blastoise (LV 43)
+|N |Cooltrainer♀ |1,505 |Bellsprout (LV 43), +
+Weepinbell (LV 43), +
+Victreebel (LV 43)
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|1F
+|Zubat |R |B |Cave |22 |15%
+|Golbat |R |B |Cave |41 |5%
+|Machop |R |B |Cave |24 |25%
+|Machoke |R |B |Cave |42 |4%
+|Geodude |R |B |Cave |26 |15%
+|Graveler |R |B |Cave |42 |5%
+|Onix |R |B |Cave |36, 39, 42 |30%
+|Marowak |R |B |Cave |43 |1%
+6+|2F
+|Zubat |R |B |Cave |26 |15%
+|Golbat |R |B |Cave |40 |5%
+|Machop |R |B |Cave |22 |25%
+|Machoke |R |B |Cave |41 |5%
+|Geodude |R |B |Cave |24 |15%
+|Graveler |R |B |Cave |43 |1%
+|Onix |R |B |Cave |36, 39, 42 |30%
+|Marowak |R |B |Cave |40 |4%
+6+|3F
+|Zubat |R |B |Cave |22 |15%
+|Golbat |R |B |Cave |41 |5%
+|Venomoth |R |B |Cave |40 |10%
+|Machop |R |B |Cave |24 |25%
+|Machoke |R |B |Cave |42, 45 |5%
+|Geodude |R |B |Cave |26 |15%
+|Graveler |R |B |Cave |43 |5%
+|Onix |R |B |Cave |42, 45 |20%
+|====
+
+== Route 23 (North) ==
+
+Insert map on how to get through maze?
+
+****
+PART 14 END
+****
+
+== Indigo Plateau ==
+
+[options="header"]
+|====
+|Item |Price
+|Ultra Ball |1200
+|Great Ball |600
+|Full Restore |3000
+|Max Potion |2500
+|Full Heal |600
+|Revive |1500
+|Max Repel |700
+|====
+
+== Pokémon League ==
+
+|====
+|N |Lorelei |5,544 |Dewgong (LV 54), +
+Cloyster (LV 55), +
+Slowbro (LV 54), +
+Jynx (LV 56), +
+Lapras (LV 56)
+|N |Bruno |5,600 |Onix (LV 53), +
+Hitmonchan (LV 55), +
+Hitmonlee (LV 55), +
+Onix (LV 56), +
+Machamp (LV 58)
+|N |Agatha |5,800 |Gengar (LV 56), +
+Golbat (LV 56), +
+Haunter (LV 55), +
+Arbok (LV 58), +
+Gengar (LV 60)
+|N |Lance |6,000 |Gyarados (LV 58), +
+Dragonair (LV 56), +
+Dragonair (LV 56), +
+Aerodactyl (LV 60), +
+Dragonite (LV 62)
+|N |Blue |6,300 |Pidgeot (LV 61), +
+Alakazam (LV 59), +
+Rhydon (LV 61), +
+Gyarados (LV 61), +
+Exeggutor (LV 63), +
+Charizard (LV 65)
+|N |Blue |6,300 |Pidgeot (LV 61), +
+Alakazam (LV 59), +
+Rhydon (LV 61), +
+Exeggutor (LV 63), +
+Arcanine (LV 63), +
+Blastoise (LV 65)
+|N |Blue |6,300 |Pidgeot (LV 61), +
+Alakazam (LV 59), +
+Rhydon (LV 61), +
+Arcanine (LV 63), +
+Gyarados (LV 63), +
+Venusaur (LV 65)
+|====
+
+****
+PART 15 END
+****
+
+== Route 4 ==
+
+|====
+|N |Lass |465 |Paras (LV 31), +
+Paras (LV 31), +
+Parasect (LV 31)
+|====
+
+== Cerulean Cave ==
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Max Elixir |R  B
+|N |Nugget |R  B
+|N |Rare Candy |R  B
+|N |Full Restore |R  B
+|N |PP Up |R  B
+|N |Full Restore |R  B
+|N |Ultra Ball |R  B
+|N |Max Revive |R  B
+|N |Ultra Ball ×2 |R  B
+|====
+
+[options="header"]
+|====
+|Pokémon  2+|Games |Location |Levels |Rate
+6+|1F
+|Arbok  2+|R |Cave |52 |10%
+|Raichu |R |B |Cave |53 |4%
+|Sandslash  2+|B |Cave |52 |10%
+|Golbat |R |B |Cave |46 |25%
+|Parasect |R |B |Cave |52 |5%
+|Venomoth |R |B |Cave |49 |10%
+|Kadabra |R |B |Cave |49 |5%
+|Magneton |R |B |Cave |46 |15%
+|Dodrio |R |B |Cave |49 |10%
+|Hypno |R |B |Cave |46 |15%
+|Ditto |R |B |Cave |53 |1%
+6+|1F - Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Slowbro |R |B |Fishing,Super Rod |23 |25%
+|Kingler |R |B |Fishing,Super Rod |23 |25%
+|Seadra |R |B |Fishing,Super Rod |23 |25%
+|Seaking |R |B |Fishing,Super Rod |23 |25%
+6+|2F
+|Wigglytuff |R |B |Cave |54 |5%
+|Venomoth |R |B |Cave |51 |15%
+|Kadabra |R |B |Cave |51 |15%
+|Dodrio |R |B |Cave |51 |25%
+|Electrode |R |B |Cave |52 |10%
+|Marowak |R |B |Cave |52 |10%
+|Rhydon |R |B |Cave |52 |10%
+|Chansey |R |B |Cave |56 |5%
+|Ditto |R |B |Cave |55, 60 |5%
+6+|B1F
+|Arbok  2+|R |Cave |57 |5%
+|Raichu |R |B |Cave |64 |10%
+|Sandslash  2+|B |Cave |57 |5%
+|Parasect |R |B |Cave |64 |10%
+|Electrode |R |B |Cave |55 |15%
+|Marowak |R |B |Cave |55 |15%
+|Rhydon |R |B |Cave |55 |25%
+|Chansey |R |B |Cave |64 |10%
+|Ditto |R |B |Cave |63, 65, 67 |10%
+6+|B1F - Fishing
+|Magikarp |R |B |Fishing,Old Rod |5 |100%
+|Poliwag |R |B |Fishing,Good Rod |10 |50%
+|Goldeen |R |B |Fishing,Good Rod |10 |50%
+|Slowbro |R |B |Fishing,Super Rod |23 |25%
+|Kingler |R |B |Fishing,Super Rod |23 |25%
+|Seadra |R |B |Fishing,Super Rod |23 |25%
+|Seaking |R |B |Fishing,Super Rod |23 |25%
+|====
+
+****
+PART 16 END
+****

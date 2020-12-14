@@ -135,25 +135,46 @@ Documentation/Walkthrough
     [ ] Label all connecting portals.
 
     [ ] Start writing guide by adding all sections and images.
+        For each "part":
+        - Copy over the sections, trainers, items, wilds, etc.
+          - Color each "thing" so they can be organized correctly
+        - BREAK each section with:
+        ****
+        PART N START
+        ****
+        - NOTE: Order should be Blue, Green, Red, Orange
+        - NOTE: Not all Blue trainers copied over (ex in part11)
+        - Go through each tab and organize the sections
+          - Remove redundant headers as needed
+        - Header for trainers table
+          [options="header"]
+          |====
+          |ID |Trainer |Prize Money |Pokemon
+          (...)
+          |====
 
-    [ ] Narrow down our data to scrape/process
+    [ ] Add all gyms
+    [ ] Add SS Anne
+    [ ] Double check you added everything
+
+    [x] Narrow down our data to scrape/process
         - Collect all "wanted" HTML stuff.
         - Throw all HTML into standalone files (scraping/part1.html, ...)
         - Different types of tables:
-        * Wild pokemon
+        x Wild pokemon
           - Headers: Pokemon, Games, Location, Levels, Rate
-        * Items
+        x Items
           - Headers: Item, Location, Games
-        * Trainers
+        x Trainers
           - Table has <big> element w/in
-        * Purchaseables
+        x Purchaseables
           - Table has <td rowspan="2">, <td>, <td><big>
 
-    [ ] Create processing functions (converting HTML to AsciiDoc)
+    [x] Create processing functions (converting HTML to AsciiDoc)
         - Account for all types of tables
         - Include placeholder columns (ref)
 
-
+    [ ] Add legendary birds to walkthrough, and Mewtwo.
 
 Lastly
 =========

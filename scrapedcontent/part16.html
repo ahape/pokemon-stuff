@@ -45,6 +45,99 @@
         .map((e) => e.outerHTML)
         // Turn into one log HTML string.
         .join(""));
+
+// Section titles
+document.body.innerHTML += `<pre>
+${Array.from(document.querySelectorAll("span[style]")).map(x => {
+    return `== ${x.innerText} ==
+
+`;
+    }).join("")}
+</pre>`;
+
+        // Items Processor
+        var items = "<pre>" + Array.from(document.querySelectorAll("th[colspan='2'] + th")).map(th => {
+            var tbody = th.parentNode.parentNode;
+            tbody.parentNode.style.backgroundColor = "cyan";
+            var tds = Array.from(tbody.querySelectorAll("td:nth-child(even)"));
+            return (`
+[options="header"]
+|====
+|ID |Item |Games
+${tds.map((td,i,arr) => `${i==0?"|N ":""}|${td.innerText.trim()}${i%2?`\n${i==(arr.length-1)?"":"|N "}`:" "}`).join("")}|====
+`);
+        }).join("") + "</pre>";
+document.body.innerHTML += items;
+
+        // Mart processor
+        Array.from(document.querySelectorAll("td[width='32px']")).forEach((td) => {
+            var tbody = td.parentNode.parentNode;
+            var tds = Array.from(tbody.querySelectorAll("td")).slice(1);
+            tds.forEach(x => { x.dataset.mart = 1 });
+            tbody.parentNode.parentNode.parentNode.parentNode.dataset.martpar = 1;
+        })
+var marts = "<pre>" + Array.from(document.querySelectorAll("[data-martpar]")).map((tbody) => {
+            tbody.parentNode.style.backgroundColor = "orange";
+            var tds = Array.from(tbody.querySelectorAll("[data-mart]"));
+            return (`
+[options="header"]
+|====
+|Item |Price
+${tds.map((x,i,a) => `|${x.innerText.trim()}${i%2?"\n":" "}`).join("")}|====
+`)}).join("") + "</pre>";
+document.body.innerHTML += marts;
+
+// Wilds processor
+var wilds = "<pre>" + Array.from(document.querySelectorAll("table[width='550px']")).map((tab,i) => {
+    tab.style.backgroundColor = "pink"
+    var trs = Array.from(tab.firstElementChild.children);
+    return (`
+[options="header"]
+|====
+${trs.map(tr => {
+        if (!tr.innerText.trim()) return "";
+        if (Array.from(tr.children).length < 4) return "6+|" + tr.innerText.trim();
+        return tr.innerText.trim()
+            .split("\t")
+            .map(x => x.replace(/\n$/, "")
+                .replace(/\n/g, ",")
+                .trim())
+            .filter(x => x)
+            .map((x,i,a) => (a.length==5&&i==1?" 2+":"") + "|" + x)
+            .join(" ")
+    }).filter(x=>x).join("\n")}
+|====
+`)
+}).join("") + "</pre>"
+document.body.innerHTML += wilds;
+
+// Trainers
+function furthest(el) {
+    var last = null;
+    while (el = el.parentNode) {
+        if (el.nodeName == "TABLE" && !el.getAttribute("align")) {
+            last = el;
+        }
+    }
+    return last;
+}
+var trainers = `
+<pre>
+|====
+${Array.from(document.body.querySelectorAll("big > span > b > a > span")).map((y) => {
+    var table = furthest(y, "table");
+    table.style.backgroundColor = "#00ff00";
+    Array.from(table.querySelectorAll("table[width='100%']")).forEach(z => z.remove());
+    var all = table.innerText.trim().split(/\t|\n/).filter(x=>x && x!="hide");
+    var info = all.slice(0, 5);
+    var pkmn = all.slice(5)
+        .map((x,i,a) => (i+1)%3?x.replace(/Lv\. (\d+)/, " (LV $1)"):((a.length-1)==i?"":", +\n"))
+        .join("");
+    return `|N |${info[0]} |${info[4]} |${pkmn}`;
+}).join("\n")}
+|====
+</pre>`
+document.body.innerHTML += trainers;
     </noscript>
 </head>
 
