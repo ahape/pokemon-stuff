@@ -10,15 +10,15 @@ image::images/pallettown.png["Pallet Town",align="center"]
 [options="header"]
 |====
 |ID |Item |Games| Description
-|N |Potion |R  B |PC in Player's room
-|N |Pokédex |R  B |Professor Oak after delivering his parcel
-|N |Town Map |R  B |Blue's sister, after getting Pokedex
+|1 |Town Map |R  B |Blue's sister, after getting Pokedex
+|2 |Potion |R  B |PC in Player's room
+|3 |Pokédex |R  B |Professor Oak after delivering his parcel
 |====
 
 |====
-|N |Blue |175 |Charmander (LV 5)
-|N |Blue |175 |Squirtle (LV 5)
-|N |Blue |175 |Bulbasaur (LV 5)
+|4 |Blue |175 |Charmander (LV 5)
+|4 |Blue |175 |Squirtle (LV 5)
+|4 |Blue |175 |Bulbasaur (LV 5)
 |====
 
 [options="header"]
@@ -34,10 +34,12 @@ image::images/pallettown.png["Pallet Town",align="center"]
 
 == Route 1 ==
 
+image::images/route1.png["Route 1",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Potion |R  B
+|ID |Item |Games |Description
+|1 |Potion |R  B |NPC will give potion
 |====
 
 [options="header"]
@@ -49,11 +51,13 @@ image::images/pallettown.png["Pallet Town",align="center"]
 
 == Viridian City ==
 
+image::images/viridiancity.png["Viridian City",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Oak's Parcel |R  B
-|N |Potion |R  B
+|ID |Item |Games |Description
+|1 |Oak's Parcel |R  B |From the Mart employee
+|2 |Potion |R  B |Next to the cuttable bush (hidden)
 |====
 
 [options="header"]
@@ -78,12 +82,14 @@ image::images/pallettown.png["Pallet Town",align="center"]
 
 == Route 22 ==
 
+image::images/route22.png["Route 22",align="center"]
+
 |====
-|N |Blue |280 |Pidgey (LV 9), +
+|1 |Blue |280 |Pidgey (LV 9), +
 Charmander (LV 8)
-|N |Blue |280 |Pidgey (LV 9), +
+|1 |Blue |280 |Pidgey (LV 9), +
 Squirtle (LV 8)
-|N |Blue |280 |Pidgey (LV 9), +
+|1 |Blue |280 |Pidgey (LV 9), +
 Bulbasaur (LV 8)
 |====
 
@@ -115,23 +121,25 @@ Bulbasaur (LV 8)
 
 == Viridian Forest ==
 
+image::images/viridianforest.png["Viridian Forest",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Antidote |R  B
-|N |Antidote |R  B
-|N |Potion |R  B
-|N |Potion |R  B
-|N |Poké Ball |R  B
+|ID |Item |Games |Description
+|1 |Potion |R  B |
+|2 |Potion |R  B |In front of the last bug catch (hidden)
+|3 |Antidote |R  B |
+|4 |Antidote |R  B |Left side of tree (hidden)
+|5 |Poké Ball |R  B |
 |====
 
 |====
-|N |Bug Catcher |260 |Weedle (LV 6), +
+|6 |Bug Catcher |260 |Weedle (LV 6), +
 Caterpie (LV 6)
-|N |Bug Catcher |70 |Weedle (LV 7), +
+|7 |Bug Catcher |70 |Weedle (LV 7), +
 Kakuna (LV 7), +
 Weedle (LV 7)
-|N |Bug Catcher |90 |Weedle (LV 9)
+|8 |Bug Catcher |90 |Weedle (LV 9)
 |====
 
 [options="header"]
@@ -150,10 +158,12 @@ PART 1 END
 
 == Pewter City ==
 
+image::images/pewtercity.png["Pewter City",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |TM34 (Bide) |R  B
+|ID |Item |Games |Description
+|1 |TM34 (Bide) |R  B |From Brock after you beat him
 |====
 
 [options="header"]
@@ -170,33 +180,37 @@ PART 1 END
 
 == Pewter Gym ==
 
+image::images/pewtercitygym.png["Pewter City Gym",align="center"]
+
 |====
-|N |Jr. Trainer♂ |220 |Diglett (LV 11), +
+|1 |Jr. Trainer♂ |220 |Diglett (LV 11), +
 Sandshrew (LV 11)
-|N |Brock |1,386 |Geodude (LV 12), +
+|2 |Brock |1,386 |Geodude (LV 12), +
 Onix (LV 14)
 |====
 
 == Route 3 ==
 
+image::images/route3.png["Route 3",align="center"]
+
 |====
-|N |Lass |135 |Pidgey (LV 9), +
+|1 |Lass |135 |Pidgey (LV 9), +
 Pidgey (LV 9)
-|N |Bug Catcher |100 |Caterpie (LV 10), +
+|2 |Bug Catcher |100 |Caterpie (LV 10), +
 Weedle (LV 10), +
 Caterpie (LV 10)
-|N |Youngster |165 |Rattata (LV 11), +
+|3 |Youngster |165 |Rattata (LV 11), +
 Ekans (LV 11)
-|N |Bug Catcher |90 |Weedle (LV 9), +
+|4 |Bug Catcher |90 |Weedle (LV 9), +
 Kakuna (LV 9), +
 Caterpie (LV 9), +
 Metapod (LV 9)
-|N |Lass |150 |Rattata (LV 10), +
+|5 |Lass |150 |Rattata (LV 10), +
 Nidoran♂ (LV 10)
-|N |Youngster |210 |Spearow (LV 14)
-|N |Bug Catcher |110 |Caterpie (LV 11), +
+|6 |Youngster |210 |Spearow (LV 14)
+|7 |Bug Catcher |110 |Caterpie (LV 11), +
 Metapod (LV 11)
-|N |Lass |210 |Jigglypuff (LV 14)
+|8 |Lass |210 |Jigglypuff (LV 14)
 |====
 
 [options="header"]
@@ -213,49 +227,60 @@ A Magikarp if you want it ($500).
 
 == Mt. Moon ==
 
+image::images/mtmoon1f.png["Mt Moon: 1F",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |TM12 (Water Gun) |R  B
-|N |Potion ×2 |R  B
-|N |Rare Candy |R  B
-|N |Escape Rope |R  B
-|N |Moon Stone |R  B
-|N |HP Up |R  B
-|N |TM01 (Mega Punch) |R  B
-|N |Ether |R  B
-|N |Moon Stone |R  B
-|N |Helix Fossil
-or
-Dome Fossil |R  B
+|ID |Item |Games |Description
+|1 |TM12 (Water Gun) |R  B |
+|2 |Potion |R  B |
+|3 |Potion |R  B |
+|4 |Rare Candy |R  B |
+|5 |Escape Rope |R  B |
+|6 |Moon Stone |R  B |
 |====
 
 |====
-|N |Bug Catcher |110 |Weedle (LV 11), +
+|7 |Bug Catcher |110 |Weedle (LV 11), +
 Kakuna (LV 11)
-|N |Lass |210 |Clefairy (LV 14)
-|N |Rocket |330 |Sandshrew (LV 11), +
-Rattata (LV 11), +
-Zubat (LV 11)
-|N |Super Nerd |275 |Magnemite (LV 11), +
+|8 |Lass |210 |Clefairy (LV 14)
+|9 |Super Nerd |275 |Magnemite (LV 11), +
 Voltorb (LV 11)
-|N |Bug Catcher |100 |Caterpie (LV 10), +
+|10 |Bug Catcher |100 |Caterpie (LV 10), +
 Metapod (LV 10), +
 Caterpie (LV 10)
-|N |Lass |165 |Oddish (LV 11), +
+|11 |Lass |165 |Oddish (LV 11), +
 Bellsprout (LV 11)
-|N |Rocket |360 |Zubat (LV 11), +
-Ekans (LV 11)
-|N |Youngster |150 |Rattata (LV 10), +
+|12 |Youngster |150 |Rattata (LV 10), +
 Rattata (LV 10), +
 Zubat (LV 10)
-|N |Hiker |350 |Geodude (LV 10), +
+|13 |Hiker |350 |Geodude (LV 10), +
 Geodude (LV 10), +
 Onix (LV 10)
-|N |Rocket |480 |Raticate (LV 16)
-|N |Rocket |390 |Rattata (LV 13), +
+|====
+
+image::images/mtmoonb2f.png["Mt Moon: B2F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games |Description
+|1 |HP Up |R  B |
+|2 |Ether |R  B |Right side of the rock (hidden)
+|3 |TM01 (Mega Punch) |R  B |
+|4 |Moon Stone |R  B |Hidden
+|5 |Helix Fossil or Dome Fossil |R  B |Helix for Omamyte, Dome for Kabuto
+|====
+
+|====
+|6 |Rocket |330 |Sandshrew (LV 11), +
+Rattata (LV 11), +
+Zubat (LV 11)
+|7 |Rocket |360 |Zubat (LV 11), +
+Ekans (LV 11)
+|8 |Rocket |480 |Raticate (LV 16)
+|9 |Rocket |390 |Rattata (LV 13), +
 Zubat (LV 13)
-|N |Super Nerd |300 |Grimer (LV 12), +
+|10 |Super Nerd |300 |Grimer (LV 12), +
 Voltorb (LV 12), +
 Koffing (LV 12)
 |====
@@ -282,11 +307,13 @@ Koffing (LV 12)
 
 == Route 4 (East) ==
 
+image::images/route4.png["Route 4 (East)",width="100%",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Great Ball |R  B
-|N |TM04 (Whirlwind) |R  B
+|ID |Item |Games |Description
+|1 |Great Ball |R  B |Hidden
+|2 |TM04 (Whirlwind) |R  B |
 |====
 
 [options="header"]
@@ -311,17 +338,19 @@ PART 2 END
 
 == Cerulean City ==
 
+image::images/ceruleancity.png["Cerulean City",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Rare Candy |R  B
-|N |TM11 (BubbleBeam) |R  B
-|N |TM28 (Dig) |R  B
-|N |Bicycle |R  B
+|ID |Item |Games |Description
+|1 |Rare Candy |R  B |Hidden
+|2 |TM11 (BubbleBeam) |R  B |Misty gives it to you upon her defeat
+|3 |TM28 (Dig) |R  B |Rocket gives it to you upon his defeat
+|4 |Bicycle |R  B |In exchange for bicycle voucher
 |====
 
 |====
-|N |Rocket |510 |Machop (LV 17), +
+|5 |Rocket |510 |Machop (LV 17), +
 Drowzee (LV 17)
 |====
 
@@ -346,49 +375,53 @@ Drowzee (LV 17)
 
 == Cerulean Gym ==
 
+image::images/ceruleancitygym.png["Cerulean City Gym",align="center"]
+
 |====
-|N |Swimmer |80 |Horsea (LV 16), +
+|1 |Swimmer |80 |Horsea (LV 16), +
 Shellder (LV 16)
-|N |Jr. Trainer♀ |380 |Goldeen (LV 19)
-|N |Misty |2,079 |Staryu (LV 18), +
+|2 |Jr. Trainer♀ |380 |Goldeen (LV 19)
+|3 |Misty |2,079 |Staryu (LV 18), +
 Starmie (LV 21)
 |====
 
 == Route 24 ==
 
+image::images/route24.png["Route 24",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Nugget |R  B
-|N |TM45 (Thunder Wave) |R  B
+|ID |Item |Games |Description
+|1 |Nugget |R  B |After beating Rocket at end of bridge
+|2 |TM45 (Thunder Wave) |R  B |
 |====
 
 |====
-|N |Blue |595 |Pidgeotto (LV 18), +
+|3 |Blue |595 |Pidgeotto (LV 18), +
 Abra (LV 15), +
 Rattata (LV 15), +
 Charmander (LV 17)
-|N |Blue |595 |Pidgeotto (LV 18), +
+|3 |Blue |595 |Pidgeotto (LV 18), +
 Abra (LV 15), +
 Rattata (LV 15), +
 Squirtle (LV 17)
-|N |Blue |595 |Pidgeotto (LV 18), +
+|3 |Blue |595 |Pidgeotto (LV 18), +
 Abra (LV 15), +
 Rattata (LV 15), +
 Bulbasaur (LV 17)
-|N |Bug Catcher |140 |Caterpie (LV 14), +
+|4 |Bug Catcher |140 |Caterpie (LV 14), +
 Weedle (LV 14)
-|N |Lass |210 |Pidgey (LV 14), +
+|5 |Lass |210 |Pidgey (LV 14), +
 Nidoran♀ (LV 14)
-|N |Youngster |210 |Rattata (LV 14), +
+|6 |Youngster |210 |Rattata (LV 14), +
 Ekans (LV 14), +
 Zubat (LV 14)
-|N |Lass |240 |Pidgey (LV 16), +
+|7 |Lass |240 |Pidgey (LV 16), +
 Nidoran♀ (LV 16)
-|N |Jr. Trainer♂ |360 |Mankey (LV 18)
-|N |Rocket |450 |Ekans (LV 15), +
+|8 |Jr. Trainer♂ |360 |Mankey (LV 18)
+|9 |Rocket |450 |Ekans (LV 15), +
 Zubat (LV 15)
-|N |Jr. Trainer♂ |280 |Rattata (LV 14), +
+|10 |Jr. Trainer♂ |280 |Rattata (LV 14), +
 Ekans (LV 14)
 |====
 
@@ -414,33 +447,36 @@ Ekans (LV 14)
 
 == Route 25 ==
 
+image::images/route25.png["Route 25",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Elixir |R  B
-|N |TM19 (Seismic Toss) |R  B
-|N |Ether |R  B
-|N |S.S. Ticket |R  B
+|ID |Item |Games |Description
+|1 |Elixir |R  B |Hidden
+|2 |TM19 (Seismic Toss) |R  B |Behind cuttable bush,
+but you can draw out trainer to acquire as well
+|3 |Ether |R  B |Hidden right of Lass
+|4 |S.S. Ticket |R  B |In Bill's house, received after helping him
 |====
 
 |====
-|N |Hiker |525 |Machop (LV 15), +
+|5 |Hiker |525 |Machop (LV 15), +
 Geodude (LV 15)
-|N |Hiker |595 |Onix (LV 17)
-|N |Youngster |225 |Rattata (LV 15), +
+|6 |Hiker |595 |Onix (LV 17)
+|7 |Youngster |225 |Rattata (LV 15), +
 Spearow (LV 15)
-|N |Youngster |255 |Slowpoke (LV 17)
-|N |Lass |225 |Nidoran♂ (LV 15), +
+|8 |Youngster |255 |Slowpoke (LV 17)
+|9 |Lass |225 |Nidoran♂ (LV 15), +
 Nidoran♀ (LV 15)
-|N |Hiker |455 |Geodude (LV 13), +
+|10 |Hiker |455 |Geodude (LV 13), +
 Geodude (LV 13), +
 Machop (LV 13), +
 Geodude (LV 13)
-|N |Jr. Trainer♂ |280 |Rattata (LV 14), +
+|11 |Jr. Trainer♂ |280 |Rattata (LV 14), +
 Ekans (LV 14)
-|N |Youngster |210 |Ekans (LV 14), +
+|12 |Youngster |210 |Ekans (LV 14), +
 Sandshrew (LV 14)
-|N |Lass |195 |Oddish (LV 13), +
+|13 |Lass |195 |Oddish (LV 13), +
 Pidgey (LV 13), +
 Oddish (LV 13)
 |====
@@ -467,6 +503,8 @@ Oddish (LV 13)
 
 == Route 5 ==
 
+image::images/route5.png["Route 5",align="center"]
+
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
@@ -481,9 +519,9 @@ Oddish (LV 13)
 
 [options="header"]
 |====
-|ID |Item |Games
-|N |Full Restore |R  B
-|N |X Special |R  B
+|ID |Item |Games |Description
+|N/A |Full Restore |R  B |2 squares left of north stairs (hidden)
+|N/A |X Special |R  B |2 squares right, 6 squares up of south stairs (hidden)
 |====
 
 [options="header"]
@@ -495,18 +533,20 @@ Oddish (LV 13)
 
 == Route 6 ==
 
+image::images/route6.png["Route 6",align="center"]
+
 |====
-|N |Bug Catcher |160 |Weedle (LV 16), +
+|1 |Bug Catcher |160 |Weedle (LV 16), +
 Caterpie (LV 16), +
 Weedle (LV 16)
-|N |Jr. Trainer♂ |400 |Squirtle (LV 20)
-|N |Jr. Trainer♀ |320 |Rattata (LV 16), +
+|2 |Jr. Trainer♂ |400 |Squirtle (LV 20)
+|3 |Jr. Trainer♀ |320 |Rattata (LV 16), +
 Pikachu (LV 16)
-|N |Bug Catcher |200 |Butterfree (LV 20)
-|N |Jr. Trainer♀ |320 |Pidgey (LV 16), +
+|4 |Bug Catcher |200 |Butterfree (LV 20)
+|5 |Jr. Trainer♀ |320 |Pidgey (LV 16), +
 Pidgey (LV 16), +
 Pidgey (LV 16)
-|N |Jr. Trainer♂ |320 |Spearow (LV 16), +
+|6 |Jr. Trainer♂ |320 |Spearow (LV 16), +
 Raticate (LV 16)
 |====
 
@@ -532,13 +572,15 @@ PART 3 END
 
 == Vermilion City ==
 
+image::images/vermilioncity.png["Vermilion City",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Old Rod |R  B
-|N |Bike Voucher |R  B
-|N |Max Ether |R  B
-|N |TM24 (Thunderbolt) |R  B
+|ID |Item |Games |Description
+|1 |Old Rod |R  B |Say yes to the fishing guru
+|2 |Bike Voucher |R  B |Listen to the president of the Pokemon Fan Club's story
+|3 |Max Ether |R  B |Use surf to get it (hidden)
+|4 |TM24 (Thunderbolt) |R  B |Given to you after beating Lt. Surge
 |====
 
 [options="header"]
@@ -567,18 +609,13 @@ PART 3 END
 
 == S.S. Anne ==
 
+image::images/ssanne1f.png["S.S. Anne: 1F",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Max Potion |R  B
-|N |Ether |R  B
-|N |TM44 (Rest) |R  B
-|N |Hyper Potion |R  B
-|N |TM08 (Body Slam) |R  B
-|N |Great Ball |R  B
-|N |Max Ether |R  B
-|N |Rare Candy |R  B
-|N |HM01 (Cut) |R  B
+|ID |Item |Games |Description
+|1 |TM08 (Body Slam) |R  B |
+|2 |Great Ball |R  B |Hidden in trash
 |====
 
 |====
@@ -589,6 +626,42 @@ Nidoran♀ (LV 19)
 |N |Lass |270 |Pidgey (LV 18), +
 Nidoran♀ (LV 18)
 |N |Youngster |315 |Nidoran♂ (LV 21)
+|====
+
+image::images/ssanne2f.png["S.S. Anne: 2F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games |Description
+|1 |Max Ether |R  B |
+|2 |Rare Candy |R  B |
+|3 |HM01 (Cut) |R  B |Awarded for rubbing captains back
+|====
+
+|====
+|4 |Fisherman |595 |Goldeen (LV 17), +
+Goldeen (LV 17), +
+Tentacool (LV 17)
+|5 |Gentleman |1,610 |Pikachu (LV 23)
+|6 |Gentleman |1,190 |Growlithe (LV 17), +
+Ponyta (LV 17)
+|7 |Lass |270 |Rattata (LV 18), +
+Pikachu (LV 18)
+|8 |Blue |1,330 |Pidgeotto (LV 19), +
+Raticate (LV 16), +
+Kadabra (LV 18), +
+Charmeleon (LV 20)
+|8 |Blue |1,330 |Pidgeotto (LV 19), +
+Raticate (LV 16), +
+Kadabra (LV 18), +
+Wartortle (LV 20)
+|8 |Blue |1,330 |Pidgeotto (LV 19), +
+Raticate (LV 16), +
+Kadabra (LV 18), +
+Ivysaur (LV 20)
+|====
+
+|====
 |N |Sailor |510 |Horsea (LV 17), +
 Shellder (LV 17), +
 Tentacool (LV 17)
@@ -606,38 +679,29 @@ Shellder (LV 17)
 Tentacool (LV 17)
 |N |Sailor |540 |Machop (LV 18), +
 Shellder (LV 18)
-|N |Fisherman |595 |Goldeen (LV 17), +
-Goldeen (LV 17), +
-Tentacool (LV 17)
-|N |Gentleman |1,610 |Pikachu (LV 23)
-|N |Gentleman |1,190 |Growlithe (LV 17), +
-Ponyta (LV 17)
-|N |Lass |270 |Rattata (LV 18), +
-Pikachu (LV 18)
-|N |Blue |1,330 |Pidgeotto (LV 19), +
-Raticate (LV 16), +
-Kadabra (LV 18), +
-Charmeleon (LV 20)
-|N |Blue |1,330 |Pidgeotto (LV 19), +
-Raticate (LV 16), +
-Kadabra (LV 18), +
-Wartortle (LV 20)
-|N |Blue |1,330 |Pidgeotto (LV 19), +
-Raticate (LV 16), +
-Kadabra (LV 18), +
-Ivysaur (LV 20)
+|====
+
+[options="header"]
+|====
+|ID |Item |Games
+|N |Max Potion |R  B
+|N |Ether |R  B
+|N |TM44 (Rest) |R  B
+|N |Hyper Potion |R  B
 |====
 
 == Vermilion Gym ==
 
+image::images/vermilioncitygym.png["Vermilion City Gym",align="center"]
+
 |====
-|N |Sailor |630 |Pikachu (LV 21), +
+|1 |Sailor |630 |Pikachu (LV 21), +
 Pikachu (LV 21)
-|N |Rocker |500 |Voltorb (LV 20), +
+|2 |Rocker |500 |Voltorb (LV 20), +
 Magnemite (LV 20), +
 Voltorb (LV 20)
-|N |Gentleman |1,610 |Pikachu (LV 23)
-|N |Lt. Surge |2,376 |Voltorb (LV 21), +
+|3 |Gentleman |1,610 |Pikachu (LV 23)
+|4 |Lt. Surge |2,376 |Voltorb (LV 21), +
 Pikachu (LV 18), +
 Raichu (LV 24)
 |====
@@ -648,34 +712,36 @@ PART 4 END
 
 == Route 11 ==
 
+image::images/route11.png["Route 11",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Itemfinder |R  B
-|N |Escape Rope |R  B
+|ID |Item |Games |Description
+|1 |Itemfinder |R  B |From Professor Oak's aid
+|2 |Escape Rope |R  B |Against the lone bush (hidden)
 |====
 
 |====
-|N |Youngster |315 |Ekans (LV 21)
-|N |Gambler |1,260 |Poliwag (LV 18), +
+|3 |Gambler |1,260 |Poliwag (LV 18), +
 Horsea (LV 18)
-|N |Youngster |270 |Nidoran♂ (LV 18), +
-Nidorino (LV 18)
-|N |Gambler |1,260 |Bellsprout (LV 18), +
-Oddish (LV 18)
-|N |Youngster |285 |Sandshrew (LV 19), +
+|4 |Youngster |315 |Ekans (LV 21)
+|5 |Youngster |285 |Sandshrew (LV 19), +
 Zubat (LV 19)
-|N |Engineer |1,050 |Magnemite (LV 21)
-|N |Engineer |900 |Magnemite (LV 18), +
-Magnemite (LV 18), +
-Magneton (LV 18)
-|N |Gambler |1,260 |Growlithe (LV 18), +
+|6 |Youngster |270 |Nidoran♂ (LV 18), +
+Nidorino (LV 18)
+|7 |Gambler |1,260 |Bellsprout (LV 18), +
+Oddish (LV 18)
+|8 |Gambler |1,260 |Growlithe (LV 18), +
 Vulpix (LV 18)
-|N |Youngster |255 |Rattata (LV 17), +
+|9 |Engineer |1,050 |Magnemite (LV 21)
+|10 |Youngster |255 |Rattata (LV 17), +
 Rattata (LV 17), +
 Raticate (LV 17)
-|N |Gambler |1,260 |Voltorb (LV 18), +
+|11 |Gambler |1,260 |Voltorb (LV 18), +
 Magnemite (LV 18)
+|12 |Engineer |900 |Magnemite (LV 18), +
+Magnemite (LV 18), +
+Magneton (LV 18)
 |====
 
 [options="header"]
@@ -715,37 +781,39 @@ Magnemite (LV 18)
 
 == Route 9 ==
 
+image::images/route9.png["Route 9",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |TM30 (Teleport) |R  B
-|N |Ether |R  B
+|ID |Item |Games |Description
+|1 |TM30 (Teleport) |R  B |
+|2 |Ether |R  B |Examine the bush (hidden)
 |====
 
 |====
-|N |Jr. Trainer♀ |360 |Oddish (LV 18), +
+|3 |Jr. Trainer♀ |360 |Oddish (LV 18), +
 Bellsprout (LV 18), +
 Oddish (LV 18), +
 Bellsprout (LV 18)
-|N |Hiker |700 |Machop (LV 20), +
+|4 |Hiker |700 |Machop (LV 20), +
 Onix (LV 20)
-|N |Jr. Trainer♂ |420 |Growlithe (LV 21), +
+|5 |Jr. Trainer♂ |420 |Growlithe (LV 21), +
 Charmander (LV 21)
-|N |Bug Catcher |190 |Beedrill (LV 19), +
+|6 |Bug Catcher |190 |Beedrill (LV 19), +
 Beedrill (LV 19)
-|N |Hiker |735 |Geodude (LV 21), +
-Onix (LV 21)
-|N |Bug Catcher |200 |Caterpie (LV 20), +
+|7 |Bug Catcher |200 |Caterpie (LV 20), +
 Weedle (LV 20), +
 Venonat (LV 20)
-|N |Jr. Trainer♂ |380 |Rattata (LV 19), +
+|8 |Jr. Trainer♂ |380 |Rattata (LV 19), +
 Diglett (LV 19), +
 Ekans (LV 19), +
 Sandshrew (LV 19)
-|N |Hiker |700 |Geodude (LV 20), +
+|9 |Hiker |735 |Geodude (LV 21), +
+Onix (LV 21)
+|10 |Hiker |700 |Geodude (LV 20), +
 Geodude (LV 20), +
 Machop (LV 20)
-|N |Jr. Trainer♀ |460 |Meowth (LV 23)
+|11 |Jr. Trainer♀ |460 |Meowth (LV 23)
 |====
 
 [options="header"]
@@ -759,14 +827,16 @@ Machop (LV 20)
 
 == Route 10 (North) ==
 
+image::images/route10n.png["Route 10: North",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Super Potion |R  B
+|ID |Item |Games |Description
+|1 |Super Potion |R  B |Behind the cuttable bush (hidden)
 |====
 
 |====
-|N |Jr. Trainer♀ |400 |Pikachu (LV 20), +
+|2 |Jr. Trainer♀ |400 |Pikachu (LV 20), +
 Clefairy (LV 20)
 |====
 
@@ -791,44 +861,51 @@ PART 5 END
 
 == Rock Tunnel ==
 
+image::images/rocktunnel1f.png["Rock Tunnel: 1F",align="center"]
+
 |====
-|N |PokéManiac |1,150 |Cubone (LV 23), +
+|1 |PokéManiac |1,150 |Cubone (LV 23), +
 Slowpoke (LV 23)
-|N |PokéManiac |1,250 |Slowpoke (LV 25)
-|N |Jr. Trainer♀ |440 |Oddish (LV 22), +
-Bulbasaur (LV 22)
-|N |PokéManiac |1,100 |Charmander (LV 22), +
-Cubone (LV 22)
-|N |Hiker |875 |Geodude (LV 25)
-|N |Hiker |700 |Machop (LV 20), +
-Onix (LV 20)
-|N |Hiker |665 |Geodude (LV 19), +
+|2 |Hiker |665 |Geodude (LV 19), +
 Machop (LV 19), +
 Geodude (LV 19), +
 Geodude (LV 19)
-|N |Hiker |700 |Onix (LV 20), +
+|3 |Hiker |700 |Onix (LV 20), +
 Onix (LV 20), +
 Geodude (LV 20)
-|N |Hiker |735 |Geodude (LV 21), +
+|4 |Hiker |735 |Geodude (LV 21), +
 Graveler (LV 21)
-|N |Jr. Trainer♀ |420 |Jigglypuff (LV 21), +
-Pidgey (LV 21), +
-Meowth (LV 21)
-|N |Hiker |735 |Geodude (LV 21), +
-Geodude (LV 21), +
-Graveler (LV 21)
-|N |PokéManiac |1,000 |Slowpoke (LV 20), +
-Slowpoke (LV 20), +
-Slowpoke (LV 20)
-|N |Jr. Trainer♀ |440 |Bellsprout (LV 22), +
+|5 |Jr. Trainer♀ |440 |Bellsprout (LV 22), +
 Clefairy (LV 22)
-|N |Jr. Trainer♀ |380 |Pidgey (LV 19), +
+|6 |Jr. Trainer♀ |380 |Pidgey (LV 19), +
 Rattata (LV 19), +
 Rattata (LV 19), +
 Bellsprout (LV 19)
-|N |Jr. Trainer♀ |400 |Meowth (LV 20), +
+|7 |Jr. Trainer♀ |400 |Meowth (LV 20), +
 Oddish (LV 20), +
 Pidgey (LV 20)
+|====
+
+image::images/rocktunnelb1f.png["Rock Tunnel: B1F",align="center"]
+
+|====
+|1 |PokéManiac |1,250 |Slowpoke (LV 25)
+|2 |Jr. Trainer♀ |440 |Oddish (LV 22), +
+Bulbasaur (LV 22)
+|3 |PokéManiac |1,100 |Charmander (LV 22), +
+Cubone (LV 22)
+|4 |Hiker |875 |Geodude (LV 25)
+|5 |Hiker |700 |Machop (LV 20), +
+Onix (LV 20)
+|6 |Jr. Trainer♀ |420 |Jigglypuff (LV 21), +
+Pidgey (LV 21), +
+Meowth (LV 21)
+|7 |Hiker |735 |Geodude (LV 21), +
+Geodude (LV 21), +
+Graveler (LV 21)
+|8 |PokéManiac |1,000 |Slowpoke (LV 20), +
+Slowpoke (LV 20), +
+Slowpoke (LV 20)
 |====
 
 [options="header"]
@@ -848,20 +925,22 @@ Pidgey (LV 20)
 
 == Route 10 (South) ==
 
+image::images/route10s.png["Route 10: South",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |Max Ether |R  B
+|ID |Item |Games |Description
+|1 |Max Ether |R  B |Next to the lone bush (hidden)
 |====
 
 |====
-|N |Jr. Trainer♀ |420 |Pidgey (LV 21), +
+|2 |Jr. Trainer♀ |420 |Pidgey (LV 21), +
 Pidgeotto (LV 21)
-|N |Hiker |735 |Geodude (LV 21), +
+|3 |Hiker |735 |Geodude (LV 21), +
 Onix (LV 21)
-|N |Hiker |684 |Onix (LV 19), +
+|4 |Hiker |684 |Onix (LV 19), +
 Graveler (LV 19)
-|N |PokéManiac |960 |Cubone (LV 20), +
+|5 |PokéManiac |960 |Cubone (LV 20), +
 Slowpoke (LV 20)
 |====
 
@@ -883,29 +962,31 @@ Slowpoke (LV 20)
 
 == Route 8 ==
 
+image::images/route8.png["Route 8",align="center"]
+
 |====
-|N |Lass |330 |Clefairy (LV 22), +
+|1 |Lass |330 |Clefairy (LV 22), +
 Clefairy (LV 22)
-|N |Gambler |1,680 |Growlithe (LV 24), +
+|2 |Gambler |1,680 |Growlithe (LV 24), +
 Vulpix (LV 24)
-|N |Super Nerd |550 |Grimer (LV 22), +
+|3 |Super Nerd |550 |Grimer (LV 22), +
 Muk (LV 22), +
 Grimer (LV 22)
-|N |Lass |345 |Nidoran♀ (LV 23), +
+|4 |Lass |345 |Nidoran♀ (LV 23), +
 Nidorina (LV 23)
-|N |Super Nerd |650 |Koffing (LV 26)
-|N |Lass |360 |Meowth (LV 24), +
+|5 |Super Nerd |650 |Koffing (LV 26)
+|6 |Lass |360 |Meowth (LV 24), +
 Meowth (LV 24), +
 Meowth (LV 24)
-|N |Lass |285 |Pidgey (LV 19), +
+|7 |Lass |285 |Pidgey (LV 19), +
 Rattata (LV 19), +
 Nidoran♂ (LV 19), +
 Meowth (LV 19), +
 Pikachu (LV 19)
-|N |Gambler |1,540 |Poliwag (LV 22), +
+|8 |Gambler |1,540 |Poliwag (LV 22), +
 Poliwag (LV 22), +
 Poliwhirl (LV 22)
-|N |Super Nerd |500 |Voltorb (LV 20), +
+|9 |Super Nerd |500 |Voltorb (LV 20), +
 Koffing (LV 20), +
 Voltorb (LV 20), +
 Magnemite (LV 20)
@@ -943,17 +1024,19 @@ PART 6 END
 
 == Celadon City ==
 
+image::images/celadoncity.png["Celadon City",align="center"]
+
 [options="header"]
 |====
-|ID |Item |Games
-|N |PP Up |R  B
-|N |TM18 (Counter) |R  B
-|N |TM13 (Ice Beam) |R  B
-|N |TM48 (Rock Slide) |R  B
-|N |TM49 (Tri Attack) |R  B
-|N |TM41 (Softboiled) |R  B
-|N |Coin Case |R  B
-|N |TM21 (Mega Drain) |R  B
+|ID |Item |Games |Description
+|1 |PP Up |R  B |Against the topmost tree (hidden)
+|2 |TM18 (Counter) |R  B |From clerk
+|3 |TM13 (Ice Beam) |R  B |From thirsty girl on top floor
+|4 |TM48 (Rock Slide) |R  B |From thirsty girl on top floor
+|5 |TM49 (Tri Attack) |R  B |From thirsty girl on top floor
+|6 |TM41 (Softboiled) |R  B |Need surf to acquire
+|7 |TM21 (Mega Drain) |R  B |Given once you beat Erika
+|8 |Coin Case |R  B |Ask guy in diner for it
 |====
 
 [options="header"]
@@ -1019,6 +1102,8 @@ PART 6 END
 |====
 
 == Celadon Gym ==
+
+image::images/celadoncitygym.png["Celadon City Gym",align="center"]
 
 |====
 |N |Lass |345 |Bellsprout (LV 23), +
@@ -1096,117 +1181,197 @@ Zubat (LV 20)
 
 == Rocket Hideout ==
 
+image::images/rockethideoutb1f.png["Rocket Hideout: B1F",align="center"]
+
 [options="header"]
 |====
 |ID |Item |Games
-|N |PP Up |R  B
-|N |Escape Rope |R  B
-|N |Hyper Potion |R  B
-|N |Moon Stone |R  B
-|N |Nugget |R  B
-|N |TM07 (Horn Drill) |R  B
-|N |Super Potion |R  B
-|N |Nugget |R  B
-|N |TM10 (Double-Edge) |R  B
-|N |Rare Candy |R  B
-|N |HP Up |R  B
-|N |TM02 (Razor Wind) |R  B
-|N |Lift Key |R  B
-|N |Iron |R  B
-|N |Silph Scope |R  B
-|N |Super Potion |R  B
+|1 |Escape Rope |R  B
+|2 |Hyper Potion |R  B
+|3 |PP Up |R  B
 |====
 
 |====
-|N |Rocket |630 |Drowzee (LV 21), +
+|4 |Rocket |630 |Drowzee (LV 21), +
 Machop (LV 21)
-|N |Rocket |630 |Raticate (LV 21), +
+|5 |Rocket |630 |Raticate (LV 21), +
 Raticate (LV 21)
-|N |Rocket |510 |Zubat (LV 17), +
+|6 |Rocket |600 |Grimer (LV 20), +
+Koffing (LV 20), +
+Koffing (LV 20)
+|7 |Rocket |570 |Rattata (LV 19), +
+Raticate (LV 19), +
+Raticate (LV 19), +
+Rattata (LV 19)
+|8 |Rocket |660 |Grimer (LV 22), +
+Koffing (LV 22)
+|====
+
+image::images/rockethideoutb2f.png["Rocket Hideout: B2F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |Nugget |R  B
+|2 |Moon Stone |R  B
+|3 |TM07 (Horn Drill) |R  B
+|4 |Super Potion |R  B
+|====
+
+|====
+|5 |Rocket |510 |Zubat (LV 17), +
 Koffing (LV 17), +
 Grimer (LV 17), +
 Zubat (LV 17), +
 Raticate (LV 17)
-|N |Rocket |570 |Rattata (LV 19), +
-Raticate (LV 19), +
-Raticate (LV 19), +
-Rattata (LV 19)
-|N |Rocket |600 |Grimer (LV 20), +
-Koffing (LV 20), +
-Koffing (LV 20)
-|N |Rocket |630 |Machop (LV 21), +
+|====
+
+image::images/rockethideoutb3f.png["Rocket Hideout: B3F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |TM10 (Double-Edge) |R  B
+|2 |Rare Candy |R  B
+|3 |Nugget |R  B
+|====
+
+|====
+|4 |Rocket |630 |Machop (LV 21), +
 Machop (LV 21)
-|N |Rocket |600 |Rattata (LV 20), +
+|5 |Rocket |600 |Rattata (LV 20), +
 Raticate (LV 20), +
 Drowzee (LV 20)
-|N |Rocket |630 |Koffing (LV 21), +
+|====
+
+image::images/rockethideoutb4f.png["Rocket Hideout: B4F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |TM02 (Razor Wind) |R  B
+|2 |Lift Key |R  B
+|3 |HP Up |R  B
+|4 |Iron |R  B
+|5 |Silph Scope |R  B
+|6 |Super Potion |R  B
+|====
+
+|====
+|7 |Rocket |630 |Koffing (LV 21), +
 Zubat (LV 21)
-|N |Rocket |660 |Grimer (LV 22), +
-Koffing (LV 22)
-|N |Rocket |690 |Sandshrew (LV 23), +
+|8 |Rocket |690 |Sandshrew (LV 23), +
 Ekans (LV 23), +
 Sandslash (LV 23)
-|N |Rocket |690 |Ekans (LV 23), +
+|9 |Rocket |690 |Ekans (LV 23), +
 Sandshrew (LV 23), +
 Arbok (LV 23)
-|N |Giovanni |2,871 |Onix (LV 25), +
+|10 |Giovanni |2,871 |Onix (LV 25), +
 Rhyhorn (LV 24), +
 Kangaskhan (LV 29)
 |====
 
 == Pokémon Tower ==
 
-[options="header"]
-|====
-|ID |Item |Games
-|N |Escape Rope |R  B
-|N |Elixir |R  B
-|N |Awakening |R  B
-|N |HP Up |R  B
-|N |Elixir |R  B
-|N |Nugget |R  B
-|N |X Accuracy |R  B
-|N |Rare Candy |R  B
-|====
+image::images/pokemontower2f.png["Pokemon Tower: 2F",align="center"]
 
 |====
-|N |Blue |1,625 |Pidgeotto (LV 25), +
+|1 |Blue |1,625 |Pidgeotto (LV 25), +
 Exeggcute (LV 23), +
 Gyarados (LV 22), +
 Kadabra (LV 20), +
 Charmeleon (LV 25)
-|N |Blue |1,625 |Pidgeotto (LV 25), +
+|1 |Blue |1,625 |Pidgeotto (LV 25), +
 Growlithe (LV 23), +
 Exeggcute (LV 22), +
 Kadabra (LV 20), +
 Wartortle (LV 25)
-|N |Blue |1,625 |Pidgeotto (LV 25), +
+|1 |Blue |1,625 |Pidgeotto (LV 25), +
 Gyarados (LV 23), +
 Growlithe (LV 22), +
 Kadabra (LV 20), +
 Ivysaur (LV 25)
-|N |Channeler |720 |Gastly (LV 24)
-|N |Channeler |660 |Gastly (LV 22)
-|N |Channeler |690 |Gastly (LV 23)
-|N |Channeler |690 |Gastly (LV 23), +
+|====
+
+image::images/pokemontower3f.png["Pokemon Tower: 3F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |Escape Rope |R  B
+|====
+
+|====
+|2 |Channeler |690 |Gastly (LV 23)
+|3 |Channeler |660 |Gastly (LV 22)
+|4 |Channeler |720 |Gastly (LV 24)
+|====
+
+image::images/pokemontower4f.png["Pokemon Tower: 4F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |Awakening |R  B
+|2 |HP Up |R  B
+|3 |Elixir |R  B
+|====
+
+|====
+|4 |Channeler |690 |Gastly (LV 23), +
 Gastly (LV 23)
-|N |Channeler |660 |Gastly (LV 22)
-|N |Channeler |720 |Gastly (LV 24)
-|N |Channeler |660 |Gastly (LV 22)
-|N |Channeler |690 |Haunter (LV 23)
-|N |Channeler |720 |Gastly (LV 24)
-|N |Channeler |660 |Haunter (LV 22)
-|N |Channeler |660 |Gastly (LV 22), +
+|5 |Channeler |660 |Gastly (LV 22)
+|6 |Channeler |720 |Gastly (LV 24)
+|====
+
+image::images/pokemontower5f.png["Pokemon Tower: 5F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |Elixir |R  B
+|2 |Nugget |R  B
+|====
+
+|====
+|3 |Channeler |660 |Gastly (LV 22)
+|4 |Channeler |720 |Gastly (LV 24)
+|5 |Channeler |660 |Haunter (LV 22)
+|6 |Channeler |690 |Haunter (LV 23)
+|====
+
+image::images/pokemontower6f.png["Pokemon Tower: 6F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |X Accuracy |R  B
+|2 |Rare Candy |R  B
+|====
+
+|====
+|3 |Channeler |660 |Gastly (LV 22), +
 Gastly (LV 22), +
 Gastly (LV 22)
-|N |Channeler |720 |Gastly (LV 24)
-|N |Channeler |720 |Gastly (LV 24)
-|N |Rocket |750 |Zubat (LV 25), +
+|4 |Channeler |720 |Gastly (LV 24)
+|5 |Channeler |720 |Gastly (LV 24)
+|====
+
+image::images/pokemontower7f.png["Pokemon Tower: 7F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |Poke Flute |R  B
+|====
+
+|====
+|2 |Rocket |750 |Zubat (LV 25), +
 Zubat (LV 25), +
 Golbat (LV 25)
-|N |Rocket |780 |Koffing (LV 26), +
+|3 |Rocket |780 |Koffing (LV 26), +
 Drowzee (LV 26)
-|N |Rocket |690 |Zubat (LV 23), +
+|4 |Rocket |690 |Zubat (LV 23), +
 Rattata (LV 23), +
 Raticate (LV 23), +
 Zubat (LV 23)
@@ -1239,10 +1404,28 @@ PART 7 END
 
 == Route 16 ==
 
+image::images/route16.png["Route 16",align="center"]
+
 [options="header"]
 |====
 |ID |Item |Games
-|N |HM02 (Fly) |R  B
+|1 |HM02 (Fly) |R  B
+|====
+
+|====
+|2 |Biker |580 |Grimer (LV 29), +
+Koffing (LV 29)
+|3 |Cue Ball |700 |Machop (LV 28), +
+Mankey (LV 28), +
+Machop (LV 28)
+|4 |Cue Ball |725 |Mankey (LV 29), +
+Machop (LV 29)
+|5 |Biker |660 |Weezing (LV 33)
+|6 |Cue Ball |825 |Machop (LV 33)
+|7 |Biker |520 |Grimer (LV 26), +
+Grimer (LV 26), +
+Grimer (LV 26), +
+Grimer (LV 26)
 |====
 
 [options="header"]
@@ -1254,55 +1437,41 @@ PART 7 END
 |Doduo |R |B |Grass |18, 20, 22 |25%
 |====
 
-|====
-|N |Biker |580 |Grimer (LV 29), +
-Koffing (LV 29)
-|N |Cue Ball |700 |Machop (LV 28), +
-Mankey (LV 28), +
-Machop (LV 28)
-|N |Cue Ball |725 |Mankey (LV 29), +
-Machop (LV 29)
-|N |Biker |660 |Weezing (LV 33)
-|N |Cue Ball |825 |Machop (LV 33)
-|N |Biker |520 |Grimer (LV 26), +
-Grimer (LV 26), +
-Grimer (LV 26), +
-Grimer (LV 26)
-|====
-
 == Route 17 ==
+
+image::images/route17.png["Route 17",align="center"]
 
 [options="header"]
 |====
 |ID |Item |Games
-|N |Rare Candy |R  B
-|N |Full Restore |R  B
-|N |Max Revive |R  B
-|N |PP Up |R  B
-|N |Max Elixir |R  B
+|1 |Rare Candy |R  B
+|2 |Full Restore |R  B
+|3 |Max Revive |R  B
+|4 |PP Up |R  B
+|? |Max Elixir |R  B
 |====
 
 |====
-|N |Cue Ball |725 |Machop (LV 29), +
-Machoke (LV 29)
-|N |Cue Ball |725 |Mankey (LV 29), +
-Primeape (LV 29)
-|N |Biker |560 |Weezing (LV 28), +
+|1 |Biker |560 |Weezing (LV 28), +
 Koffing (LV 28), +
 Weezing (LV 28)
-|N |Biker |660 |Muk (LV 33)
-|N |Cue Ball |650 |Mankey (LV 26), +
+|2 |Cue Ball |725 |Machop (LV 29), +
+Machoke (LV 29)
+|3 |Cue Ball |725 |Mankey (LV 29), +
+Primeape (LV 29)
+|4 |Biker |660 |Muk (LV 33)
+|5 |Biker |580 |Voltorb (LV 29), +
+Voltorb (LV 29)
+|6 |Cue Ball |825 |Machoke (LV 33)
+|7 |Cue Ball |650 |Mankey (LV 26), +
 Mankey (LV 26), +
 Machoke (LV 26), +
 Machop (LV 26)
-|N |Biker |580 |Voltorb (LV 29), +
-Voltorb (LV 29)
-|N |Cue Ball |825 |Machoke (LV 33)
-|N |Cue Ball |725 |Primeape (LV 29), +
+|8 |Cue Ball |725 |Primeape (LV 29), +
 Machoke (LV 29)
-|N |Biker |580 |Weezing (LV 29), +
+|9 |Biker |580 |Weezing (LV 29), +
 Muk (LV 29)
-|N |Biker |500 |Koffing (LV 25), +
+|10 |Biker |500 |Koffing (LV 25), +
 Weezing (LV 25), +
 Koffing (LV 25), +
 Koffing (LV 25), +
@@ -1328,14 +1497,16 @@ Weezing (LV 25)
 
 == Route 18 ==
 
+image::images/route18.png["Route 18",align="center"]
+
 |====
-|N |Bird Keeper |650 |Spearow (LV 26), +
+|1 |Bird Keeper |725 |Spearow (LV 29), +
+Fearow (LV 29)
+|2 |Bird Keeper |650 |Spearow (LV 26), +
 Spearow (LV 26), +
 Fearow (LV 26), +
 Spearow (LV 26)
-|N |Bird Keeper |725 |Spearow (LV 29), +
-Fearow (LV 29)
-|N |Bird Keeper |850 |Dodrio (LV 34)
+|3 |Bird Keeper |850 |Dodrio (LV 34)
 |====
 
 [options="header"]
@@ -1359,13 +1530,15 @@ Fearow (LV 29)
 
 == Fuchsia City ==
 
+image::images/fuchsiacity.png["Fuchsia City",align="center"]
+
 [options="header"]
 |====
 |ID |Item |Games
-|N |Good Rod |R  B
-|N |HM04 (Strength) |R  B
-|N |Rare Candy |R  B
-|N |TM06 (Toxic) |R  B
+|1 |Good Rod |R  B
+|2 |HM04 (Strength) |R  B
+|3 |Rare Candy |R  B
+|4 |TM06 (Toxic) |R  B
 |====
 
 [options="header"]
@@ -1394,22 +1567,24 @@ Fearow (LV 29)
 
 == Fuchsia Gym ==
 
+image::images/fuchsiacitygym.png["Fuchsia City Gym",align="center"]
+
 |====
-|N |Juggler |1,190 |Drowzee (LV 34), +
+|1 |Juggler |1,190 |Drowzee (LV 34), +
 Kadabra (LV 34)
-|N |Juggler |1,330 |Hypno (LV 38)
-|N |Juggler |1,085 |Drowzee (LV 31), +
+|2 |Juggler |1,330 |Hypno (LV 38)
+|3 |Juggler |1,085 |Drowzee (LV 31), +
 Drowzee (LV 31), +
 Kadabra (LV 31), +
 Drowzee (LV 31)
-|N |Tamer |1,320 |Arbok (LV 33), +
+|4 |Tamer |1,320 |Arbok (LV 33), +
 Sandslash (LV 33), +
 Arbok (LV 33)
-|N |Tamer |1,360 |Sandslash (LV 34), +
+|5 |Tamer |1,360 |Sandslash (LV 34), +
 Arbok (LV 34)
-|N |Juggler |1,190 |Drowzee (LV 34), +
+|6 |Juggler |1,190 |Drowzee (LV 34), +
 Hypno (LV 34)
-|N |Koga |4,300 |Koffing (LV 37), +
+|7 |Koga |4,300 |Koffing (LV 37), +
 Muk (LV 39), +
 Koffing (LV 37), +
 Weezing (LV 43)
@@ -1417,22 +1592,45 @@ Weezing (LV 43)
 
 == Safari Zone ==
 
+image::images/safarizonearea0.png["Safari Zone: Main Area",align="center"]
+
 [options="header"]
 |====
 |ID |Item |Games
-|N |Nugget |R  B
-|N |Carbos |R  B
-|N |TM37 (Egg Bomb) |R  B
-|N |Max Potion |R  B
-|N |Full Restore |R  B
-|N |TM40 (Skull Bash) |R  B
-|N |Protein |R  B
-|N |Max Revive |R  B
-|N |Max Potion |R  B
-|N |Gold Teeth |R  B
-|N |TM32 (Double Team) |R  B
-|N |Revive |R  B
-|N |HM03 (Surf) |R  B
+|1 |Nugget |R  B
+|====
+
+image::images/safarizonearea1.png["Safari Zone: Area 1",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |Carbos |R  B
+|2 |TM37 (Egg Bomb) |R  B
+|3 |Max Potion |R  B
+|4 |Full Restore |R  B
+|====
+
+image::images/safarizonearea2.png["Safari Zone: Area 2",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |TM40 (Skull Bash) |R  B
+|2 |Protein |R  B
+|====
+
+image::images/safarizonearea3.png["Safari Zone: Area 3",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |Max Revive |R  B
+|2 |Max Potion |R  B
+|3 |Gold Teeth |R  B
+|4 |TM32 (Double Team) |R  B
+|5 |Revive |R  B
+|6 |HM03 (Surf) |R  B
 |====
 
 [options="header"]
