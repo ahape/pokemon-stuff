@@ -172,10 +172,19 @@ Documentation/Walkthrough
           - Table has <td rowspan="2">, <td>, <td><big>
 
     [x] Create processing functions (converting HTML to AsciiDoc)
-        - Account for all types of tables
-        - Include placeholder columns (ref)
+        - Add quickest routes through certain locations
         - Go back and correctly do SS Anne
         - Figure out trainers at Erika's gym
+        - Get rid of weird characters (accented e, male sign, female sign, etc).
+        - Maybe go back and label in cities which direct is which route?
+        - Get segmented Route 4
+        - Collect all original photos (from Mac)
+        - Set max-width of all photos
+        - Add table headers to trainer battles
+        - Center and embolden wild colspanned headers
+        - Title each table (Wild Pokemon, Trainers, Items, Purchaseables)
+        - Show captions for each image (this will help segment floors, etc.)
+        - Remove all "section" delimiters
 
     [ ] Add legendary birds to walkthrough, and Mewtwo.
 
