@@ -2,6 +2,7 @@ Pokemon Walkthrough
 ===================
 :toc2:
 :numbered:
+:stylesheet: ../asciidocfiles/index.css
 
 == Pallet Town ==
 
@@ -24,7 +25,7 @@ image::images/pallettown.png["Pallet Town",align="center"]
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -63,7 +64,7 @@ image::images/viridiancity.png["Viridian City",align="center"]
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -100,7 +101,7 @@ Bulbasaur (LV 8)
 |Spearow |R |B |Grass |3-5 |10%
 |Nidoran♀ |R |B |Grass |3-4,2-4 |5%,35%
 |Nidoran♂ |R |B |Grass |2-4,3-4 |35%,5%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -109,6 +110,8 @@ Bulbasaur (LV 8)
 |====
 
 == Route 2 ==
+
+image::images/route2s.png["Route 2: South",align="center"]
 
 [options="header"]
 |====
@@ -163,7 +166,8 @@ image::images/pewtercity.png["Pewter City",align="center"]
 [options="header"]
 |====
 |ID |Item |Games |Description
-|1 |TM34 (Bide) |R  B |From Brock after you beat him
+|1 |TM34 (Bide) |R B |From Brock after you beat him
+|2 |Old Amber |R B |From building behind cuttable bush
 |====
 
 [options="header"]
@@ -223,7 +227,7 @@ Metapod (LV 11)
 
 == Route 4 (West) ==
 
-A Magikarp if you want it ($500).
+image::images/route4w.png["Route 4 (West)",align="center"]
 
 == Mt. Moon ==
 
@@ -288,17 +292,17 @@ Koffing (LV 12)
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|1F
+6+^h|1F
 |Clefairy |R |B |Cave |8 |1%
 |Zubat |R |B |Cave |6-11 |79%
 |Paras |R |B |Cave |8 |5%
 |Geodude |R |B |Cave |8, 10 |15%
-6+|B1F
+6+^h|B1F
 |Clefairy |R |B |Cave |9 |4%
 |Zubat |R |B |Cave |7-11 |60%
 |Paras |R |B |Cave |10 |10%
 |Geodude |R |B |Cave |7-9 |26%
-6+|B2F
+6+^h|B2F
 |Clefairy |R |B |Cave |10, 12 |6%
 |Zubat |R |B |Cave |9-12 |54%
 |Paras |R |B |Cave |10, 12 |15%
@@ -307,7 +311,7 @@ Koffing (LV 12)
 
 == Route 4 (East) ==
 
-image::images/route4.png["Route 4 (East)",width="100%",align="center"]
+image::images/route4e.png["Route 4 (East)",align="center"]
 
 [options="header"]
 |====
@@ -323,7 +327,7 @@ image::images/route4.png["Route 4 (East)",width="100%",align="center"]
 |Spearow |R |B |Grass |8, 10, 12 |30%
 |Ekans  2+|R |Grass |6, 8, 10, 12 |25%
 |Sandshrew  2+|B |Grass |6, 8, 10, 12 |25%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -357,7 +361,7 @@ Drowzee (LV 17)
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Trade
+6+^h|Trade
 |Jynx |R |B |Trade,Poliwhirl |The same as the Traded Pokémon |One
 |====
 
@@ -436,7 +440,7 @@ Ekans (LV 14)
 |Oddish  2+|R |Grass |12-14 |25%
 |Abra |R |B |Grass |8, 10, 12 |15%
 |Bellsprout  2+|B |Grass |12-14 |25%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -492,7 +496,7 @@ Oddish (LV 13)
 |Oddish  2+|R |Grass |12-14 |25%
 |Abra |R |B |Grass |10, 12 |15%
 |Bellsprout  2+|B |Grass |12-14 |25%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -527,7 +531,7 @@ image::images/route5.png["Route 5",align="center"]
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Trade
+6+^h|Trade
 |Nidoran♀ |R |B |Trade,Nidoran♂ |The same as the traded Pokémon |One
 |====
 
@@ -558,7 +562,7 @@ Raticate (LV 16)
 |Meowth  2+|B |Grass |10, 12, 14, 16 |25%
 |Mankey  2+|R |Grass |10, 12, 14, 16 |25%
 |Bellsprout  2+|B |Grass |13, 15-16 |40%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -586,13 +590,13 @@ image::images/vermilioncity.png["Vermilion City",align="center"]
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
 |Shellder |R |B |Fishing,Super Rod |15 |50%
 |Krabby |R |B |Fishing,Super Rod |15 |50%
-6+|Trade
+6+^h|Trade
 |Farfetch'd |R |B |Trade,Spearow |The same as the Traded Pokémon |One
 |====
 
@@ -751,13 +755,13 @@ Magneton (LV 18)
 |Ekans  2+|R |Grass |12, 14-15 |45%
 |Sandshrew  2+|B |Grass |12, 14-15 |45%
 |Drowzee |R |B |Grass |9, 11, 13, 15 |25%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
 |Shellder |R |B |Fishing,Super Rod |15 |50%
 |Krabby |R |B |Fishing,Super Rod |15 |50%
-6+|Trade
+6+^h|Trade
 |Nidorino |R |B |Trade,Nidorina |The same as the traded Pokémon |One
 |====
 
@@ -772,10 +776,20 @@ Magneton (LV 18)
 
 == Route 2 ==
 
+image::images/route2.png["Route 2",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games |Description
+|1 |HM05 (Flash) |R  B |From Professor Oak's aid
+|2 |HP Up |R  B |
+|2 |Moon Stone |R  B |
+|====
+
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Trade
+6+^h|Trade
 |Mr. Mime |R |B |Trade,Abra |The same as the traded Pokémon |One
 |====
 
@@ -847,7 +861,7 @@ Clefairy (LV 20)
 |Ekans  2+|R |Grass |11, 13, 15, 17 |25%
 |Sandshrew  2+|B |Grass |11, 13, 15, 17 |25%
 |Voltorb |R |B |Grass |14, 16-17 |45%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -911,12 +925,12 @@ Slowpoke (LV 20)
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|1F
+6+^h|1F
 |Zubat |R |B |Cave |15-18 |55%
 |Machop |R |B |Cave |15-17 |15%
 |Geodude |R |B |Cave |16-17 |25%
 |Onix |R |B |Cave |13-15 |5%
-6+|B1F
+6+^h|B1F
 |Zubat |R |B |Cave |16-18 |50%
 |Machop |R |B |Cave |15-17 |15%
 |Geodude |R |B |Cave |16-18 |26%
@@ -945,6 +959,8 @@ Slowpoke (LV 20)
 |====
 
 == Lavender Town ==
+
+image::images/lavendertown.png["Lavender Town",align="center"]
 
 [options="header"]
 |====
@@ -1006,6 +1022,8 @@ Magnemite (LV 20)
 
 == Route 7 ==
 
+image::images/route7.png["Route 7",align="center"]
+
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
@@ -1042,7 +1060,7 @@ image::images/celadoncity.png["Celadon City",align="center"]
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -1380,19 +1398,19 @@ Zubat (LV 23)
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|3F
+6+^h|3F
 |Gastly |R |B |3F |18-24 |90%
 |Haunter |R |B |3F |25 |1%
 |Cubone |R |B |3F |20-22 |9%
-6+|4F-5F
+6+^h|4F-5F
 |Gastly |R |B |4F-5F |18-24 |86%
 |Haunter |R |B |4F-5F |25 |5%
 |Cubone |R |B |4F-5F |20-22 |9%
-6+|6F
+6+^h|6F
 |Gastly |R |B |6F |19-24 |85%
 |Haunter |R |B |6F |26-28 |6%
 |Cubone |R |B |6F |22-24 |9%
-6+|7F
+6+^h|7F
 |Gastly |R |B |7F |20-24 |75%
 |Haunter |R |B |7F |28-30 |15%
 |Cubone |R |B |7F |22-24 |10%
@@ -1485,7 +1503,7 @@ Weezing (LV 25)
 |Spearow |R |B |Grass |20, 22 |40%
 |Fearow |R |B |Grass |25, 27 |5%
 |Doduo |R |B |Grass |24, 26, 28 |25%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -1516,7 +1534,7 @@ Spearow (LV 26)
 |Spearow |R |B |Grass |20, 22 |40%
 |Fearow |R |B |Grass |25, 27, 29 |15%
 |Doduo |R |B |Grass |24, 26, 28 |25%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -1524,7 +1542,7 @@ Spearow (LV 26)
 |Krabby |R |B |Fishing,Super Rod |15 |25%
 |Goldeen |R |B |Fishing,Super Rod |15 |25%
 |Magikarp |R |B |Fishing,Super Rod |15 |25%
-6+|Trade
+6+^h|Trade
 |Lickitung |R |B |Trade,Slowbro |The same as the traded Pokémon |One
 |====
 
@@ -1544,7 +1562,7 @@ image::images/fuchsiacity.png["Fuchsia City",align="center"]
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -1636,7 +1654,7 @@ image::images/safarizonearea3.png["Safari Zone: Area 3",align="center"]
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Entrance
+6+^h|Entrance
 |Nidoran♀  2+|B |Grass |22 |25%
 |Nidorina |R |B |Grass |31 |5%,10%
 |Nidoran♂  2+|R |Grass |22 |25%
@@ -1648,7 +1666,7 @@ image::images/safarizonearea3.png["Safari Zone: Area 3",align="center"]
 |Chansey |R |B |Grass |23 |1%
 |Scyther  2+|R |Grass |23 |4%
 |Pinsir  2+|B |Grass |23 |4%
-6+|Entrance - Fishing
+6+^h|Entrance - Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -1656,7 +1674,7 @@ image::images/safarizonearea3.png["Safari Zone: Area 3",align="center"]
 |Slowpoke |R |B |Fishing,Super Rod |15 |25%
 |Krabby |R |B |Fishing,Super Rod |15 |25%
 |Dratini |R |B |Fishing,Super Rod |15 |25%
-6+|Area 1
+6+^h|Area 1
 |Nidoran♀ |R |B |Grass |24 |5%,25%
 |Nidorina  2+|B |Grass |33 |10%
 |Nidoran♂ |R |B |Grass |24 |25%,5%
@@ -1668,7 +1686,7 @@ image::images/safarizonearea3.png["Safari Zone: Area 3",align="center"]
 |Kangaskhan |R |B |Grass |25 |4%
 |Scyther  2+|R |Grass |28 |1%
 |Pinsir  2+|B |Grass |28 |1%
-6+|Area 1 - Fishing
+6+^h|Area 1 - Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -1676,7 +1694,7 @@ image::images/safarizonearea3.png["Safari Zone: Area 3",align="center"]
 |Slowpoke |R |B |Fishing,Super Rod |15 |25%
 |Krabby |R |B |Fishing,Super Rod |15 |25%
 |Dratini |R |B |Fishing,Super Rod |15 |25%
-6+|Area 2
+6+^h|Area 2
 |Nidoran♀  2+|B |Grass |22 |25%
 |Nidorina |R |B |Grass |30 |5%,10%
 |Nidoran♂  2+|R |Grass |22 |25%
@@ -1687,7 +1705,7 @@ image::images/safarizonearea3.png["Safari Zone: Area 3",align="center"]
 |Rhyhorn |R |B |Grass |26 |15%
 |Chansey |R |B |Grass |26 |4%
 |Tauros |R |B |Grass |28 |1%
-6+|Area 2 - Fishing
+6+^h|Area 2 - Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -1695,7 +1713,7 @@ image::images/safarizonearea3.png["Safari Zone: Area 3",align="center"]
 |Slowpoke |R |B |Fishing,Super Rod |15 |25%
 |Krabby |R |B |Fishing,Super Rod |15 |25%
 |Dratini |R |B |Fishing,Super Rod |15 |25%
-6+|Area 3
+6+^h|Area 3
 |Nidoran♀ |R |B |Grass |25 |5%,25%
 |Nidorina  2+|B |Grass |33 |10%
 |Nidoran♂ |R |B |Grass |25 |25%,5%
@@ -1706,7 +1724,7 @@ image::images/safarizonearea3.png["Safari Zone: Area 3",align="center"]
 |Exeggcute |R |B |Grass |24, 26 |20%
 |Kangaskhan |R |B |Grass |28 |1%
 |Tauros |R |B |Grass |26 |4%
-6+|Area 3 - Fishing
+6+^h|Area 3 - Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -1762,7 +1780,7 @@ Nidorino (LV 29)
 |Venonat |R |B |Grass |24, 26 |20%
 |Bellsprout  2+|B |Grass |22, 24, 26 |40%
 |Weepinbell  2+|B |Grass |28, 30 |5%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -1841,7 +1859,7 @@ Fearow (LV 28)
 |Bellsprout  2+|B |Grass |22, 24, 26 |40%
 |Weepinbell  2+|B |Grass |28, 30 |5%
 |Ditto |R |B |Grass |25 |5%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -1985,9 +2003,9 @@ Poliwag (LV 27)
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Surfing
+6+^h|Surfing
 |Tentacool |R |B |Surfing |5-40 |100%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -2031,9 +2049,9 @@ Horsea (LV 28)
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Surfing
+6+^h|Surfing
 |Tentacool |R |B |Surfing |5-40 |100%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -2076,7 +2094,7 @@ image::images/seafoamislandsb4f.png["Seafoam Islands: B4F",align="center"]
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|1F
+6+^h|1F
 |Zubat |R |B |Cave |21 |10%
 |Golbat |R |B |Cave |29 |5%
 |Psyduck |R |B |Cave |28,30 |5%,15%
@@ -2088,7 +2106,7 @@ image::images/seafoamislandsb4f.png["Seafoam Islands: B4F",align="center"]
 |Krabby  2+|B |Cave |28, 30 |20%
 |Horsea  2+|R |Cave |28, 30 |20%
 |Staryu  2+|B |Cave |28, 30 |19%
-6+|B1F
+6+^h|B1F
 |Psyduck  2+|B |Cave |28, 30 |15%
 |Slowpoke  2+|R |Cave |28, 30 |15%
 |Seel |R |B |Cave |28, 30 |15%
@@ -2099,7 +2117,7 @@ image::images/seafoamislandsb4f.png["Seafoam Islands: B4F",align="center"]
 |Horsea  2+|R |Cave |30, 32 |25%
 |Seadra  2+|R |Cave |37 |1%
 |Staryu |R |B |Cave |30,32 |25%,15%
-6+|B2F
+6+^h|B2F
 |Golbat |R |B |Cave |30 |4%
 |Psyduck  2+|B |Cave |30, 32 |25%
 |Golduck  2+|B |Cave |37 |1%
@@ -2110,7 +2128,7 @@ image::images/seafoamislandsb4f.png["Seafoam Islands: B4F",align="center"]
 |Krabby  2+|B |Cave |28, 30 |15%
 |Horsea  2+|R |Cave |28, 30 |15%
 |Staryu |R |B |Cave |30,28 |10%,5%
-6+|B3F
+6+^h|B3F
 |Psyduck  2+|B |Cave |31, 33 |40%
 |Slowpoke  2+|R |Cave |31, 33 |40%
 |Seel |R |B |Cave |31, 33 |25%
@@ -2121,7 +2139,7 @@ image::images/seafoamislandsb4f.png["Seafoam Islands: B4F",align="center"]
 |Horsea  2+|R |Cave |29, 31 |15%
 |Seadra  2+|R |Cave |39 |4%
 |Staryu  2+|B |Cave |29, 31 |15%
-6+|B3F - Fishing
+6+^h|B3F - Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -2129,7 +2147,7 @@ image::images/seafoamislandsb4f.png["Seafoam Islands: B4F",align="center"]
 |Horsea |R |B |Fishing,Super Rod |15 |25%
 |Goldeen |R |B |Fishing,Super Rod |15 |25%
 |Staryu |R |B |Fishing,Super Rod |15 |25%
-6+|B4F
+6+^h|B4F
 |Golbat |R |B |Cave |32 |1%
 |Psyduck  2+|B |Cave |29, 31 |15%
 |Golduck  2+|B |Cave |39 |4%
@@ -2140,7 +2158,7 @@ image::images/seafoamislandsb4f.png["Seafoam Islands: B4F",align="center"]
 |Krabby  2+|B |Cave |31, 33 |40%
 |Horsea  2+|R |Cave |31, 33 |40%
 |Staryu  2+|B |Cave |31, 33 |25%
-6+|B4F - Fishing
+6+^h|B4F - Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -2184,7 +2202,7 @@ image::images/powerplant.png["Power Plant",align="center"]
 |Magneton |R |B |Walking |32, 35 |10%
 |Voltorb |R |B |Walking |21, 23 |35%
 |Electabuzz  2+|R |Walking |33, 36 |5%
-6+|Special Pokémon
+6+^h|Special Pokémon
 |Voltorb |R |B |Fake item |40 |Six
 |Electrode |R |B |Fake item |43 |Two
 |====
@@ -2522,9 +2540,9 @@ Wartortle (LV 33)
 |Rattata |R |B |Grass |21, 23 |35%
 |Raticate |R |B |Grass |30 |15%
 |Tangela |R |B |Grass |28, 30, 32 |10%
-6+|Surfing
+6+^h|Surfing
 |Tentacool |R |B |Surfing |5-40 |100%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -2548,7 +2566,7 @@ image::images/cinnabarisland.png["Cinnabar Island",align="center"]
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -2556,11 +2574,11 @@ image::images/cinnabarisland.png["Cinnabar Island",align="center"]
 |Horsea |R |B |Fishing,Super Rod |15 |25%
 |Goldeen |R |B |Fishing,Super Rod |15 |25%
 |Staryu |R |B |Fishing,Super Rod |15 |25%
-6+|Fossil Pokémon
+6+^h|Fossil Pokémon
 |Omanyte |R |B |Revive,Helix Fossil |30 |100%
 |Kabuto |R |B |Revive,Dome Fossil |30 |100%
 |Aerodactyl |R |B |Revive,Old Amber |30 |100%
-6+|Trade
+6+^h|Trade
 |Electrode |R |B |Trade,Raichu |The same as the traded Pokémon |One
 |Tangela |R |B |Trade,Venonat |The same as the traded Pokémon |One
 |Seel |R |B |Trade,Ponyta |The same as the traded Pokémon |One
@@ -2648,7 +2666,7 @@ Electrode (LV 34)
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|1F
+6+^h|1F
 |Vulpix  2+|B |1F |34 |10%
 |Growlithe  2+|R |1F |34 |10%
 |Ponyta |R |B |1F |28, 30, 32, 34 |40%
@@ -2656,7 +2674,7 @@ Electrode (LV 34)
 |Muk |R |B |1F |39,37 |1%,4%
 |Koffing |R |B |1F |30, 32,30 |40%,5%
 |Weezing |R |B |1F |37,39 |4%,1%
-6+|2F
+6+^h|2F
 |Vulpix  2+|B |2F |32 |25%
 |Growlithe  2+|R |2F |32 |25%
 |Ponyta |R |B |2F |28, 30, 32 |25%
@@ -2664,7 +2682,7 @@ Electrode (LV 34)
 |Muk |R |B |2F |37,39 |1%,4%
 |Koffing |R |B |2F |30, 34,30 |40%,5%
 |Weezing |R |B |2F |39,37 |4%,1%
-6+|3F
+6+^h|3F
 |Vulpix  2+|B |3F |33 |15%
 |Growlithe  2+|R |3F |33 |15%
 |Ponyta |R |B |3F |32, 34, 36,32, 36 |24%,14%
@@ -2673,7 +2691,7 @@ Electrode (LV 34)
 |Koffing |R |B |3F |31, 35,34 |40%,5%
 |Weezing |R |B |3F |38, 40,42 |15%,1%
 |Magmar  2+|B |3F |34 |10%
-6+|B1F
+6+^h|B1F
 |Vulpix  2+|B |B1F |35 |15%
 |Growlithe  2+|R |B1F |35 |15%
 |Ponyta |R |B |B1F |32, 34 |15%
@@ -2787,7 +2805,7 @@ Venusaur (LV 53)
 
 == Route 23 (South) ==
 
-image::images/route23.png["Route 23",align="center"]
+image::images/route23s.png["Route 23 (South)",align="center"]
 
 [options="header"]
 |====
@@ -2807,7 +2825,7 @@ image::images/route23.png["Route 23",align="center"]
 |Sandshrew  2+|B |Grass |26 |25%
 |Sandslash  2+|B |Grass |41 |5%
 |Ditto |R |B |Grass |33, 38, 43 |30%
-6+|Fishing
+6+^h|Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -2893,7 +2911,7 @@ Blastoise (LV 43)
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|1F
+6+^h|1F
 |Zubat |R |B |Cave |22 |15%
 |Golbat |R |B |Cave |41 |5%
 |Machop |R |B |Cave |24 |25%
@@ -2902,7 +2920,7 @@ Blastoise (LV 43)
 |Graveler |R |B |Cave |42 |5%
 |Onix |R |B |Cave |36, 39, 42 |30%
 |Marowak |R |B |Cave |43 |1%
-6+|2F
+6+^h|2F
 |Zubat |R |B |Cave |26 |15%
 |Golbat |R |B |Cave |40 |5%
 |Machop |R |B |Cave |22 |25%
@@ -2911,7 +2929,7 @@ Blastoise (LV 43)
 |Graveler |R |B |Cave |43 |1%
 |Onix |R |B |Cave |36, 39, 42 |30%
 |Marowak |R |B |Cave |40 |4%
-6+|3F
+6+^h|3F
 |Zubat |R |B |Cave |22 |15%
 |Golbat |R |B |Cave |41 |5%
 |Venomoth |R |B |Cave |40 |10%
@@ -2924,7 +2942,7 @@ Blastoise (LV 43)
 
 == Route 23 (North) ==
 
-Insert map on how to get through maze?
+image::images/route23n.png["Route 23 (North)",align="center"]
 
 ****
 PART 14 END
@@ -3037,7 +3055,7 @@ image::images/ceruleancaveb1f.png["Cerulean Cave: B1F", align="center"]
 [options="header"]
 |====
 |Pokémon  2+|Games |Location |Levels |Rate
-6+|1F
+6+^h|1F
 |Arbok  2+|R |Cave |52 |10%
 |Raichu |R |B |Cave |53 |4%
 |Sandslash  2+|B |Cave |52 |10%
@@ -3049,7 +3067,7 @@ image::images/ceruleancaveb1f.png["Cerulean Cave: B1F", align="center"]
 |Dodrio |R |B |Cave |49 |10%
 |Hypno |R |B |Cave |46 |15%
 |Ditto |R |B |Cave |53 |1%
-6+|1F - Fishing
+6+^h|1F - Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%
@@ -3057,7 +3075,7 @@ image::images/ceruleancaveb1f.png["Cerulean Cave: B1F", align="center"]
 |Kingler |R |B |Fishing,Super Rod |23 |25%
 |Seadra |R |B |Fishing,Super Rod |23 |25%
 |Seaking |R |B |Fishing,Super Rod |23 |25%
-6+|2F
+6+^h|2F
 |Wigglytuff |R |B |Cave |54 |5%
 |Venomoth |R |B |Cave |51 |15%
 |Kadabra |R |B |Cave |51 |15%
@@ -3067,7 +3085,7 @@ image::images/ceruleancaveb1f.png["Cerulean Cave: B1F", align="center"]
 |Rhydon |R |B |Cave |52 |10%
 |Chansey |R |B |Cave |56 |5%
 |Ditto |R |B |Cave |55, 60 |5%
-6+|B1F
+6+^h|B1F
 |Arbok  2+|R |Cave |57 |5%
 |Raichu |R |B |Cave |64 |10%
 |Sandslash  2+|B |Cave |57 |5%
@@ -3077,7 +3095,7 @@ image::images/ceruleancaveb1f.png["Cerulean Cave: B1F", align="center"]
 |Rhydon |R |B |Cave |55 |25%
 |Chansey |R |B |Cave |64 |10%
 |Ditto |R |B |Cave |63, 65, 67 |10%
-6+|B1F - Fishing
+6+^h|B1F - Fishing
 |Magikarp |R |B |Fishing,Old Rod |5 |100%
 |Poliwag |R |B |Fishing,Good Rod |10 |50%
 |Goldeen |R |B |Fishing,Good Rod |10 |50%

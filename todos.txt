@@ -176,15 +176,19 @@ Documentation/Walkthrough
         - Go back and correctly do SS Anne
         - Figure out trainers at Erika's gym
         - Get rid of weird characters (accented e, male sign, female sign, etc).
-        - Maybe go back and label in cities which direct is which route?
-        - Get segmented Route 4
+        x Maybe go back and label in cities which direct is which route?
+        x Get segmented Route 4
         - Collect all original photos (from Mac)
-        - Set max-width of all photos
+        x Set max-width of all photos
         - Add table headers to trainer battles
-        - Center and embolden wild colspanned headers
+        x Center and embolden wild colspanned headers
         - Title each table (Wild Pokemon, Trainers, Items, Purchaseables)
         - Show captions for each image (this will help segment floors, etc.)
         - Remove all "section" delimiters
+        - Change the items received from gym leaders to be w/in gym table instead of city table (?maybe not)
+        - Seafoam Island maze solve
+        - Pokemon Mansion maze solve
+        - Victory road maze solve
 
     [ ] Add legendary birds to walkthrough, and Mewtwo.
 

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "docs": "python3 asciidoc-9.0.4/asciidoc.py asciidocfiles/index.txt"
   },
   "author": "Alan Hape",
   "license": "ISC",
