@@ -16,7 +16,9 @@ image::images/pallettown.png["Pallet Town",align="center"]
 |3 |Pokédex |R  B |Professor Oak after delivering his parcel
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |4 |Blue |175 |Charmander (LV 5)
 |4 |Blue |175 |Squirtle (LV 5)
 |4 |Blue |175 |Bulbasaur (LV 5)
@@ -85,7 +87,9 @@ image::images/viridiancity.png["Viridian City",align="center"]
 
 image::images/route22.png["Route 22",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Blue |280 |Pidgey (LV 9), +
 Charmander (LV 8)
 |1 |Blue |280 |Pidgey (LV 9), +
@@ -136,7 +140,9 @@ image::images/viridianforest.png["Viridian Forest",align="center"]
 |5 |Poké Ball |R  B |
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |6 |Bug Catcher |260 |Weedle (LV 6), +
 Caterpie (LV 6)
 |7 |Bug Catcher |70 |Weedle (LV 7), +
@@ -154,10 +160,6 @@ Weedle (LV 7)
 |Kakuna |R |B |Grass |4-6,4 |40%,5%
 |Pikachu |R |B |Grass |3-5 |5%
 |====
-
-****
-PART 1 END
-****
 
 == Pewter City ==
 
@@ -186,7 +188,9 @@ image::images/pewtercity.png["Pewter City",align="center"]
 
 image::images/pewtercitygym.png["Pewter City Gym",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Jr. Trainer♂ |220 |Diglett (LV 11), +
 Sandshrew (LV 11)
 |2 |Brock |1,386 |Geodude (LV 12), +
@@ -197,7 +201,9 @@ Onix (LV 14)
 
 image::images/route3.png["Route 3",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Lass |135 |Pidgey (LV 9), +
 Pidgey (LV 9)
 |2 |Bug Catcher |100 |Caterpie (LV 10), +
@@ -244,7 +250,9 @@ image::images/mtmoon1f.png["Mt Moon: 1F",align="center"]
 |6 |Moon Stone |R  B |
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |7 |Bug Catcher |110 |Weedle (LV 11), +
 Kakuna (LV 11)
 |8 |Lass |210 |Clefairy (LV 14)
@@ -275,7 +283,9 @@ image::images/mtmoonb2f.png["Mt Moon: B2F",align="center"]
 |5 |Helix Fossil or Dome Fossil |R  B |Helix for Omamyte, Dome for Kabuto
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |6 |Rocket |330 |Sandshrew (LV 11), +
 Rattata (LV 11), +
 Zubat (LV 11)
@@ -336,10 +346,6 @@ image::images/route4e.png["Route 4 (East)",align="center"]
 |Goldeen |R |B |Fishing,Super Rod |15 |33%
 |====
 
-****
-PART 2 END
-****
-
 == Cerulean City ==
 
 image::images/ceruleancity.png["Cerulean City",align="center"]
@@ -353,7 +359,9 @@ image::images/ceruleancity.png["Cerulean City",align="center"]
 |4 |Bicycle |R  B |In exchange for bicycle voucher
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |5 |Rocket |510 |Machop (LV 17), +
 Drowzee (LV 17)
 |====
@@ -381,7 +389,9 @@ Drowzee (LV 17)
 
 image::images/ceruleancitygym.png["Cerulean City Gym",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Swimmer |80 |Horsea (LV 16), +
 Shellder (LV 16)
 |2 |Jr. Trainer♀ |380 |Goldeen (LV 19)
@@ -400,7 +410,9 @@ image::images/route24.png["Route 24",align="center"]
 |2 |TM45 (Thunder Wave) |R  B |
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Blue |595 |Pidgeotto (LV 18), +
 Abra (LV 15), +
 Rattata (LV 15), +
@@ -463,7 +475,9 @@ but you can draw out trainer to acquire as well
 |4 |S.S. Ticket |R  B |In Bill's house, received after helping him
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |5 |Hiker |525 |Machop (LV 15), +
 Geodude (LV 15)
 |6 |Hiker |595 |Onix (LV 17)
@@ -539,7 +553,9 @@ image::images/route5.png["Route 5",align="center"]
 
 image::images/route6.png["Route 6",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Bug Catcher |160 |Weedle (LV 16), +
 Caterpie (LV 16), +
 Weedle (LV 16)
@@ -569,10 +585,6 @@ Raticate (LV 16)
 |Shellder |R |B |Fishing,Super Rod |15 |50%
 |Krabby |R |B |Fishing,Super Rod |15 |50%
 |====
-
-****
-PART 3 END
-****
 
 == Vermilion City ==
 
@@ -622,14 +634,45 @@ image::images/ssanne1f.png["S.S. Anne: 1F",align="center"]
 |2 |Great Ball |R  B |Hidden in trash
 |====
 
+[options="header"]
 |====
-|N |Gentleman |1,260 |Growlithe (LV 18), +
+|ID |Trainer |Prize |Pokemon
+|3 |Gentleman |1,260 |Growlithe (LV 18), +
 Growlithe (LV 18)
-|N |Gentleman |1,330 |Nidoran♂ (LV 19), +
+|4 |Gentleman |1,330 |Nidoran♂ (LV 19), +
 Nidoran♀ (LV 19)
-|N |Lass |270 |Pidgey (LV 18), +
+|5 |Lass |270 |Pidgey (LV 18), +
 Nidoran♀ (LV 18)
-|N |Youngster |315 |Nidoran♂ (LV 21)
+|6 |Youngster |315 |Nidoran♂ (LV 21)
+|====
+
+image::images/ssanneb1f.png["S.S. Anne: B1F",align="center"]
+
+[options="header"]
+|====
+|ID |Item |Games
+|1 |Max Potion |R  B
+|2 |Ether |R  B
+|3 |TM44 (Rest) |R  B
+|10 |Hyper Potion |R  B
+|====
+
+[options="header"]
+|====
+|ID |Trainer |Prize |Pokemon
+|4 |Sailor |630 |Shellder (LV 21)
+|5 |Sailor |510 |Horsea (LV 17), +
+Shellder (LV 17), +
+Tentacool (LV 17)
+|6 |Sailor |510 |Horsea (LV 17), +
+Horsea (LV 17), +
+Horsea (LV 17)
+|7 |Sailor |540 |Tentacool (LV 18), +
+Staryu (LV 18)
+|8 |Fisherman |595 |Tentacool (LV 17), +
+Staryu (LV 17), +
+Shellder (LV 17)
+|9 |Sailor |600 |Machop (LV 20)
 |====
 
 image::images/ssanne2f.png["S.S. Anne: 2F",align="center"]
@@ -639,66 +682,57 @@ image::images/ssanne2f.png["S.S. Anne: 2F",align="center"]
 |ID |Item |Games |Description
 |1 |Max Ether |R  B |
 |2 |Rare Candy |R  B |
-|3 |HM01 (Cut) |R  B |Awarded for rubbing captains back
 |====
 
+[options="header"]
 |====
-|4 |Fisherman |595 |Goldeen (LV 17), +
+|ID |Trainer |Prize |Pokemon
+|3 |Fisherman |595 |Goldeen (LV 17), +
 Goldeen (LV 17), +
 Tentacool (LV 17)
-|5 |Gentleman |1,610 |Pikachu (LV 23)
-|6 |Gentleman |1,190 |Growlithe (LV 17), +
+|4 |Gentleman |1,610 |Pikachu (LV 23)
+|5 |Gentleman |1,190 |Growlithe (LV 17), +
 Ponyta (LV 17)
-|7 |Lass |270 |Rattata (LV 18), +
+|6 |Lass |270 |Rattata (LV 18), +
 Pikachu (LV 18)
-|8 |Blue |1,330 |Pidgeotto (LV 19), +
+|7 |Blue |1,330 |Pidgeotto (LV 19), +
 Raticate (LV 16), +
 Kadabra (LV 18), +
 Charmeleon (LV 20)
-|8 |Blue |1,330 |Pidgeotto (LV 19), +
+|7 |Blue |1,330 |Pidgeotto (LV 19), +
 Raticate (LV 16), +
 Kadabra (LV 18), +
 Wartortle (LV 20)
-|8 |Blue |1,330 |Pidgeotto (LV 19), +
+|7 |Blue |1,330 |Pidgeotto (LV 19), +
 Raticate (LV 16), +
 Kadabra (LV 18), +
 Ivysaur (LV 20)
 |====
 
+image::images/ssanneupperdeck.png["S.S. Anne: Upper Deck",align="center"]
+
+[options="header"]
 |====
-|N |Sailor |510 |Horsea (LV 17), +
-Shellder (LV 17), +
-Tentacool (LV 17)
-|N |Sailor |630 |Shellder (LV 21)
-|N |Sailor |510 |Horsea (LV 17), +
-Horsea (LV 17), +
-Horsea (LV 17)
-|N |Sailor |540 |Tentacool (LV 18), +
-Staryu (LV 18)
-|N |Fisherman |595 |Tentacool (LV 17), +
-Staryu (LV 17), +
-Shellder (LV 17)
-|N |Sailor |600 |Machop (LV 20)
-|N |Sailor |510 |Machop (LV 17), +
-Tentacool (LV 17)
-|N |Sailor |540 |Machop (LV 18), +
-Shellder (LV 18)
+|ID |Item |Games |Description
+|1 |HM01 (Cut) |R  B |Awarded for rubbing captains back
 |====
 
 [options="header"]
 |====
-|ID |Item |Games
-|N |Max Potion |R  B
-|N |Ether |R  B
-|N |TM44 (Rest) |R  B
-|N |Hyper Potion |R  B
+|ID |Trainer |Prize |Pokemon
+|2 |Sailor |510 |Machop (LV 17), +
+Tentacool (LV 17)
+|3 |Sailor |540 |Machop (LV 18), +
+Shellder (LV 18)
 |====
 
 == Vermilion Gym ==
 
 image::images/vermilioncitygym.png["Vermilion City Gym",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Sailor |630 |Pikachu (LV 21), +
 Pikachu (LV 21)
 |2 |Rocker |500 |Voltorb (LV 20), +
@@ -709,10 +743,6 @@ Voltorb (LV 20)
 Pikachu (LV 18), +
 Raichu (LV 24)
 |====
-
-****
-PART 4 END
-****
 
 == Route 11 ==
 
@@ -725,7 +755,9 @@ image::images/route11.png["Route 11",align="center"]
 |2 |Escape Rope |R  B |Against the lone bush (hidden)
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Gambler |1,260 |Poliwag (LV 18), +
 Horsea (LV 18)
 |4 |Youngster |315 |Ekans (LV 21)
@@ -804,7 +836,9 @@ image::images/route9.png["Route 9",align="center"]
 |2 |Ether |R  B |Examine the bush (hidden)
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Jr. Trainer♀ |360 |Oddish (LV 18), +
 Bellsprout (LV 18), +
 Oddish (LV 18), +
@@ -849,7 +883,9 @@ image::images/route10n.png["Route 10: North",align="center"]
 |1 |Super Potion |R  B |Behind the cuttable bush (hidden)
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |2 |Jr. Trainer♀ |400 |Pikachu (LV 20), +
 Clefairy (LV 20)
 |====
@@ -869,15 +905,13 @@ Clefairy (LV 20)
 |Slowpoke |R |B |Fishing,Super Rod |15 |50%
 |====
 
-****
-PART 5 END
-****
-
 == Rock Tunnel ==
 
 image::images/rocktunnel1f.png["Rock Tunnel: 1F",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |PokéManiac |1,150 |Cubone (LV 23), +
 Slowpoke (LV 23)
 |2 |Hiker |665 |Geodude (LV 19), +
@@ -902,7 +936,9 @@ Pidgey (LV 20)
 
 image::images/rocktunnelb1f.png["Rock Tunnel: B1F",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |PokéManiac |1,250 |Slowpoke (LV 25)
 |2 |Jr. Trainer♀ |440 |Oddish (LV 22), +
 Bulbasaur (LV 22)
@@ -947,7 +983,9 @@ image::images/route10s.png["Route 10: South",align="center"]
 |1 |Max Ether |R  B |Next to the lone bush (hidden)
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |2 |Jr. Trainer♀ |420 |Pidgey (LV 21), +
 Pidgeotto (LV 21)
 |3 |Hiker |735 |Geodude (LV 21), +
@@ -980,7 +1018,9 @@ image::images/lavendertown.png["Lavender Town",align="center"]
 
 image::images/route8.png["Route 8",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Lass |330 |Clefairy (LV 22), +
 Clefairy (LV 22)
 |2 |Gambler |1,680 |Growlithe (LV 24), +
@@ -1035,10 +1075,6 @@ image::images/route7.png["Route 7",align="center"]
 |Growlithe  2+|R |Grass |18, 20 |10%
 |Bellsprout  2+|B |Grass |19, 22 |25%
 |====
-
-****
-PART 6 END
-****
 
 == Celadon City ==
 
@@ -1123,7 +1159,9 @@ image::images/celadoncity.png["Celadon City",align="center"]
 
 image::images/celadoncitygym.png["Celadon City Gym",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |N |Lass |345 |Bellsprout (LV 23), +
 Weepinbell (LV 23)
 |N |Beauty |1,470 |Oddish (LV 21), +
@@ -1166,7 +1204,9 @@ Vileplume (LV 29)
 |N |10 Coins |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |N |Rocket |600 |Raticate (LV 20), +
 Zubat (LV 20)
 |====
@@ -1209,7 +1249,9 @@ image::images/rockethideoutb1f.png["Rocket Hideout: B1F",align="center"]
 |3 |PP Up |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |4 |Rocket |630 |Drowzee (LV 21), +
 Machop (LV 21)
 |5 |Rocket |630 |Raticate (LV 21), +
@@ -1236,7 +1278,9 @@ image::images/rockethideoutb2f.png["Rocket Hideout: B2F",align="center"]
 |4 |Super Potion |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |5 |Rocket |510 |Zubat (LV 17), +
 Koffing (LV 17), +
 Grimer (LV 17), +
@@ -1254,7 +1298,9 @@ image::images/rockethideoutb3f.png["Rocket Hideout: B3F",align="center"]
 |3 |Nugget |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |4 |Rocket |630 |Machop (LV 21), +
 Machop (LV 21)
 |5 |Rocket |600 |Rattata (LV 20), +
@@ -1275,7 +1321,9 @@ image::images/rockethideoutb4f.png["Rocket Hideout: B4F",align="center"]
 |6 |Super Potion |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |7 |Rocket |630 |Koffing (LV 21), +
 Zubat (LV 21)
 |8 |Rocket |690 |Sandshrew (LV 23), +
@@ -1293,7 +1341,9 @@ Kangaskhan (LV 29)
 
 image::images/pokemontower2f.png["Pokemon Tower: 2F",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Blue |1,625 |Pidgeotto (LV 25), +
 Exeggcute (LV 23), +
 Gyarados (LV 22), +
@@ -1319,7 +1369,9 @@ image::images/pokemontower3f.png["Pokemon Tower: 3F",align="center"]
 |1 |Escape Rope |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |2 |Channeler |690 |Gastly (LV 23)
 |3 |Channeler |660 |Gastly (LV 22)
 |4 |Channeler |720 |Gastly (LV 24)
@@ -1335,7 +1387,9 @@ image::images/pokemontower4f.png["Pokemon Tower: 4F",align="center"]
 |3 |Elixir |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |4 |Channeler |690 |Gastly (LV 23), +
 Gastly (LV 23)
 |5 |Channeler |660 |Gastly (LV 22)
@@ -1351,7 +1405,9 @@ image::images/pokemontower5f.png["Pokemon Tower: 5F",align="center"]
 |2 |Nugget |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Channeler |660 |Gastly (LV 22)
 |4 |Channeler |720 |Gastly (LV 24)
 |5 |Channeler |660 |Haunter (LV 22)
@@ -1367,7 +1423,9 @@ image::images/pokemontower6f.png["Pokemon Tower: 6F",align="center"]
 |2 |Rare Candy |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Channeler |660 |Gastly (LV 22), +
 Gastly (LV 22), +
 Gastly (LV 22)
@@ -1383,7 +1441,9 @@ image::images/pokemontower7f.png["Pokemon Tower: 7F",align="center"]
 |1 |Poke Flute |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |2 |Rocket |750 |Zubat (LV 25), +
 Zubat (LV 25), +
 Golbat (LV 25)
@@ -1416,10 +1476,6 @@ Zubat (LV 23)
 |Cubone |R |B |7F |22-24 |10%
 |====
 
-****
-PART 7 END
-****
-
 == Route 16 ==
 
 image::images/route16.png["Route 16",align="center"]
@@ -1430,7 +1486,9 @@ image::images/route16.png["Route 16",align="center"]
 |1 |HM02 (Fly) |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |2 |Biker |580 |Grimer (LV 29), +
 Koffing (LV 29)
 |3 |Cue Ball |700 |Machop (LV 28), +
@@ -1469,7 +1527,9 @@ image::images/route17.png["Route 17",align="center"]
 |? |Max Elixir |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Biker |560 |Weezing (LV 28), +
 Koffing (LV 28), +
 Weezing (LV 28)
@@ -1517,7 +1577,9 @@ Weezing (LV 25)
 
 image::images/route18.png["Route 18",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Bird Keeper |725 |Spearow (LV 29), +
 Fearow (LV 29)
 |2 |Bird Keeper |650 |Spearow (LV 26), +
@@ -1587,7 +1649,9 @@ image::images/fuchsiacity.png["Fuchsia City",align="center"]
 
 image::images/fuchsiacitygym.png["Fuchsia City Gym",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Juggler |1,190 |Drowzee (LV 34), +
 Kadabra (LV 34)
 |2 |Juggler |1,330 |Hypno (LV 38)
@@ -1734,10 +1798,6 @@ image::images/safarizonearea3.png["Safari Zone: Area 3",align="center"]
 |Dratini |R |B |Fishing,Super Rod |15 |25%
 |====
 
-****
-PART 8 END
-****
-
 == Route 12 ==
 
 image::images/route12.png["Route 12",align="center"]
@@ -1752,7 +1812,9 @@ image::images/route12.png["Route 12",align="center"]
 |5 |TM39 (Swift) |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Fisherman |770 |Goldeen (LV 22), +
 Poliwag (LV 22), +
 Goldeen (LV 22)
@@ -1801,7 +1863,9 @@ image::images/route13.png["Route 13",align="center"]
 |2 |Calcium |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Jr. Trainer♀ |560 |Goldeen (LV 28), +
 Poliwag (LV 28), +
 Horsea (LV 28)
@@ -1873,7 +1937,9 @@ Fearow (LV 28)
 
 image::images/route14.png["Route 14",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Biker |580 |Koffing (LV 29), +
 Muk (LV 29)
 |2 |Bird Keeper |825 |Farfetch'd (LV 33)
@@ -1914,7 +1980,9 @@ image::images/route15.png["Route 15",align="center"]
 |2 |Exp. All |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Jr. Trainer♀ |580 |Pikachu (LV 29), +
 Raichu (LV 29)
 |4 |Beauty |2,030 |Pidgeotto (LV 29), +
@@ -1958,15 +2026,13 @@ Tangela (LV 29)
 |Ditto |R |B |Grass |25 |5%
 |====
 
-****
-PART 9 END
-****
-
 == Route 19 ==
 
 image::images/route19.png["Route 19",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Swimmer |145 |Goldeen (LV 29), +
 Horsea (LV 29), +
 Staryu (LV 29)
@@ -2019,7 +2085,9 @@ Poliwag (LV 27)
 
 image::images/route20.png["Route 20",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Beauty |2,170 |Poliwag (LV 31), +
 Seaking (LV 31)
 |2 |Beauty |2,100 |Shellder (LV 30), +
@@ -2172,7 +2240,9 @@ image::images/seafoamislandsb4f.png["Seafoam Islands: B4F",align="center"]
 
 image::images/route10.png["Route 10",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |PokéManiac |1,500 |Rhyhorn (LV 29), +
 Lickitung (LV 29)
 |====
@@ -2207,10 +2277,6 @@ image::images/powerplant.png["Power Plant",align="center"]
 |Electrode |R |B |Fake item |43 |Two
 |====
 
-****
-PART 10 END
-****
-
 == Saffron City ==
 
 image::images/saffroncity.png["Saffron City",align="center"]
@@ -2239,7 +2305,9 @@ image::images/saffroncity.png["Saffron City",align="center"]
 
 The trainers are in order from closest to the entrance--no visual needed.
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Blackbelt |775 |Machop (LV 31), +
 Mankey (LV 31), +
 Primeape (LV 31)
@@ -2263,7 +2331,9 @@ image::images/silphco2f.png["Silph Co: 2F",align="center"]
 |1 |TM36 (Selfdestruct) |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |2 |Rocket |750 |Golbat (LV 25), +
 Zubat (LV 25), +
 Zubat (LV 25), +
@@ -2288,7 +2358,9 @@ image::images/silphco3f.png["Silph Co: 3F",align="center"]
 |1 |Hyper Potion |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |2 |Rocket |840 |Raticate (LV 28), +
 Hypno (LV 28), +
 Raticate (LV 28)
@@ -2306,7 +2378,9 @@ image::images/silphco4f.png["Silph Co: 4F",align="center"]
 |3 |Escape Rope |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |4 |Rocket |840 |Ekans (LV 28), +
 Zubat (LV 28), +
 Cubone (LV 28)
@@ -2326,7 +2400,9 @@ image::images/silphco5f.png["Silph Co: 5F",align="center"]
 |8 |Elixir |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |4 |Rocket |1,015 |Hypno (LV 33)
 |5 |Scientist (TODO: Not sure about pkmon order) |1,300 |Magneton (LV 26), +
 Magnemite (LV 26), +
@@ -2346,7 +2422,9 @@ image::images/silphco6f.png["Silph Co: 6F",align="center"]
 |2 |X Accuracy |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Rocket |870 |Machop (LV 29), +
 Machoke (LV 29)
 |4 |Scientist |1,250 |Voltorb (LV 25), +
@@ -2368,7 +2446,9 @@ image::images/silphco7f.png["Silph Co: 7F",align="center"]
 |2 |Calcium |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Rocket |870 |Cubone (LV 29), +
 Cubone (LV 29)
 |4 |Rocket |780 |Raticate (LV 26), +
@@ -2398,7 +2478,9 @@ Venusaur (LV 40)
 
 image::images/silphco8f.png["Silph Co: 8F",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Rocket (TODO: Verify pkmn) |780 |Raticate (LV 26), +
 Golbat (LV 26), +
 Arbok (LV 26), +
@@ -2418,7 +2500,9 @@ image::images/silphco9f.png["Silph Co: 9F",align="center"]
 |1 |Max Potion |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |2 |Scientist (TODO: Order of last 2?) |1,400 |Voltorb (LV 28), +
 Magneton (LV 28), +
 Koffing (LV 28)
@@ -2440,7 +2524,9 @@ image::images/silphco10f.png["Silph Co: 10F",align="center"]
 |3 |TM26 (Earthquake) |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |4 |Scientist |1,450 |Magnemite (LV 29), +
 Koffing (LV 29)
 |5 |Rocket |840 |Machoke (LV 33)
@@ -2454,7 +2540,9 @@ image::images/silphco11f.png["Silph Co: 11F",align="center"]
 |1 |Master Ball |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |2 |Rocket |750 |Rattata (LV 25), +
 Zubat (LV 25), +
 Ekans (LV 25), +
@@ -2473,7 +2561,9 @@ Nidoqueen (LV 41)
 
 image::images/saffroncitygym.png["Saffron City Gym",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Psychic |330 |Slowpoke (LV 33), +
 Slowpoke (LV 33), +
 Slowbro (LV 33)
@@ -2496,15 +2586,13 @@ Venomoth (LV 38), +
 Alakazam (LV 43)
 |====
 
-****
-PART 11 END
-****
-
 == Route 21 ==
 
 image::images/route21.png["Route 21",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Fisherman |980 |Seaking (LV 28), +
 Goldeen (LV 28), +
 Seaking (LV 28), +
@@ -2608,7 +2696,9 @@ image::images/pokemonmansion1f.png["Pokemon Mansion: 1F",align="center"]
 |3 |Moon Stone |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |4 |Scientist |1,450 |Electrode (LV 29), +
 Weezing (LV 29)
 |====
@@ -2621,7 +2711,9 @@ image::images/pokemonmansion2f.png["Pokemon Mansion: 2F",align="center"]
 |1 |Calcium |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |2 |Burglar |3,060 |Charmander (LV 34), +
 Charmeleon (LV 34)
 |====
@@ -2636,7 +2728,9 @@ image::images/pokemonmansion3f.png["Pokemon Mansion: 3F",align="center"]
 |3 |Max Revive |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |4 |Burglar |3,420 |Ninetales (LV 38)
 |5 |Scientist |1,650 |Magnemite (LV 33), +
 Magneton (LV 33), +
@@ -2656,7 +2750,9 @@ image::images/pokemonmansionb1f.png["Pokemon Mansion: B1F",align="center"]
 |6 |Rare Candy |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |7 |Burglar |3,060 |Growlithe (LV 34), +
 Ponyta (LV 34)
 |8 |Scientist |1,700 |Magnemite (LV 34), +
@@ -2706,7 +2802,9 @@ Electrode (LV 34)
 
 image::images/cinnabarislandgym.png["Cinnabar Island Gym",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Burglar |3,240 |Growlithe (LV 36), +
 Vulpix (LV 36), +
 Ninetales (LV 36)
@@ -2737,10 +2835,6 @@ Arcanine (LV 47)
 5. Yes
 6. No
 
-****
-PART 12 END
-****
-
 == Viridian Gym ==
 
 image::images/viridiancitygym.png["Viridian City Gym",align="center"]
@@ -2752,7 +2846,9 @@ image::images/viridiancitygym.png["Viridian City Gym",align="center"]
 |2 |TM27 (Fissure) |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Blackbelt |1,000 |Machop (LV 40), +
 Machoke (LV 40)
 |4 |Cooltrainer♂ |1,365 |Sandslash (LV 39), +
@@ -2774,15 +2870,13 @@ Nidoking (LV 45), +
 Rhydon (LV 50)
 |====
 
-****
-PART 13 END
-****
-
 == Route 22 ==
 
 image::images/route22.png["Route 22",align="center"]
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Blue |3,445 |Pidgeot (LV 47), +
 Rhyhorn (LV 45), +
 Gyarados (LV 45), +
@@ -2839,6 +2933,7 @@ image::images/route23s.png["Route 23 (South)",align="center"]
 
 image::images/victoryroad1f.png["Victory Road: 1F",align="center"]
 
+.Items
 [options="header"]
 |====
 |ID |Item |Games
@@ -2846,7 +2941,9 @@ image::images/victoryroad1f.png["Victory Road: 1F",align="center"]
 |2 |TM43 (Sky Attack) |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Cooltrainer♀ |1,540 |Persian (LV 44), +
 Ninetales (LV 44)
 |4 |Cooltrainer♂ |1,470 |Ivysaur (LV 42), +
@@ -2868,7 +2965,9 @@ image::images/victoryroad2f.png["Victory Road: 2F",align="center"]
 |11 |Ultra Ball |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |6 |Blackbelt |1,075 |Machoke (LV 43), +
 Machop (LV 43), +
 Machoke (LV 43)
@@ -2893,7 +2992,9 @@ image::images/victoryroad3f.png["Victory Road: 3F",align="center"]
 |2 |TM47 (Explosion) |R  B
 |====
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |3 |Cooltrainer♂ |1,505 |Exeggutor (LV 43), +
 Cloyster (LV 43), +
 Arcanine (LV 43)
@@ -2944,10 +3045,6 @@ Blastoise (LV 43)
 
 image::images/route23n.png["Route 23 (North)",align="center"]
 
-****
-PART 14 END
-****
-
 == Indigo Plateau ==
 
 [options="header"]
@@ -2964,7 +3061,9 @@ PART 14 END
 
 == Pokémon League ==
 
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Lorelei |5,544 |Dewgong (LV 54), +
 Cloyster (LV 55), +
 Slowbro (LV 54), +
@@ -3005,15 +3104,13 @@ Gyarados (LV 63), +
 Venusaur (LV 65)
 |====
 
-****
-PART 15 END
-****
+== Route 4 (Northeast) ==
 
-== Route 4 ==
+image::images/route4ne.png["Route 4: Northeast", align="center"]
 
-image::images/route4.png["Route 4", align="center"]
-
+[options="header"]
 |====
+|ID |Trainer |Prize |Pokemon
 |1 |Lass |465 |Paras (LV 31), +
 Paras (LV 31), +
 Parasect (LV 31)

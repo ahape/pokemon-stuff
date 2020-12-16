@@ -1,3 +1,13 @@
+/* Custom styles begin */
+
 img {
     max-width: 100%;
+}
+
+.imageblock > .title {
+    text-align: center;
+}
+
+a[href]:visited {
+    color: blue;
 }

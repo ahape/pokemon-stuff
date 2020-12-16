@@ -63,7 +63,7 @@ Groundwork/Basic Functionality
     [x] In tsconfig, move KO to devDependencies.
 
 Prettify UI/UX
-=================
+==============
 
 [ ] Import photos to use for Pokemon
 
@@ -74,7 +74,7 @@ Prettify UI/UX
 [ ] Save inputs to localStorage to avoid page refreshing clearing all inputs.
 
 Advanced Features
-====================
+=================
 
 [ ] Add inputs for stat modifiers: (+1...6,-1...-6).
 
@@ -87,33 +87,9 @@ Advanced Features
 Documentation/Walkthrough
 =========================
 
-[ ] Goals (v1)
-
-    - Have every section be for a location (e.g. Route 1, Pallet Town).
-    - Have it be in the order that the game suggests it be played.
-    - Each location should have all of the following that apply:
-        - Map (image. E.g. Route 1, Lavender Town, Silph Co., Gym)
-          * Need caption (BF1, FL2, etc.)
-          * Need arrow for quickest/safest passage (where not obvious)
-          * Need numbered tags (trainers, [hidden] items, labels (for like
-            ladders and such))
-            - Trainers (table)
-              * Ref (tag number)
-              * Name (Jr. Trainer, Brock, Blue)
-              * Pokemon + level (comma separated)
-              * Prize money
-            - Available Items (table)
-              * Ref (tag number)
-              * Name (TM01 - Mega Punch, Moon Stone, etc.)
-              * Games (R/B)
-            - Available Pokemon (table)
-              * Pokemon
-              * Levels (4-5, 4-5/5-6)
-              * Rate (10%, 20%/45%)
-              * Games (R/B)
-        - PokeMart Items (table)
-          * Item
-          * Price
+[ ] Add captions to images
+    image::images\/(\w+)\.png\["(.*)",
+    .$2\nimage::images/$1.png["$2",
 
 [ ] Tasks
 
@@ -123,21 +99,21 @@ Documentation/Walkthrough
         https://www.serebii.net/pokearth/maps/kanto-rb/1.png and
         keep incrementing the numbers, downloading each image.
 
-    [ ] Get every image needed.
+    [x] Get every image needed.
         - Split up "floors", gyms, etc. *NOTE*: Some  don't need to be
           split. E.g. Celadon store, S.S.Anne, etc.
         - Make sure all images contain characters and items
 
-    [ ] Tag all trainers, items (including hidden).
+    [x] Tag all trainers, items (including hidden).
 
-    [ ] Draw arrow for quickest route.
+    [~] Draw arrow for quickest route.
 
-    [ ] Label all connecting portals.
+    [x] Label all connecting portals.
 
     [ ] Start writing guide by adding all sections and images.
         For each "part":
         x Copy over the sections, trainers, items, wilds, etc.
-          - Color each "thing" so they can be organized correctly
+          x Color each "thing" so they can be organized correctly
         x BREAK each section with:
         ****
         PART N START
@@ -172,25 +148,24 @@ Documentation/Walkthrough
           - Table has <td rowspan="2">, <td>, <td><big>
 
     [x] Create processing functions (converting HTML to AsciiDoc)
-        - Add quickest routes through certain locations
-        - Go back and correctly do SS Anne
+        ~ Add quickest routes through certain locations
+        x Go back and correctly do SS Anne
         - Figure out trainers at Erika's gym
         - Get rid of weird characters (accented e, male sign, female sign, etc).
         x Maybe go back and label in cities which direct is which route?
         x Get segmented Route 4
-        - Collect all original photos (from Mac)
+        ~ Collect all original photos (from Mac) + resize
         x Set max-width of all photos
-        - Add table headers to trainer battles
+        x Add table headers to trainer battles
         x Center and embolden wild colspanned headers
         - Title each table (Wild Pokemon, Trainers, Items, Purchaseables)
         - Show captions for each image (this will help segment floors, etc.)
-        - Remove all "section" delimiters
-        - Change the items received from gym leaders to be w/in gym table instead of city table (?maybe not)
-        - Seafoam Island maze solve
-        - Pokemon Mansion maze solve
-        - Victory road maze solve
-
-    [ ] Add legendary birds to walkthrough, and Mewtwo.
+        x Remove all "section" delimiters
+        ~ Change the items received from gym leaders to be w/in gym table instead of city table
+        x Seafoam Island maze solve
+        x Pokemon Mansion maze solve
+        x Victory road maze solve
+        - Add legendary birds
 
 Lastly
 =========
