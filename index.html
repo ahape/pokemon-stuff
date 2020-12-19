@@ -147,7 +147,7 @@
                     <tr>
                         <td></td>
                         <th>MOVE</th>
-                        <th>TYPE</th>
+                        <th>PWR/TYPE</th>
                         <th>MULT</th>
                         <th>MIN/MAX H-KO</th>
                         <th>MAX CRIT</th>
@@ -171,7 +171,7 @@
                   optionsCaption: '<empty>',
                   value: name"></select>
                         </td>
-                        <td data-bind="text: move().type"></td>
+                        <td data-bind="text: move().power + '/' + move().type"></td>
                         <td data-bind="text: effectiveness() != 1 ? 'x' + effectiveness() : ''"></td>
                         <td data-bind="text: fmt(minHitsUntilKo()) + '/' + fmt(maxHitsUntilKo())"></td>
                         <td data-bind="text: fmt(critMaxPct()) + '%'"></td>

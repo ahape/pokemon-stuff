@@ -3202,6 +3202,2358 @@ image::images/ceruleancaveb1f.png["Cerulean Cave: B1F", align="center"]
 |Seaking |R |B |Fishing,Super Rod |23 |25%
 |====
 
-****
-PART 16 END
-****
+== Pokemon ==
+
+=== bulbasaur ===
+*Type* grass/poison +
+*HP* 45 (111st),
+*Attack* 49 (121st),
+*Defense* 49 (117th),
+*Special* 65 (73rd),
+*Speed* 45 (114th) +
+*Moves* +
+tackle (1) +
+growl (1) +
+leech-seed (7) +
+vine-whip (13) +
+poisonpowder (20) +
+razor-leaf (27) +
+growth (34) +
+sleep-powder (41) +
+solarbeam (48)
+
+=== ivysaur ===
+*Type* grass/poison +
+*HP* 60 (73rd),
+*Attack* 62 (96th),
+*Defense* 63 (82nd),
+*Special* 80 (49th),
+*Speed* 60 (86th) +
+*Moves* +
+tackle (1) +
+growl (1) +
+leech-seed (7) +
+vine-whip (13) +
+poisonpowder (22) +
+razor-leaf (30) +
+growth (38) +
+sleep-powder (46) +
+solarbeam (54)
+
+=== venusaur ===
+*Type* grass/poison +
+*HP* 80 (30th),
+*Attack* 82 (52nd),
+*Defense* 83 (39th),
+*Special* 100 (19th),
+*Speed* 80 (51st) +
+*Moves* +
+tackle (1) +
+growl (1) +
+leech-seed (7) +
+vine-whip (13) +
+poisonpowder (22) +
+razor-leaf (30) +
+growth (43) +
+sleep-powder (55) +
+solarbeam (65)
+
+=== charmander ===
+*Type* fire +
+*HP* 39 (132nd),
+*Attack* 52 (112nd),
+*Defense* 43 (129th),
+*Special* 50 (101st),
+*Speed* 65 (79th) +
+*Moves* +
+scratch (1) +
+growl (1) +
+ember (9) +
+leer (15) +
+rage (22) +
+slash (30) +
+flamethrower (38) +
+fire-spin (46)
+
+=== charmeleon ===
+*Type* fire +
+*HP* 58 (89th),
+*Attack* 64 (93rd),
+*Defense* 58 (92nd),
+*Special* 65 (74th),
+*Speed* 80 (52nd) +
+*Moves* +
+scratch (1) +
+growl (1) +
+ember (9) +
+leer (15) +
+rage (24) +
+slash (33) +
+flamethrower (42) +
+fire-spin (56)
+
+=== charizard ===
+*Type* fire/flying +
+*HP* 78 (41st),
+*Attack* 84 (48th),
+*Defense* 78 (51st),
+*Special* 85 (40th),
+*Speed* 100 (15th) +
+*Moves* +
+scratch (1) +
+growl (1) +
+ember (9) +
+leer (15) +
+rage (24) +
+slash (36) +
+flamethrower (46) +
+fire-spin (55)
+
+=== squirtle ===
+*Type* water +
+*HP* 44 (117th),
+*Attack* 48 (122nd),
+*Defense* 65 (71st),
+*Special* 50 (102nd),
+*Speed* 43 (123rd) +
+*Moves* +
+tackle (1) +
+tail-whip (1) +
+bubble (8) +
+water-gun (15) +
+bite (22) +
+withdraw (28) +
+skull-bash (35) +
+hydro-pump (42)
+
+=== wartortle ===
+*Type* water +
+*HP* 59 (88th),
+*Attack* 63 (95th),
+*Defense* 80 (40th),
+*Special* 65 (75th),
+*Speed* 58 (94th) +
+*Moves* +
+tackle (1) +
+tail-whip (1) +
+bubble (8) +
+water-gun (15) +
+bite (24) +
+withdraw (31) +
+skull-bash (39) +
+hydro-pump (47)
+
+=== blastoise ===
+*Type* water +
+*HP* 79 (40th),
+*Attack* 83 (50th),
+*Defense* 100 (14th),
+*Special* 85 (41st),
+*Speed* 78 (58th) +
+*Moves* +
+tackle (1) +
+tail-whip (1) +
+bubble (8) +
+water-gun (15) +
+bite (24) +
+withdraw (31) +
+skull-bash (42) +
+hydro-pump (52)
+
+=== caterpie ===
+*Type* bug +
+*HP* 45 (112nd),
+*Attack* 30 (145th),
+*Defense* 35 (135th),
+*Special* 20 (149th),
+*Speed* 45 (115th) +
+*Moves* +
+tackle (1) +
+string-shot (1)
+
+=== metapod ===
+*Type* bug +
+*HP* 50 (99th),
+*Attack* 20 (148th),
+*Defense* 55 (96th),
+*Special* 25 (144th),
+*Speed* 30 (140th) +
+*Moves* +
+harden (1)
+
+=== butterfree ===
+*Type* bug/flying +
+*HP* 60 (74th),
+*Attack* 45 (126th),
+*Defense* 50 (108th),
+*Special* 80 (50th),
+*Speed* 70 (66th) +
+*Moves* +
+confusion (12) +
+poisonpowder (15) +
+stun-spore (16) +
+sleep-powder (17) +
+supersonic (21) +
+whirlwind (26) +
+psybeam (32)
+
+=== weedle ===
+*Type* bug/poison +
+*HP* 40 (119th),
+*Attack* 35 (141st),
+*Defense* 30 (143rd),
+*Special* 20 (150th),
+*Speed* 50 (106th) +
+*Moves* +
+poison-sting (1) +
+string-shot (1)
+
+=== kakuna ===
+*Type* bug/poison +
+*HP* 45 (113rd),
+*Attack* 25 (147th),
+*Defense* 50 (109th),
+*Special* 25 (145th),
+*Speed* 35 (133rd) +
+*Moves* +
+harden (1)
+
+=== beedrill ===
+*Type* bug/poison +
+*HP* 65 (53rd),
+*Attack* 80 (56th),
+*Defense* 40 (130th),
+*Special* 45 (116th),
+*Speed* 75 (61st) +
+*Moves* +
+fury-attack (12) +
+focus-energy (16) +
+twineedle (20) +
+rage (25) +
+pin-missile (30) +
+agility (35)
+
+=== pidgey ===
+*Type* normal/flying +
+*HP* 40 (120th),
+*Attack* 45 (127th),
+*Defense* 40 (131st),
+*Special* 35 (133rd),
+*Speed* 56 (95th) +
+*Moves* +
+gust (1) +
+sand-attack (5) +
+quick-attack (12) +
+whirlwind (19) +
+wing-attack (28) +
+agility (36) +
+mirror-move (44)
+
+=== pidgeotto ===
+*Type* normal/flying +
+*HP* 63 (70th),
+*Attack* 60 (98th),
+*Defense* 55 (97th),
+*Special* 50 (103rd),
+*Speed* 71 (65th) +
+*Moves* +
+gust (1) +
+sand-attack (5) +
+quick-attack (12) +
+whirlwind (21) +
+wing-attack (31) +
+agility (40) +
+mirror-move (49)
+
+=== pidgeot ===
+*Type* normal/flying +
+*HP* 83 (28th),
+*Attack* 80 (57th),
+*Defense* 75 (54th),
+*Special* 70 (63rd),
+*Speed* 91 (31st) +
+*Moves* +
+gust (1) +
+sand-attack (5) +
+quick-attack (12) +
+whirlwind (21) +
+wing-attack (31) +
+agility (44) +
+mirror-move (54)
+
+=== rattata ===
+*Type* normal +
+*HP* 30 (141st),
+*Attack* 56 (105th),
+*Defense* 35 (136th),
+*Special* 25 (146th),
+*Speed* 72 (64th) +
+*Moves* +
+tackle (1) +
+tail-whip (1) +
+quick-attack (7) +
+hyper-fang (14) +
+focus-energy (23) +
+super-fang (34)
+
+=== raticate ===
+*Type* normal +
+*HP* 55 (90th),
+*Attack* 81 (55th),
+*Defense* 60 (83rd),
+*Special* 50 (104th),
+*Speed* 97 (24th) +
+*Moves* +
+tackle (1) +
+tail-whip (1) +
+quick-attack (7) +
+hyper-fang (14) +
+focus-energy (27) +
+super-fang (41)
+
+=== spearow ===
+*Type* normal/flying +
+*HP* 40 (121st),
+*Attack* 60 (99th),
+*Defense* 30 (144th),
+*Special* 31 (139th),
+*Speed* 70 (67th) +
+*Moves* +
+peck (1) +
+growl (1) +
+leer (9) +
+fury-attack (15) +
+mirror-move (22) +
+drill-peck (29) +
+agility (36)
+
+=== fearow ===
+*Type* normal/flying +
+*HP* 65 (54th),
+*Attack* 90 (36th),
+*Defense* 65 (72nd),
+*Special* 61 (84th),
+*Speed* 100 (16th) +
+*Moves* +
+peck (1) +
+growl (1) +
+leer (9) +
+fury-attack (15) +
+mirror-move (25) +
+drill-peck (34) +
+agility (43)
+
+=== ekans ===
+*Type* poison +
+*HP* 35 (134th),
+*Attack* 60 (100th),
+*Defense* 44 (128th),
+*Special* 40 (122nd),
+*Speed* 55 (97th) +
+*Moves* +
+wrap (1) +
+leer (1) +
+poison-sting (10) +
+bite (17) +
+glare (24) +
+screech (31) +
+acid (38)
+
+=== arbok ===
+*Type* poison +
+*HP* 60 (75th),
+*Attack* 85 (41st),
+*Defense* 69 (69th),
+*Special* 65 (76th),
+*Speed* 80 (53rd) +
+*Moves* +
+wrap (1) +
+leer (1) +
+poison-sting (10) +
+bite (17) +
+glare (27) +
+screech (36) +
+acid (47)
+
+=== pikachu ===
+*Type* electric +
+*HP* 35 (135th),
+*Attack* 55 (106th),
+*Defense* 30 (145th),
+*Special* 50 (105th),
+*Speed* 90 (32nd) +
+*Moves* +
+thundershock (1) +
+growl (1) +
+thunder-wave (9) +
+quick-attack (16) +
+swift (26) +
+agility (33) +
+thunder (43)
+
+=== raichu ===
+*Type* electric +
+*HP* 60 (76th),
+*Attack* 90 (37th),
+*Defense* 55 (98th),
+*Special* 90 (36th),
+*Speed* 100 (17th) +
+*Moves* +
+thundershock (1) +
+growl (1) +
+thunder-wave (1)
+
+=== sandshrew ===
+*Type* ground +
+*HP* 50 (100th),
+*Attack* 75 (68th),
+*Defense* 85 (34th),
+*Special* 30 (140th),
+*Speed* 40 (126th) +
+*Moves* +
+scratch (1) +
+sand-attack (10) +
+slash (17) +
+poison-sting (24) +
+swift (31) +
+fury-swipes (38)
+
+=== sandslash ===
+*Type* ground +
+*HP* 75 (42nd),
+*Attack* 100 (22nd),
+*Defense* 110 (10th),
+*Special* 55 (93rd),
+*Speed* 65 (80th) +
+*Moves* +
+scratch (1) +
+sand-attack (10) +
+slash (17) +
+poison-sting (27) +
+swift (36) +
+fury-swipes (47)
+
+=== nidoran-f ===
+*Type* poison +
+*HP* 55 (91st),
+*Attack* 47 (125th),
+*Defense* 52 (107th),
+*Special* 40 (123rd),
+*Speed* 41 (125th) +
+*Moves* +
+growl (1) +
+tackle (1) +
+scratch (8) +
+poison-sting (14) +
+tail-whip (21) +
+bite (29) +
+fury-swipes (36) +
+double-kick (43)
+
+=== nidorina ===
+*Type* poison +
+*HP* 70 (47th),
+*Attack* 62 (97th),
+*Defense* 67 (70th),
+*Special* 55 (94th),
+*Speed* 56 (96th) +
+*Moves* +
+growl (1) +
+tackle (1) +
+scratch (8) +
+poison-sting (14) +
+tail-whip (23) +
+bite (32) +
+fury-swipes (41) +
+double-kick (50)
+
+=== nidoqueen ===
+*Type* poison/ground +
+*HP* 90 (17th),
+*Attack* 82 (53rd),
+*Defense* 87 (33rd),
+*Special* 75 (58th),
+*Speed* 76 (59th) +
+*Moves* +
+tackle (1) +
+tail-whip (1) +
+scratch (8) +
+poison-sting (14) +
+body-slam (23)
+
+=== nidoran-m ===
+*Type* poison +
+*HP* 46 (110th),
+*Attack* 57 (104th),
+*Defense* 40 (132nd),
+*Special* 40 (124th),
+*Speed* 50 (107th) +
+*Moves* +
+leer (1) +
+tackle (1) +
+horn-attack (8) +
+poison-sting (14) +
+focus-energy (21) +
+fury-attack (29) +
+horn-drill (36) +
+double-kick (43)
+
+=== nidorino ===
+*Type* poison +
+*HP* 61 (71st),
+*Attack* 72 (73rd),
+*Defense* 57 (93rd),
+*Special* 55 (95th),
+*Speed* 65 (81st) +
+*Moves* +
+leer (1) +
+tackle (1) +
+horn-attack (8) +
+poison-sting (14) +
+focus-energy (23) +
+fury-attack (32) +
+horn-drill (41) +
+double-kick (50)
+
+=== nidoking ===
+*Type* poison/ground +
+*HP* 81 (29th),
+*Attack* 92 (34th),
+*Defense* 77 (53rd),
+*Special* 75 (59th),
+*Speed* 85 (44th) +
+*Moves* +
+tackle (1) +
+horn-attack (8) +
+poison-sting (14) +
+thrash (23)
+
+=== clefairy ===
+*Type* normal +
+*HP* 70 (48th),
+*Attack* 45 (128th),
+*Defense* 48 (118th),
+*Special* 60 (85th),
+*Speed* 35 (134th) +
+*Moves* +
+pound (1) +
+growl (1) +
+sing (13) +
+doubleslap (18) +
+minimize (24) +
+metronome (31) +
+defense-curl (39) +
+light-screen (48)
+
+=== clefable ===
+*Type* normal +
+*HP* 95 (12nd),
+*Attack* 70 (74th),
+*Defense* 73 (58th),
+*Special* 85 (42nd),
+*Speed* 60 (87th) +
+*Moves* +
+sing (1) +
+doubleslap (1) +
+minimize (1) +
+metronome (1)
+
+=== vulpix ===
+*Type* fire +
+*HP* 38 (133rd),
+*Attack* 41 (136th),
+*Defense* 40 (133rd),
+*Special* 65 (77th),
+*Speed* 65 (82nd) +
+*Moves* +
+ember (1) +
+tail-whip (1) +
+quick-attack (16) +
+roar (21) +
+confuse-ray (28) +
+flamethrower (35) +
+fire-spin (42)
+
+=== ninetales ===
+*Type* fire +
+*HP* 73 (46th),
+*Attack* 76 (67th),
+*Defense* 75 (55th),
+*Special* 100 (20th),
+*Speed* 100 (18th) +
+*Moves* +
+ember (1) +
+tail-whip (1) +
+quick-attack (1) +
+roar (1)
+
+=== jigglypuff ===
+*Type* normal +
+*HP* 115 (6th),
+*Attack* 45 (129th),
+*Defense* 20 (149th),
+*Special* 25 (147th),
+*Speed* 20 (149th) +
+*Moves* +
+sing (1) +
+pound (9) +
+disable (14) +
+defense-curl (19) +
+doubleslap (24) +
+rest (29) +
+body-slam (34) +
+double-edge (39)
+
+=== wigglytuff ===
+*Type* normal +
+*HP* 140 (3rd),
+*Attack* 70 (75th),
+*Defense* 45 (121st),
+*Special* 50 (106th),
+*Speed* 45 (116th) +
+*Moves* +
+sing (1) +
+disable (1) +
+defense-curl (1) +
+doubleslap (1)
+
+=== zubat ===
+*Type* poison/flying +
+*HP* 40 (122nd),
+*Attack* 45 (130th),
+*Defense* 35 (137th),
+*Special* 40 (125th),
+*Speed* 55 (98th) +
+*Moves* +
+leech-life (1) +
+supersonic (10) +
+bite (15) +
+confuse-ray (21) +
+wing-attack (28) +
+haze (36)
+
+=== golbat ===
+*Type* poison/flying +
+*HP* 75 (43rd),
+*Attack* 80 (58th),
+*Defense* 70 (59th),
+*Special* 75 (60th),
+*Speed* 90 (33rd) +
+*Moves* +
+leech-life (1) +
+screech (1) +
+supersonic (10) +
+bite (15) +
+confuse-ray (21) +
+wing-attack (32) +
+haze (43)
+
+=== oddish ===
+*Type* grass/poison +
+*HP* 45 (114th),
+*Attack* 50 (114th),
+*Defense* 55 (99th),
+*Special* 75 (61st),
+*Speed* 30 (141st) +
+*Moves* +
+absorb (1) +
+poisonpowder (15) +
+stun-spore (17) +
+sleep-powder (19) +
+acid (24) +
+petal-dance (33) +
+solarbeam (46)
+
+=== gloom ===
+*Type* grass/poison +
+*HP* 60 (77th),
+*Attack* 65 (82nd),
+*Defense* 70 (60th),
+*Special* 85 (43rd),
+*Speed* 40 (127th) +
+*Moves* +
+absorb (1) +
+poisonpowder (15) +
+stun-spore (17) +
+sleep-powder (19) +
+acid (28) +
+petal-dance (38) +
+solarbeam (52)
+
+=== vileplume ===
+*Type* grass/poison +
+*HP* 75 (44th),
+*Attack* 80 (59th),
+*Defense* 85 (35th),
+*Special* 100 (21st),
+*Speed* 50 (108th) +
+*Moves* +
+acid (1) +
+petal-dance (1) +
+poisonpowder (15) +
+stun-spore (17) +
+sleep-powder (19)
+
+=== paras ===
+*Type* bug/grass +
+*HP* 35 (136th),
+*Attack* 70 (76th),
+*Defense* 55 (100th),
+*Special* 55 (96th),
+*Speed* 25 (146th) +
+*Moves* +
+scratch (1) +
+stun-spore (13) +
+leech-life (20) +
+spore (27) +
+slash (34) +
+growth (41)
+
+=== parasect ===
+*Type* bug/grass +
+*HP* 60 (78th),
+*Attack* 95 (28th),
+*Defense* 80 (41st),
+*Special* 80 (51st),
+*Speed* 30 (142nd) +
+*Moves* +
+scratch (1) +
+stun-spore (13) +
+leech-life (20) +
+spore (30) +
+slash (39) +
+growth (48)
+
+=== venonat ===
+*Type* bug/poison +
+*HP* 60 (79th),
+*Attack* 55 (107th),
+*Defense* 50 (110th),
+*Special* 40 (126th),
+*Speed* 45 (117th) +
+*Moves* +
+tackle (1) +
+disable (1) +
+poisonpowder (24) +
+leech-life (27) +
+stun-spore (30) +
+psybeam (35) +
+sleep-powder (38) +
+psychic (43)
+
+=== venomoth ===
+*Type* bug/poison +
+*HP* 70 (49th),
+*Attack* 65 (83rd),
+*Defense* 60 (84th),
+*Special* 90 (37th),
+*Speed* 90 (34th) +
+*Moves* +
+tackle (1) +
+disable (1) +
+poisonpowder (24) +
+leech-life (27) +
+stun-spore (30) +
+psybeam (38) +
+sleep-powder (43) +
+psychic (50)
+
+=== diglett ===
+*Type* ground +
+*HP* 10 (151st),
+*Attack* 55 (108th),
+*Defense* 25 (148th),
+*Special* 45 (117th),
+*Speed* 95 (25th) +
+*Moves* +
+scratch (1) +
+growl (15) +
+dig (19) +
+sand-attack (24) +
+slash (31) +
+earthquake (40)
+
+=== dugtrio ===
+*Type* ground +
+*HP* 35 (137th),
+*Attack* 80 (60th),
+*Defense* 50 (111st),
+*Special* 70 (64th),
+*Speed* 120 (5th) +
+*Moves* +
+scratch (1) +
+growl (15) +
+dig (19) +
+sand-attack (24) +
+slash (35) +
+earthquake (47)
+
+=== meowth ===
+*Type* normal +
+*HP* 40 (123rd),
+*Attack* 45 (131st),
+*Defense* 35 (138th),
+*Special* 40 (127th),
+*Speed* 90 (35th) +
+*Moves* +
+scratch (1) +
+growl (1) +
+bite (12) +
+pay-day (17) +
+screech (24) +
+fury-swipes (33) +
+slash (44)
+
+=== persian ===
+*Type* normal +
+*HP* 65 (55th),
+*Attack* 70 (77th),
+*Defense* 60 (85th),
+*Special* 65 (78th),
+*Speed* 115 (7th) +
+*Moves* +
+scratch (1) +
+growl (1) +
+bite (12) +
+pay-day (17) +
+screech (24) +
+fury-swipes (37) +
+slash (51)
+
+=== psyduck ===
+*Type* water +
+*HP* 50 (101st),
+*Attack* 52 (113rd),
+*Defense* 48 (119th),
+*Special* 50 (107th),
+*Speed* 55 (99th) +
+*Moves* +
+scratch (1) +
+tail-whip (28) +
+disable (31) +
+confusion (36) +
+fury-swipes (43) +
+hydro-pump (52)
+
+=== golduck ===
+*Type* water +
+*HP* 80 (31st),
+*Attack* 82 (54th),
+*Defense* 78 (52nd),
+*Special* 80 (52nd),
+*Speed* 85 (45th) +
+*Moves* +
+scratch (1) +
+tail-whip (28) +
+disable (31) +
+confusion (39) +
+fury-swipes (48) +
+hydro-pump (59)
+
+=== mankey ===
+*Type* fighting +
+*HP* 40 (124th),
+*Attack* 80 (61st),
+*Defense* 35 (139th),
+*Special* 35 (134th),
+*Speed* 70 (68th) +
+*Moves* +
+scratch (1) +
+leer (1) +
+karate-chop (15) +
+fury-swipes (21) +
+focus-energy (27) +
+seismic-toss (33) +
+thrash (39)
+
+=== primeape ===
+*Type* fighting +
+*HP* 65 (56th),
+*Attack* 105 (16th),
+*Defense* 60 (86th),
+*Special* 60 (86th),
+*Speed* 95 (26th) +
+*Moves* +
+scratch (1) +
+leer (1) +
+karate-chop (15) +
+fury-swipes (21) +
+focus-energy (27) +
+seismic-toss (37) +
+thrash (46)
+
+=== growlithe ===
+*Type* fire +
+*HP* 55 (92nd),
+*Attack* 70 (78th),
+*Defense* 45 (122nd),
+*Special* 50 (108th),
+*Speed* 60 (88th) +
+*Moves* +
+bite (1) +
+roar (1) +
+ember (18) +
+leer (23) +
+take-down (30) +
+agility (39) +
+flamethrower (50)
+
+=== arcanine ===
+*Type* fire +
+*HP* 90 (18th),
+*Attack* 110 (10th),
+*Defense* 80 (42nd),
+*Special* 80 (53rd),
+*Speed* 95 (27th) +
+*Moves* +
+roar (1) +
+ember (1) +
+leer (1) +
+take-down (1)
+
+=== poliwag ===
+*Type* water +
+*HP* 40 (125th),
+*Attack* 50 (115th),
+*Defense* 40 (134th),
+*Special* 40 (128th),
+*Speed* 90 (36th) +
+*Moves* +
+bubble (1) +
+hypnosis (16) +
+water-gun (19) +
+doubleslap (25) +
+body-slam (31) +
+amnesia (38) +
+hydro-pump (45)
+
+=== poliwhirl ===
+*Type* water +
+*HP* 65 (57th),
+*Attack* 65 (84th),
+*Defense* 65 (73rd),
+*Special* 50 (109th),
+*Speed* 90 (37th) +
+*Moves* +
+bubble (1) +
+hypnosis (16) +
+water-gun (19) +
+doubleslap (26) +
+body-slam (33) +
+amnesia (41) +
+hydro-pump (49)
+
+=== poliwrath ===
+*Type* water/fighting +
+*HP* 90 (19th),
+*Attack* 85 (42nd),
+*Defense* 95 (21st),
+*Special* 70 (65th),
+*Speed* 70 (69th) +
+*Moves* +
+hypnosis (16) +
+water-gun (19)
+
+=== abra ===
+*Type* psychic +
+*HP* 25 (148th),
+*Attack* 20 (149th),
+*Defense* 15 (150th),
+*Special* 105 (17th),
+*Speed* 90 (38th) +
+*Moves* +
+teleport (1)
+
+=== kadabra ===
+*Type* psychic +
+*HP* 40 (126th),
+*Attack* 35 (142nd),
+*Defense* 30 (146th),
+*Special* 120 (8th),
+*Speed* 105 (11st) +
+*Moves* +
+teleport (1) +
+confusion (16) +
+disable (20) +
+psybeam (27) +
+recover (31) +
+psychic (38) +
+reflect (42)
+
+=== alakazam ===
+*Type* psychic +
+*HP* 55 (93rd),
+*Attack* 50 (116th),
+*Defense* 45 (123rd),
+*Special* 135 (2nd),
+*Speed* 120 (6th) +
+*Moves* +
+teleport (1) +
+confusion (16) +
+disable (20) +
+psybeam (27) +
+recover (31) +
+psychic (38) +
+reflect (42)
+
+=== machop ===
+*Type* fighting +
+*HP* 70 (50th),
+*Attack* 80 (62nd),
+*Defense* 50 (112nd),
+*Special* 35 (135th),
+*Speed* 35 (135th) +
+*Moves* +
+karate-chop (1) +
+low-kick (20) +
+leer (25) +
+focus-energy (32) +
+seismic-toss (39) +
+submission (46)
+
+=== machoke ===
+*Type* fighting +
+*HP* 80 (32nd),
+*Attack* 100 (23rd),
+*Defense* 70 (61st),
+*Special* 50 (110th),
+*Speed* 45 (118th) +
+*Moves* +
+karate-chop (1) +
+low-kick (20) +
+leer (25) +
+focus-energy (36) +
+seismic-toss (44) +
+submission (52)
+
+=== machamp ===
+*Type* fighting +
+*HP* 90 (20th),
+*Attack* 130 (2nd),
+*Defense* 80 (43rd),
+*Special* 65 (79th),
+*Speed* 55 (100th) +
+*Moves* +
+karate-chop (1) +
+low-kick (20) +
+leer (25) +
+focus-energy (36) +
+seismic-toss (44) +
+submission (52)
+
+=== bellsprout ===
+*Type* grass/poison +
+*HP* 50 (102nd),
+*Attack* 75 (69th),
+*Defense* 35 (140th),
+*Special* 70 (66th),
+*Speed* 40 (128th) +
+*Moves* +
+vine-whip (1) +
+growth (1) +
+wrap (13) +
+poisonpowder (15) +
+sleep-powder (18) +
+stun-spore (21) +
+acid (26) +
+razor-leaf (33) +
+slam (42)
+
+=== weepinbell ===
+*Type* grass/poison +
+*HP* 65 (58th),
+*Attack* 90 (38th),
+*Defense* 50 (113rd),
+*Special* 85 (44th),
+*Speed* 55 (101st) +
+*Moves* +
+vine-whip (1) +
+growth (1) +
+wrap (13) +
+poisonpowder (15) +
+sleep-powder (18) +
+stun-spore (23) +
+acid (29) +
+razor-leaf (38) +
+slam (49)
+
+=== victreebel ===
+*Type* grass/poison +
+*HP* 80 (33rd),
+*Attack* 105 (17th),
+*Defense* 65 (74th),
+*Special* 100 (22nd),
+*Speed* 70 (70th) +
+*Moves* +
+stun-spore (1) +
+acid (1) +
+razor-leaf (1) +
+wrap (13) +
+poisonpowder (15) +
+sleep-powder (18)
+
+=== tentacool ===
+*Type* water/poison +
+*HP* 40 (127th),
+*Attack* 40 (137th),
+*Defense* 35 (141st),
+*Special* 100 (23rd),
+*Speed* 70 (71st) +
+*Moves* +
+acid (1) +
+supersonic (7) +
+wrap (13) +
+poison-sting (18) +
+water-gun (22) +
+constrict (27) +
+barrier (33) +
+screech (40) +
+hydro-pump (48)
+
+=== tentacruel ===
+*Type* water/poison +
+*HP* 80 (34th),
+*Attack* 70 (79th),
+*Defense* 65 (75th),
+*Special* 120 (9th),
+*Speed* 100 (19th) +
+*Moves* +
+acid (1) +
+supersonic (7) +
+wrap (13) +
+poison-sting (18) +
+water-gun (22) +
+constrict (27) +
+barrier (35) +
+screech (43) +
+hydro-pump (50)
+
+=== geodude ===
+*Type* rock/ground +
+*HP* 40 (128th),
+*Attack* 80 (63rd),
+*Defense* 100 (15th),
+*Special* 30 (141st),
+*Speed* 20 (150th) +
+*Moves* +
+tackle (1) +
+defense-curl (11) +
+rock-throw (16) +
+selfdestruct (21) +
+harden (26) +
+earthquake (31) +
+explosion (36)
+
+=== graveler ===
+*Type* rock/ground +
+*HP* 55 (94th),
+*Attack* 95 (29th),
+*Defense* 115 (7th),
+*Special* 45 (118th),
+*Speed* 35 (136th) +
+*Moves* +
+tackle (1) +
+defense-curl (11) +
+rock-throw (16) +
+selfdestruct (21) +
+harden (29) +
+earthquake (36) +
+explosion (43)
+
+=== golem ===
+*Type* rock/ground +
+*HP* 80 (35th),
+*Attack* 110 (11st),
+*Defense* 130 (3rd),
+*Special* 55 (97th),
+*Speed* 45 (119th) +
+*Moves* +
+tackle (1) +
+defense-curl (11) +
+rock-throw (16) +
+selfdestruct (21) +
+harden (29) +
+earthquake (36) +
+explosion (43)
+
+=== ponyta ===
+*Type* fire +
+*HP* 50 (103rd),
+*Attack* 85 (43rd),
+*Defense* 55 (101st),
+*Special* 65 (80th),
+*Speed* 90 (39th) +
+*Moves* +
+ember (1) +
+tail-whip (30) +
+stomp (32) +
+growl (35) +
+fire-spin (39) +
+take-down (43) +
+agility (48)
+
+=== rapidash ===
+*Type* fire +
+*HP* 65 (59th),
+*Attack* 100 (24th),
+*Defense* 70 (62nd),
+*Special* 80 (54th),
+*Speed* 105 (12nd) +
+*Moves* +
+ember (1) +
+tail-whip (30) +
+stomp (32) +
+growl (35) +
+fire-spin (39) +
+take-down (47) +
+agility (55)
+
+=== slowpoke ===
+*Type* water/psychic +
+*HP* 90 (21st),
+*Attack* 65 (85th),
+*Defense* 65 (76th),
+*Special* 40 (129th),
+*Speed* 15 (151st) +
+*Moves* +
+confusion (1) +
+disable (18) +
+headbutt (22) +
+growl (27) +
+water-gun (33) +
+amnesia (40) +
+psychic (48)
+
+=== slowbro ===
+*Type* water/psychic +
+*HP* 95 (13rd),
+*Attack* 75 (70th),
+*Defense* 110 (11st),
+*Special* 80 (55th),
+*Speed* 30 (143rd) +
+*Moves* +
+confusion (1) +
+disable (18) +
+headbutt (22) +
+growl (27) +
+water-gun (33) +
+withdraw (37) +
+amnesia (44) +
+psychic (55)
+
+=== magnemite ===
+*Type* electric +
+*HP* 25 (149th),
+*Attack* 35 (143rd),
+*Defense* 70 (63rd),
+*Special* 95 (31st),
+*Speed* 45 (120th) +
+*Moves* +
+tackle (1) +
+sonicboom (21) +
+thundershock (25) +
+supersonic (29) +
+thunder-wave (35) +
+swift (41) +
+screech (47)
+
+=== magneton ===
+*Type* electric +
+*HP* 50 (104th),
+*Attack* 60 (101st),
+*Defense* 95 (22nd),
+*Special* 120 (10th),
+*Speed* 70 (72nd) +
+*Moves* +
+tackle (1) +
+sonicboom (21) +
+thundershock (25) +
+supersonic (29) +
+thunder-wave (38) +
+swift (46) +
+screech (54)
+
+=== farfetch'd ===
+*Type* normal/flying +
+*HP* 52 (98th),
+*Attack* 65 (86th),
+*Defense* 55 (102nd),
+*Special* 58 (92nd),
+*Speed* 60 (89th) +
+*Moves* +
+peck (1) +
+sand-attack (1) +
+leer (7) +
+fury-attack (15) +
+swords-dance (23) +
+agility (31) +
+slash (39)
+
+=== doduo ===
+*Type* normal/flying +
+*HP* 35 (138th),
+*Attack* 85 (44th),
+*Defense* 45 (124th),
+*Special* 35 (136th),
+*Speed* 75 (62nd) +
+*Moves* +
+peck (1) +
+growl (20) +
+fury-attack (24) +
+drill-peck (30) +
+rage (36) +
+tri-attack (40) +
+agility (44)
+
+=== dodrio ===
+*Type* normal/flying +
+*HP* 60 (80th),
+*Attack* 110 (12nd),
+*Defense* 70 (64th),
+*Special* 60 (87th),
+*Speed* 100 (20th) +
+*Moves* +
+peck (1) +
+growl (20) +
+fury-attack (24) +
+drill-peck (30) +
+rage (39) +
+tri-attack (45) +
+agility (51)
+
+=== seel ===
+*Type* water +
+*HP* 65 (60th),
+*Attack* 45 (132nd),
+*Defense* 55 (103rd),
+*Special* 70 (67th),
+*Speed* 45 (121st) +
+*Moves* +
+headbutt (1) +
+growl (30) +
+aurora-beam (35) +
+rest (40) +
+take-down (45) +
+ice-beam (50)
+
+=== dewgong ===
+*Type* water/ice +
+*HP* 90 (22nd),
+*Attack* 70 (80th),
+*Defense* 80 (44th),
+*Special* 95 (32nd),
+*Speed* 70 (73rd) +
+*Moves* +
+headbutt (1) +
+growl (30) +
+aurora-beam (35) +
+rest (44) +
+take-down (50) +
+ice-beam (56)
+
+=== grimer ===
+*Type* poison +
+*HP* 80 (36th),
+*Attack* 80 (64th),
+*Defense* 50 (114th),
+*Special* 40 (130th),
+*Speed* 25 (147th) +
+*Moves* +
+pound (1) +
+disable (1) +
+poison-gas (30) +
+minimize (33) +
+sludge (37) +
+harden (42) +
+screech (48) +
+acid-armor (55)
+
+=== muk ===
+*Type* poison +
+*HP* 105 (8th),
+*Attack* 105 (18th),
+*Defense* 75 (56th),
+*Special* 65 (81st),
+*Speed* 50 (109th) +
+*Moves* +
+pound (1) +
+disable (1) +
+poison-gas (30) +
+minimize (33) +
+sludge (37) +
+harden (45) +
+screech (53) +
+acid-armor (60)
+
+=== shellder ===
+*Type* water +
+*HP* 30 (142nd),
+*Attack* 65 (87th),
+*Defense* 100 (16th),
+*Special* 45 (119th),
+*Speed* 40 (129th) +
+*Moves* +
+tackle (1) +
+withdraw (1) +
+supersonic (18) +
+clamp (23) +
+aurora-beam (30) +
+leer (39) +
+ice-beam (50)
+
+=== cloyster ===
+*Type* water/ice +
+*HP* 50 (105th),
+*Attack* 95 (30th),
+*Defense* 180 (1st),
+*Special* 85 (45th),
+*Speed* 70 (74th) +
+*Moves* +
+withdraw (1) +
+supersonic (1) +
+clamp (1) +
+aurora-beam (1) +
+spike-cannon (50)
+
+=== gastly ===
+*Type* ghost/poison +
+*HP* 30 (143rd),
+*Attack* 35 (144th),
+*Defense* 30 (147th),
+*Special* 100 (24th),
+*Speed* 80 (54th) +
+*Moves* +
+lick (1) +
+confuse-ray (1) +
+night-shade (1) +
+hypnosis (27) +
+dream-eater (35)
+
+=== haunter ===
+*Type* ghost/poison +
+*HP* 45 (115th),
+*Attack* 50 (117th),
+*Defense* 45 (125th),
+*Special* 115 (11st),
+*Speed* 95 (28th) +
+*Moves* +
+lick (1) +
+confuse-ray (1) +
+night-shade (1) +
+hypnosis (29) +
+dream-eater (38)
+
+=== gengar ===
+*Type* ghost/poison +
+*HP* 60 (81st),
+*Attack* 65 (88th),
+*Defense* 60 (87th),
+*Special* 130 (3rd),
+*Speed* 110 (9th) +
+*Moves* +
+lick (1) +
+confuse-ray (1) +
+night-shade (1) +
+hypnosis (29) +
+dream-eater (38)
+
+=== onix ===
+*Type* rock/ground +
+*HP* 35 (139th),
+*Attack* 45 (133rd),
+*Defense* 160 (2nd),
+*Special* 30 (142nd),
+*Speed* 70 (75th) +
+*Moves* +
+tackle (1) +
+screech (1) +
+bind (15) +
+rock-throw (19) +
+rage (25) +
+slam (33) +
+harden (43)
+
+=== drowzee ===
+*Type* psychic +
+*HP* 60 (82nd),
+*Attack* 48 (123rd),
+*Defense* 45 (126th),
+*Special* 90 (38th),
+*Speed* 42 (124th) +
+*Moves* +
+pound (1) +
+hypnosis (1) +
+disable (12) +
+confusion (17) +
+headbutt (24) +
+poison-gas (29) +
+psychic (32) +
+meditate (37)
+
+=== hypno ===
+*Type* psychic +
+*HP* 85 (27th),
+*Attack* 73 (72nd),
+*Defense* 70 (65th),
+*Special* 115 (12nd),
+*Speed* 67 (78th) +
+*Moves* +
+pound (1) +
+hypnosis (1) +
+disable (12) +
+confusion (17) +
+headbutt (24) +
+poison-gas (33) +
+psychic (37) +
+meditate (43)
+
+=== krabby ===
+*Type* water +
+*HP* 30 (144th),
+*Attack* 105 (19th),
+*Defense* 90 (29th),
+*Special* 25 (148th),
+*Speed* 50 (110th) +
+*Moves* +
+bubble (1) +
+leer (1) +
+vicegrip (20) +
+guillotine (25) +
+stomp (30) +
+crabhammer (35) +
+harden (40)
+
+=== kingler ===
+*Type* water +
+*HP* 55 (95th),
+*Attack* 130 (3rd),
+*Defense* 115 (8th),
+*Special* 50 (111st),
+*Speed* 75 (63rd) +
+*Moves* +
+bubble (1) +
+leer (1) +
+vicegrip (20) +
+guillotine (25) +
+stomp (34) +
+crabhammer (42) +
+harden (49)
+
+=== voltorb ===
+*Type* electric +
+*HP* 40 (129th),
+*Attack* 30 (146th),
+*Defense* 50 (115th),
+*Special* 55 (98th),
+*Speed* 100 (21st) +
+*Moves* +
+tackle (1) +
+screech (1) +
+sonicboom (17) +
+selfdestruct (22) +
+light-screen (29) +
+swift (36) +
+explosion (43)
+
+=== electrode ===
+*Type* electric +
+*HP* 60 (83rd),
+*Attack* 50 (118th),
+*Defense* 70 (66th),
+*Special* 80 (56th),
+*Speed* 140 (1st) +
+*Moves* +
+tackle (1) +
+screech (1) +
+sonicboom (17) +
+selfdestruct (22) +
+light-screen (29) +
+swift (40) +
+explosion (50)
+
+=== exeggcute ===
+*Type* grass/psychic +
+*HP* 60 (84th),
+*Attack* 40 (138th),
+*Defense* 80 (45th),
+*Special* 60 (88th),
+*Speed* 40 (130th) +
+*Moves* +
+barrage (1) +
+hypnosis (1) +
+reflect (25) +
+leech-seed (28) +
+stun-spore (32) +
+poisonpowder (37) +
+solarbeam (42) +
+sleep-powder (48)
+
+=== exeggutor ===
+*Type* grass/psychic +
+*HP* 95 (14th),
+*Attack* 95 (31st),
+*Defense* 85 (36th),
+*Special* 125 (4th),
+*Speed* 55 (102nd) +
+*Moves* +
+barrage (1) +
+hypnosis (1) +
+stomp (28)
+
+=== cubone ===
+*Type* ground +
+*HP* 50 (106th),
+*Attack* 50 (119th),
+*Defense* 95 (23rd),
+*Special* 40 (131st),
+*Speed* 35 (137th) +
+*Moves* +
+bone-club (1) +
+growl (1) +
+leer (25) +
+focus-energy (31) +
+thrash (38) +
+bonemerang (43) +
+rage (46)
+
+=== marowak ===
+*Type* ground +
+*HP* 60 (85th),
+*Attack* 80 (65th),
+*Defense* 110 (12nd),
+*Special* 50 (112nd),
+*Speed* 45 (122nd) +
+*Moves* +
+bone-club (1) +
+growl (1) +
+leer (25) +
+focus-energy (33) +
+thrash (41) +
+bonemerang (48) +
+rage (55)
+
+=== hitmonlee ===
+*Type* fighting +
+*HP* 50 (107th),
+*Attack* 120 (8th),
+*Defense* 53 (106th),
+*Special* 35 (137th),
+*Speed* 87 (43rd) +
+*Moves* +
+double-kick (1) +
+meditate (1) +
+rolling-kick (33) +
+jump-kick (38) +
+focus-energy (43) +
+hi-jump-kick (48) +
+mega-kick (53)
+
+=== hitmonchan ===
+*Type* fighting +
+*HP* 50 (108th),
+*Attack* 105 (20th),
+*Defense* 79 (49th),
+*Special* 35 (138th),
+*Speed* 76 (60th) +
+*Moves* +
+comet-punch (1) +
+agility (1) +
+fire-punch (33) +
+ice-punch (38) +
+thunderpunch (43) +
+mega-punch (48) +
+counter (53)
+
+=== lickitung ===
+*Type* normal +
+*HP* 90 (23rd),
+*Attack* 55 (109th),
+*Defense* 75 (57th),
+*Special* 60 (89th),
+*Speed* 30 (144th) +
+*Moves* +
+wrap (1) +
+supersonic (1) +
+stomp (7) +
+disable (15) +
+defense-curl (23) +
+slam (31) +
+screech (39)
+
+=== koffing ===
+*Type* poison +
+*HP* 40 (130th),
+*Attack* 65 (89th),
+*Defense* 95 (24th),
+*Special* 60 (90th),
+*Speed* 35 (138th) +
+*Moves* +
+tackle (1) +
+smog (1) +
+sludge (32) +
+smokescreen (37) +
+selfdestruct (40) +
+haze (45) +
+explosion (48)
+
+=== weezing ===
+*Type* poison +
+*HP* 65 (61st),
+*Attack* 90 (39th),
+*Defense* 120 (5th),
+*Special* 85 (46th),
+*Speed* 60 (90th) +
+*Moves* +
+tackle (1) +
+smog (1) +
+sludge (32) +
+smokescreen (39) +
+selfdestruct (43) +
+haze (49) +
+explosion (53)
+
+=== rhyhorn ===
+*Type* ground/rock +
+*HP* 80 (37th),
+*Attack* 85 (45th),
+*Defense* 95 (25th),
+*Special* 30 (143rd),
+*Speed* 25 (148th) +
+*Moves* +
+horn-attack (1) +
+stomp (30) +
+tail-whip (35) +
+fury-attack (40) +
+horn-drill (45) +
+leer (50) +
+take-down (55)
+
+=== rhydon ===
+*Type* ground/rock +
+*HP* 105 (9th),
+*Attack* 130 (4th),
+*Defense* 120 (6th),
+*Special* 45 (120th),
+*Speed* 40 (131st) +
+*Moves* +
+horn-attack (1) +
+stomp (30) +
+tail-whip (35) +
+fury-attack (40) +
+horn-drill (48) +
+leer (55) +
+take-down (64)
+
+=== chansey ===
+*Type* normal +
+*HP* 250 (1st),
+*Attack* 5 (151st),
+*Defense* 5 (151st),
+*Special* 105 (18th),
+*Speed* 50 (111st) +
+*Moves* +
+pound (1) +
+doubleslap (1) +
+sing (24) +
+growl (30) +
+minimize (38) +
+defense-curl (44) +
+light-screen (48) +
+double-edge (54)
+
+=== tangela ===
+*Type* grass +
+*HP* 65 (62nd),
+*Attack* 55 (110th),
+*Defense* 115 (9th),
+*Special* 100 (25th),
+*Speed* 60 (91st) +
+*Moves* +
+constrict (1) +
+bind (1) +
+absorb (29) +
+poisonpowder (32) +
+stun-spore (36) +
+sleep-powder (39) +
+slam (45) +
+growth (49)
+
+=== kangaskhan ===
+*Type* normal +
+*HP* 105 (10th),
+*Attack* 95 (32nd),
+*Defense* 80 (46th),
+*Special* 40 (132nd),
+*Speed* 90 (40th) +
+*Moves* +
+comet-punch (1) +
+rage (1) +
+bite (26) +
+tail-whip (31) +
+mega-punch (36) +
+leer (41) +
+dizzy-punch (46)
+
+=== horsea ===
+*Type* water +
+*HP* 30 (145th),
+*Attack* 40 (139th),
+*Defense* 70 (67th),
+*Special* 70 (68th),
+*Speed* 60 (92nd) +
+*Moves* +
+bubble (1) +
+smokescreen (19) +
+leer (24) +
+water-gun (30) +
+agility (37) +
+hydro-pump (45)
+
+=== seadra ===
+*Type* water +
+*HP* 55 (96th),
+*Attack* 65 (90th),
+*Defense* 95 (26th),
+*Special* 95 (33rd),
+*Speed* 85 (46th) +
+*Moves* +
+bubble (1) +
+smokescreen (19) +
+leer (24) +
+water-gun (30) +
+agility (41) +
+hydro-pump (52)
+
+=== goldeen ===
+*Type* water +
+*HP* 45 (116th),
+*Attack* 67 (81st),
+*Defense* 60 (88th),
+*Special* 50 (113rd),
+*Speed* 63 (85th) +
+*Moves* +
+peck (1) +
+tail-whip (1) +
+supersonic (19) +
+horn-attack (24) +
+fury-attack (30) +
+waterfall (37) +
+horn-drill (45) +
+agility (54)
+
+=== seaking ===
+*Type* water +
+*HP* 80 (38th),
+*Attack* 92 (35th),
+*Defense* 65 (77th),
+*Special* 80 (57th),
+*Speed* 68 (77th) +
+*Moves* +
+peck (1) +
+tail-whip (1) +
+supersonic (19) +
+horn-attack (24) +
+fury-attack (30) +
+waterfall (39) +
+horn-drill (48) +
+agility (54)
+
+=== staryu ===
+*Type* water +
+*HP* 30 (146th),
+*Attack* 45 (134th),
+*Defense* 55 (104th),
+*Special* 70 (69th),
+*Speed* 85 (47th) +
+*Moves* +
+tackle (1) +
+water-gun (17) +
+harden (22) +
+recover (27) +
+swift (32) +
+minimize (37) +
+light-screen (42) +
+hydro-pump (47)
+
+=== starmie ===
+*Type* water/psychic +
+*HP* 60 (86th),
+*Attack* 75 (71st),
+*Defense* 85 (37th),
+*Special* 100 (26th),
+*Speed* 115 (8th) +
+*Moves* +
+tackle (1) +
+water-gun (1) +
+harden (1)
+
+=== mr. mime ===
+*Type* psychic +
+*HP* 40 (131st),
+*Attack* 45 (135th),
+*Defense* 65 (78th),
+*Special* 100 (27th),
+*Speed* 90 (41st) +
+*Moves* +
+confusion (1) +
+barrier (1) +
+confusion (15) +
+light-screen (23) +
+doubleslap (31) +
+meditate (39) +
+substitute (47)
+
+=== scyther ===
+*Type* bug/flying +
+*HP* 70 (51st),
+*Attack* 110 (13rd),
+*Defense* 80 (47th),
+*Special* 55 (99th),
+*Speed* 105 (13rd) +
+*Moves* +
+quick-attack (1) +
+leer (17) +
+focus-energy (20) +
+double-team (24) +
+slash (29) +
+swords-dance (35) +
+agility (42)
+
+=== jynx ===
+*Type* ice/psychic +
+*HP* 65 (63rd),
+*Attack* 50 (120th),
+*Defense* 35 (142nd),
+*Special* 95 (34th),
+*Speed* 95 (29th) +
+*Moves* +
+pound (1) +
+lovely-kiss (1) +
+lick (18) +
+doubleslap (23) +
+ice-punch (31) +
+body-slam (39) +
+thrash (47) +
+blizzard (58)
+
+=== electabuzz ===
+*Type* electric +
+*HP* 65 (64th),
+*Attack* 83 (51st),
+*Defense* 57 (94th),
+*Special* 85 (47th),
+*Speed* 105 (14th) +
+*Moves* +
+quick-attack (1) +
+leer (1) +
+thundershock (34) +
+screech (37) +
+thunderpunch (42) +
+light-screen (49) +
+thunder (54)
+
+=== magmar ===
+*Type* fire +
+*HP* 65 (65th),
+*Attack* 95 (33rd),
+*Defense* 57 (95th),
+*Special* 85 (48th),
+*Speed* 93 (30th) +
+*Moves* +
+ember (1) +
+leer (36) +
+confuse-ray (39) +
+fire-punch (43) +
+smokescreen (48) +
+smog (52) +
+flamthrower (55)
+
+=== pinsir ===
+*Type* bug +
+*HP* 65 (66th),
+*Attack* 125 (6th),
+*Defense* 100 (17th),
+*Special* 55 (100th),
+*Speed* 85 (48th) +
+*Moves* +
+vicegrip (1) +
+seismic-toss (25) +
+guillotine (30) +
+focus-energy (36) +
+harden (43) +
+slash (49) +
+swords-dance (54)
+
+=== tauros ===
+*Type* normal +
+*HP* 75 (45th),
+*Attack* 100 (25th),
+*Defense* 95 (27th),
+*Special* 70 (70th),
+*Speed* 110 (10th) +
+*Moves* +
+tackle (1) +
+stomp (21) +
+tail-whip (28) +
+leer (35) +
+rage (44) +
+take-down (51)
+
+=== magikarp ===
+*Type* water +
+*HP* 20 (150th),
+*Attack* 10 (150th),
+*Defense* 55 (105th),
+*Special* 20 (151st),
+*Speed* 80 (55th) +
+*Moves* +
+splash (1) +
+tackle (15)
+
+=== gyarados ===
+*Type* water/flying +
+*HP* 95 (15th),
+*Attack* 125 (7th),
+*Defense* 79 (50th),
+*Special* 100 (28th),
+*Speed* 81 (50th) +
+*Moves* +
+bite (1) +
+dragon-rage (25) +
+leer (32) +
+hydro-pump (41) +
+hyper-beam (52)
+
+=== lapras ===
+*Type* water/ice +
+*HP* 130 (4th),
+*Attack* 85 (46th),
+*Defense* 80 (48th),
+*Special* 95 (35th),
+*Speed* 60 (93rd) +
+*Moves* +
+water-gun (1) +
+growl (1) +
+sing (16) +
+mist (20) +
+body-slam (25) +
+confuse-ray (31) +
+ice-beam (38) +
+hydro-pump (46)
+
+=== ditto ===
+*Type* normal +
+*HP* 48 (109th),
+*Attack* 48 (124th),
+*Defense* 48 (120th),
+*Special* 48 (115th),
+*Speed* 48 (113rd) +
+*Moves* +
+transform (1)
+
+=== eevee ===
+*Type* normal +
+*HP* 55 (97th),
+*Attack* 55 (111st),
+*Defense* 50 (116th),
+*Special* 65 (82nd),
+*Speed* 55 (103rd) +
+*Moves* +
+tackle (1) +
+sand-attack (1) +
+quick-attack (27) +
+tail-whip (31) +
+bite (37) +
+take-down (45)
+
+=== vaporeon ===
+*Type* water +
+*HP* 130 (5th),
+*Attack* 65 (91st),
+*Defense* 60 (89th),
+*Special* 110 (14th),
+*Speed* 65 (83rd) +
+*Moves* +
+tackle (1) +
+sand-attack (1) +
+quick-attack (1) +
+water-gun (1) +
+quick-attack (27) +
+water-gun (31) +
+tail-whip (37) +
+bite (40) +
+acid-armor (42) +
+haze (44) +
+mist (48) +
+hydro-pump (54)
+
+=== jolteon ===
+*Type* electric +
+*HP* 65 (67th),
+*Attack* 65 (92nd),
+*Defense* 60 (90th),
+*Special* 110 (15th),
+*Speed* 130 (2nd) +
+*Moves* +
+tackle (1) +
+sand-attack (1) +
+quick-attack (1) +
+thundershock (1) +
+quick-attack (27) +
+thundershock (31) +
+tail-whip (37) +
+thunder-wave (40) +
+double-kick (42) +
+pin-missile (48) +
+agility (44) +
+thunder (54)
+
+=== flareon ===
+*Type* fire +
+*HP* 65 (68th),
+*Attack* 130 (5th),
+*Defense* 60 (91st),
+*Special* 110 (16th),
+*Speed* 65 (84th) +
+*Moves* +
+tackle (1) +
+sand-attack (1) +
+quick-attack (1) +
+ember (1) +
+quick-attack (27) +
+ember (31) +
+tail-whip (37) +
+bite (40) +
+leer (42) +
+fire-spin (44) +
+rage (48) +
+flamethrower (54)
+
+=== porygon ===
+*Type* normal +
+*HP* 65 (69th),
+*Attack* 60 (102nd),
+*Defense* 70 (68th),
+*Special* 75 (62nd),
+*Speed* 40 (132nd) +
+*Moves* +
+tackle (1) +
+sharpen (1) +
+conversion (1) +
+psybeam (23) +
+recover (28) +
+agility (35) +
+tri-attack (42)
+
+=== omanyte ===
+*Type* rock/water +
+*HP* 35 (140th),
+*Attack* 40 (140th),
+*Defense* 100 (18th),
+*Special* 90 (39th),
+*Speed* 35 (139th) +
+*Moves* +
+water-gun (1) +
+withdraw (1) +
+horn-attack (34) +
+leer (39) +
+spike-cannon (46) +
+hydro-pump (53)
+
+=== omastar ===
+*Type* rock/water +
+*HP* 70 (52nd),
+*Attack* 60 (103rd),
+*Defense* 125 (4th),
+*Special* 115 (13rd),
+*Speed* 55 (104th) +
+*Moves* +
+water-gun (1) +
+withdraw (1) +
+horn-attack (34) +
+leer (39) +
+spike-cannon (44) +
+hydro-pump (49)
+
+=== kabuto ===
+*Type* rock/water +
+*HP* 30 (147th),
+*Attack* 80 (66th),
+*Defense* 90 (30th),
+*Special* 45 (121st),
+*Speed* 55 (105th) +
+*Moves* +
+scratch (1) +
+harden (1) +
+absorb (34) +
+slash (39) +
+leer (44) +
+hydro-pump (49)
+
+=== kabutops ===
+*Type* rock/water +
+*HP* 60 (87th),
+*Attack* 115 (9th),
+*Defense* 105 (13rd),
+*Special* 70 (71st),
+*Speed* 80 (56th) +
+*Moves* +
+scratch (1) +
+harden (1) +
+absorb (34) +
+slash (39) +
+leer (46) +
+hydro-pump (53)
+
+=== aerodactyl ===
+*Type* rock/flying +
+*HP* 80 (39th),
+*Attack* 105 (21st),
+*Defense* 65 (79th),
+*Special* 60 (91st),
+*Speed* 130 (3rd) +
+*Moves* +
+wing-attack (1) +
+agility (1) +
+supersonic (33) +
+bite (38) +
+take-down (45) +
+hyper-beam (54)
+
+=== snorlax ===
+*Type* normal +
+*HP* 160 (2nd),
+*Attack* 110 (14th),
+*Defense* 65 (80th),
+*Special* 65 (83rd),
+*Speed* 30 (145th) +
+*Moves* +
+headbutt (1) +
+amnesia (1) +
+rest (1) +
+body-slam (35) +
+harden (41) +
+double-edge (48) +
+hyper-beam (56)
+
+=== articuno ===
+*Type* ice/flying +
+*HP* 90 (24th),
+*Attack* 85 (47th),
+*Defense* 100 (19th),
+*Special* 125 (5th),
+*Speed* 85 (49th) +
+*Moves* +
+peck (1) +
+ice-beam (1) +
+blizzard (51) +
+agility (55) +
+mist (60)
+
+=== zapdos ===
+*Type* electric/flying +
+*HP* 90 (25th),
+*Attack* 90 (40th),
+*Defense* 85 (38th),
+*Special* 125 (6th),
+*Speed* 100 (22nd) +
+*Moves* +
+thundershock (1) +
+drill-peck (1) +
+thunder (51) +
+agility (55) +
+light-screen (60)
+
+=== moltres ===
+*Type* fire/flying +
+*HP* 90 (26th),
+*Attack* 100 (26th),
+*Defense* 90 (31st),
+*Special* 125 (7th),
+*Speed* 90 (42nd) +
+*Moves* +
+peck (1) +
+fire-spin (1) +
+leer (51) +
+agility (55) +
+sky-attack (60)
+
+=== dratini ===
+*Type* dragon +
+*HP* 41 (118th),
+*Attack* 64 (94th),
+*Defense* 45 (127th),
+*Special* 50 (114th),
+*Speed* 50 (112nd) +
+*Moves* +
+wrap (1) +
+leer (1) +
+thunder-wave (10) +
+agility (20) +
+slam (30) +
+dragon-rage (40) +
+hyper-beam (50)
+
+=== dragonair ===
+*Type* dragon +
+*HP* 61 (72nd),
+*Attack* 84 (49th),
+*Defense* 65 (81st),
+*Special* 70 (72nd),
+*Speed* 70 (76th) +
+*Moves* +
+wrap (1) +
+leer (1) +
+thunder-wave (10) +
+agility (20) +
+slam (35) +
+dragon-rage (45) +
+hyper-beam (55)
+
+=== dragonite ===
+*Type* dragon/flying +
+*HP* 91 (16th),
+*Attack* 134 (1st),
+*Defense* 95 (28th),
+*Special* 100 (29th),
+*Speed* 80 (57th) +
+*Moves* +
+wrap (1) +
+leer (1) +
+thunder-wave (10) +
+agility (20) +
+slam (35) +
+dragon-rage (45) +
+hyper-beam (60)
+
+=== mewtwo ===
+*Type* psychic +
+*HP* 106 (7th),
+*Attack* 110 (15th),
+*Defense* 90 (32nd),
+*Special* 154 (1st),
+*Speed* 130 (4th) +
+*Moves* +
+confusion (1) +
+disable (1) +
+swift (1) +
+psychic (1) +
+barrier (63) +
+psychic (66) +
+recover (70) +
+mist (75) +
+amnesia (81)
+
+=== mew ===
+*Type* psychic +
+*HP* 100 (11st),
+*Attack* 100 (27th),
+*Defense* 100 (20th),
+*Special* 100 (30th),
+*Speed* 100 (23rd) +
+*Moves* +
+pound (1) +
+transform (10) +
+mega-punch (20) +
+metronome (30) +
+psychic (40)
